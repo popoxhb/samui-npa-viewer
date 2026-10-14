@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samui NPA Map</title>
+<link rel="stylesheet" href="leaflet.css"><!-- Leaflet 1.9.4 stylesheet, kept next to the page so the hosted copy (claude.ai artifact) can load it -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<style>
+  :root { --bg:#fff; --fg:#1b1b1b; --muted:#666; --panel:#f6f6f4; --border:#ddd; --accent:#0b6e4f;
+          --land:#2a9d8f; --house:#e76f51; --townhouse:#f4a261; --condo:#457b9d; --commercial:#8e44ad; --other:#777; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+    --bg:#15171a; --fg:#e8e8e8; --muted:#9a9a9a; --panel:#1f2226; --border:#333; } }
+  :root[data-theme="dark"] { --bg:#15171a; --fg:#e8e8e8; --muted:#9a9a9a; --panel:#1f2226; --border:#333; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--fg);
+    font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif; }
+  #app { display:grid; grid-template-columns: 320px 1fr; height:100%; }
+  #side { background:var(--panel); border-right:1px solid var(--border); padding:14px 16px; overflow:auto; }
+  #map { height:100%; position:relative; }
+  #updates { position:absolute; top:10px; right:10px; z-index:1000; width:340px; max-height:60vh; overflow:auto; background:var(--panel);
+    border:1px solid var(--border); border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,.15); font-size:12px; }
+  #updates .hd { display:flex; justify-content:space-between; align-items:center; padding:8px 10px; font-weight:600; cursor:pointer; position:sticky; top:0; background:var(--panel); border-bottom:1px solid var(--border); }
+  #updates.closed .bd { display:none; }
+  #updates .day { padding:6px 10px 2px; color:var(--muted); font-weight:600; cursor:pointer; border-top:1px solid var(--border); }
+  #updates .day.closed + .rows { display:none; }
+  #updates .ev { padding:4px 10px; cursor:pointer; border-top:1px dotted var(--border); }
+  #updates .ev:hover { background:rgba(127,127,127,.08); }
+  #updates .ev .m { color:var(--muted); }
+  .badge { display:inline-block; font-size:10px; font-weight:600; padding:0 5px; border-radius:3px; color:#fff; margin-right:4px; }
+  .badge.target { background:#e0a800; color:#222; } .badge.dup { background:#999; } .badge.verified { background:#2a9d8f; }
+  .badge.broker { background:#c2185b; } .badge.npa { background:#555; } .dot.ring { background:transparent; border:2px solid #c2185b; }
+  .agg { background:rgba(70,70,70,.88); color:#fff; border:2px dashed #fff; border-radius:50%; display:flex; align-items:center; justify-content:center;
+         font-weight:600; font-size:12px; box-shadow:0 0 0 2px rgba(0,0,0,.3); cursor:pointer; }
+  .popup .ai { padding:2px 0; border-top:1px dotted var(--border); }
+  .lbl { background:rgba(255,255,255,.85); border:1px solid rgba(0,0,0,.25); border-radius:3px; padding:0 3px; font-size:10px; font-weight:600; color:#222; box-shadow:none; }
+  .lbl.star { background:#fff3c4; border-color:#e0a800; }
+  .lbl::before { display:none; }
+  .badge.new { background:var(--accent); } .badge.relisted { background:#2a7fd4; } .badge.price { background:#d4882a; } .badge.offmarket { background:#c0392b; }
+  h1 { font-size:17px; margin:0 0 4px; }
+  .sub { color:var(--muted); font-size:12px; margin-bottom:12px; }
+  fieldset { border:1px solid var(--border); border-radius:6px; margin:0 0 10px; padding:8px 10px; }
+  legend { font-size:12px; color:var(--muted); padding:0 4px; }
+  label.chk { display:flex; align-items:center; gap:6px; margin:2px 0; cursor:pointer; }
+  .dot { width:10px; height:10px; border-radius:50%; display:inline-block; border:1px solid rgba(0,0,0,.3); }
+  .row { display:flex; gap:6px; align-items:center; }
+  input[type=number], select { width:100%; box-sizing:border-box; padding:4px 6px; border:1px solid var(--border);
+    border-radius:4px; background:var(--bg); color:var(--fg); }
+  .count { font-weight:600; margin:8px 0; }
+  #list { font-size:12px; }
+  #list .it { padding:6px 0; border-top:1px solid var(--border); cursor:pointer; }
+  #list .it:hover { background:rgba(127,127,127,.08); }
+  #list .p { font-weight:600; }
+  #list .m { color:var(--muted); }
+  .stale { opacity:.55; }
+  .off { display:inline-block; background:#c0392b; color:#fff; font-size:11px; font-weight:600; padding:0 5px; border-radius:3px; margin-right:4px; }
+  #list .offm .p { text-decoration: line-through; color:var(--muted); }
+  .popup b { font-size:13px; }
+  .popup .k { color:var(--muted); }
+  .popup img { max-width:220px; max-height:140px; display:block; margin-top:6px; border-radius:4px; }
+  .popup a img { cursor: zoom-in; }
+  #err { color:#b00020; font-size:12px; white-space:pre-wrap; }
+  button { padding:4px 10px; border:1px solid var(--border); border-radius:4px; background:var(--bg); color:var(--fg); cursor:pointer; white-space:nowrap; }
+  @media (max-width:760px) { #app { grid-template-columns:1fr; grid-template-rows:auto 1fr; }
+    #side { max-height:45vh; border-right:0; border-bottom:1px solid var(--border); padding:12px 16px; } }
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="side">
+    <div class="row" style="justify-content:space-between"><h1 data-i18n="title">Ko Samui NPA listings</h1>
+      <select id="lang" style="width:auto"><option value="en">EN</option><option value="zh">中文</option><option value="th">ไทย</option></select></div>
+    <div class="sub" id="meta">loading data/listings.json…</div>
+    <input id="q" type="search" data-i18n-ph="search" placeholder="search: case no., deed no., code, title, tambon" style="width:100%;box-sizing:border-box;padding:5px 8px;border:1px solid var(--border);border-radius:4px;background:var(--bg);color:var(--fg);margin-bottom:8px">
+    <div id="err"></div>
+    <fieldset><legend data-i18n="target">Target land</legend>
+      <label class="chk"><input id="tgt" type="checkbox"> <span class="badge target">★</span><span data-i18n="tgt_on">only matching: land ≥ 2 ngan, near a main road or the beach, not the south</span> <span class="m" id="n-tgt"></span></label>
+      <div class="row" style="margin-top:4px;flex-wrap:wrap;gap:4px 10px">
+        <label class="m"><span data-i18n="tgt_min">min sq.wa</span> <input id="tgt-min" type="number" value="200" min="0" style="width:62px"></label>
+        <label class="m"><span data-i18n="tgt_lat">south limit (lat)</span> <input id="tgt-lat" type="number" value="9.49" step="0.01" style="width:62px"></label>
+        <label class="m"><span data-i18n="tgt_coast">≤ m to beach</span> <input id="tgt-coast" type="number" value="300" min="0" step="50" style="width:62px"></label>
+        <label class="m"><span data-i18n="tgt_road">≤ m to main road</span> <input id="tgt-road" type="number" value="150" min="0" step="50" style="width:62px"></label>
+      </div>
+    </fieldset>
+    <fieldset><legend data-i18n="group">Listing group</legend>
+      <label class="chk"><input id="g-npa" type="checkbox" checked> <span class="dot" style="background:#222"></span><span data-i18n="g_npa">bank / AMC / court auction (NPA)</span> <span class="m" id="n-g-npa"></span></label>
+      <label class="chk"><input id="g-broker" type="checkbox" checked> <span class="dot ring"></span><span data-i18n="g_broker">owner / agent classifieds</span> <span class="m" id="n-g-broker"></span></label>
+    </fieldset>
+    <fieldset><legend data-i18n="ptype">Property type</legend><div id="types"></div>
+      <div class="m" style="margin-top:4px" data-i18n="agg_hint">dashed pins = no exact position (placed at a fixed spot inside the sub-district)</div>
+      <div class="m" data-i18n="star_hint">gold ring = matches the target-land criteria; zoomed in, every pin shows its price (land: per rai)</div></fieldset>
+    <fieldset><legend data-i18n="source">Source</legend><div id="sources"></div></fieldset>
+    <fieldset><legend data-i18n="price">Price (THB)</legend>
+      <div class="row"><input id="pmin" type="number" placeholder="min" step="100000">
+        <span>–</span><input id="pmax" type="number" placeholder="max" step="100000"></div>
+      <label class="chk" style="margin-top:6px"><input id="nopx" type="checkbox" checked> <span data-i18n="nopx">include listings without price</span></label>
+    </fieldset>
+    <fieldset><legend data-i18n="other">Other</legend>
+      <label class="chk"><input id="fresh" type="checkbox"> <span data-i18n="fresh">only seen in last crawl</span></label>
+      <label class="chk"><input id="exactgeo" type="checkbox"> <span data-i18n="exactgeo">only exact / geocoded pins</span></label>
+      <label class="chk"><input id="hideoff" type="checkbox"> <span data-i18n="hideoff">hide withdrawn / sold</span></label>
+      <label class="chk"><input id="hidedup" type="checkbox" checked> <span data-i18n="hidedup">hide suspected re-posts of the same property</span> <span class="m" id="n-dup"></span></label>
+      <label class="chk"><input id="agg" type="checkbox"> <span data-i18n="agg">group approximate pins into one circle per sub-district (until zoomed in)</span></label>
+      <div class="row" style="margin-top:6px"><select id="sort">
+        <option value="price" data-i18n="sort_price">sort: price ↑</option><option value="sqwa" data-i18n="sort_sqwa">sort: ฿/sq.wa ↑</option>
+        <option value="seen" data-i18n="sort_seen">sort: first seen ↓</option></select>
+        <button id="reset" data-i18n="reset">reset</button></div>
+    </fieldset>
+    <div class="count" id="count"></div>
+    <div id="list"></div>
+  </aside>
+  <div id="map">
+    <div id="updates" class="closed"><div class="hd" id="upd-hd"><span></span><span id="upd-toggle">▾</span></div><div class="bd" id="upd-bd"></div></div>
+  </div>
+</div>
+<script>
+(function () {
+  const TYPE_COLOR = { land:'--land', house:'--house', townhouse:'--townhouse', condo:'--condo', commercial:'--commercial', other:'--other' };
+  const TYPES = Object.keys(TYPE_COLOR);
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const $ = id => document.getElementById(id);
+
+  // ---- display language. Data stays Thai; only the rendering is translated.
+  const I18N = {
+    en: { title:'Ko Samui NPA listings', ptype:'Property type', source:'Source', price:'Price (THB)', nopx:'include listings without price',
+          other:'Other', fresh:'only seen in last crawl', exactgeo:'only exact / geocoded pins', hideoff:'hide withdrawn / sold', sort_price:'sort: price ↑',
+          sort_sqwa:'sort: ฿/rai ↑', sort_seen:'sort: first seen ↓', reset:'reset', shown:'{n} of {total} listings shown',
+          meta:'{n} listings · generated {gen} · last crawl {crawl}', failed:'failed', area:'area', type:'type', sale:'sale',
+          auction:'auction', address:'address', pin:'pin', first:'first seen', last:'last seen', hist:'price history', open:'open on {src} ↗',
+          rai:'rai', sqwa:'sq.wa', perrai:'/rai', noprice:'no price', original:'original', details:'details', search:'search: case no., deed no., code, title, tambon', group:'listing group', g_npa:'bank / AMC / court auction (NPA)', g_broker:'owner / agent classifieds', g_npa_s:'NPA', g_broker_s:'classifieds', target:'target land', tgt_on:'only matching: land ≥ 2 ngan, near a main road or the beach, not the south', tgt_min:'min sq.wa', tgt_lat:'south limit (lat)', tgt_coast:'≤ m to beach', tgt_road:'≤ m to main road', tgt_badge:'match', hidedup:'hide suspected re-posts of the same property', place:'place named in the post', mobile_only:'thaihometown shows its pages only to phones: open this link on a phone, or in Chrome press F12 → device toolbar (phone mode) and reload', dup_badge:'re-post', duplicate_of:'suspected re-post of', verified:'verified against the post', agg_n:'{n} listings known only to sub-district level', agg_hint:'dashed pins = no exact position: placed at a fixed spot inside the sub-district, read the address in the post', agg:'group approximate pins into one circle per sub-district (until zoomed in)', star_hint:'gold ring = matches the target-land criteria; zoomed in, every pin shows its price (land: per rai)', agg_list:'show all {n} in the list', agg_zoom:'zoom in to see them one by one (dashed = approximate position)', frontage:'frontage (text)', dist_coast_m:'to the sea', dist_main_road_m:'to a main road', fr_main_road:'main road', fr_beach:'beach / sea', fr_road:'road', updates:'latest updates', ev_new:'NEW', ev_relisted:'BACK ON SALE', ev_price:'PRICE', ev_offmarket:'OFF MARKET', ev_more:'{n} more…', ev_none:'no updates yet', zoning:'zoning now (2006 plan)', zoning_draft:'zoning draft (2025 hearing)', boundary:'near a boundary, may be', availability:'availability',
+          deed:'title deed', gov_price_per_sqwa:'gov. appraisal ฿/sq.wa', price_basis:'price basis', prices:'all appraisals', usable_m2:'usable area', bedrooms:'bedrooms', bathrooms:'bathrooms', floors:'floors', building_age:'building age', status:'status',
+          occupancy:'occupancy', note:'note', highlights:'highlights', appraisal_thb:'appraisal', list_price:'list price', site_price:'price shown on the site', promo_until:'promo until', grade:'grade', years:'yrs' },
+    zh: { title:'苏梅岛 NPA 房源', ptype:'房产类型', source:'来源', price:'价格（泰铢）', nopx:'包含无报价房源',
+          other:'其他', fresh:'只看最近一次抓取仍在的', exactgeo:'只看精确/地理编码定位', hideoff:'隐藏停止出售、已售', sort_price:'排序：价格 ↑',
+          sort_sqwa:'排序：每莱单价 ↑', sort_seen:'排序：首次出现 ↓', reset:'重置', shown:'显示 {n} / {total} 条',
+          meta:'{n} 条 · 生成 {gen} · 最近抓取 {crawl}', failed:'失败', area:'面积', type:'类型', sale:'方式',
+          auction:'拍卖日', address:'地址', pin:'定位', first:'首次出现', last:'最近出现', hist:'价格变动', open:'打开 {src} 原页 ↗',
+          rai:'莱', sqwa:'平方哇', perrai:'/莱', noprice:'无报价', original:'原文', details:'详情', search:'搜索：案号、地契号、编号、标题、子区', group:'资产分组', g_npa:'银行 / AMC / 法院拍卖（NPA）', g_broker:'业主 / 中介自行挂牌', g_npa_s:'NPA', g_broker_s:'中介挂牌', target:'目标地块', tgt_on:'只看符合：土地 ≥ 2 งาน（200 平方哇）、临主路或海滩、非南部', tgt_min:'最小面积（平方哇）', tgt_lat:'南界纬度', tgt_coast:'距海 ≤ m', tgt_road:'距主路 ≤ m', tgt_badge:'符合目标', hidedup:'隐藏疑似重复挂牌（同一地块多次发布）', place:'帖子提到的地名', mobile_only:'thaihometown 的页面只对手机浏览器显示内容（电脑上打开是空白）：请用手机打开此链接，或在 Chrome 里按 F12 → 点“设备模式”图标切成手机模式后刷新', dup_badge:'疑似重复', duplicate_of:'疑似重复于', verified:'人工核对', agg_n:'{n} 条仅定位到子区', agg_hint:'虚线图钉 = 没有精确坐标的资产，固定摆在所属子区内（位置不代表真实地点，以帖子里的地址为准）', agg:'把无精确位置的资产按子区汇总成圆圈（放大后自动展开）', star_hint:'金色外圈 = 符合目标地块条件；放大到街区级后每个点都标出价格（土地为每莱单价）', agg_list:'在左侧列表中查看全部 {n} 条', agg_zoom:'放大地图后会逐条显示（虚线 = 位置仅到子区，非精确）', frontage:'临路/临海（正文）', dist_coast_m:'距海', dist_main_road_m:'距主路', fr_main_road:'临主路', fr_beach:'临海/海滩', fr_road:'临路', updates:'最新更新', ev_new:'新上线', ev_relisted:'重新可售', ev_price:'价格变动', ev_offmarket:'停止出售/已售', ev_more:'还有 {n} 条…', ev_none:'暂无更新', zoning:'现行用地颜色（2006 年城规）', zoning_draft:'新规划颜色（2025 年听证草案）', boundary:'靠近分区边界，也可能是', availability:'可售状态',
+          deed:'地契', gov_price_per_sqwa:'政府评估地价 ฿/平方哇', price_basis:'价格依据', prices:'各档估价', usable_m2:'使用面积', bedrooms:'卧室', bathrooms:'卫生间', floors:'层数', building_age:'楼龄', status:'状态',
+          occupancy:'占用情况', note:'备注', highlights:'亮点', appraisal_thb:'评估价', list_price:'原价', site_price:'网站标价', promo_until:'优惠截止', grade:'等级', years:'年' },
+    th: { title:'ทรัพย์ NPA เกาะสมุย', ptype:'ประเภททรัพย์', source:'แหล่งที่มา', price:'ราคา (บาท)', nopx:'รวมรายการที่ไม่ระบุราคา',
+          other:'อื่น ๆ', fresh:'เฉพาะที่พบในการดึงข้อมูลครั้งล่าสุด', exactgeo:'เฉพาะพิกัดแม่นยำ', hideoff:'ซ่อนที่งดขาย / ขายแล้ว', sort_price:'เรียง: ราคา ↑',
+          sort_sqwa:'เรียง: บาท/ไร่ ↑', sort_seen:'เรียง: พบครั้งแรก ↓', reset:'ล้าง', shown:'แสดง {n} จาก {total} รายการ',
+          meta:'{n} รายการ · สร้าง {gen} · ดึงล่าสุด {crawl}', failed:'ล้มเหลว', area:'เนื้อที่', type:'ประเภท', sale:'วิธีขาย',
+          auction:'วันขายทอดตลาด', address:'ที่ตั้ง', pin:'พิกัด', first:'พบครั้งแรก', last:'พบล่าสุด', hist:'ประวัติราคา', open:'เปิดที่ {src} ↗',
+          rai:'ไร่', sqwa:'ตร.วา', perrai:'/ไร่', noprice:'ไม่ระบุราคา', original:'ต้นฉบับ', details:'รายละเอียด', search:'ค้นหา: เลขคดี, เลขโฉนด, รหัส, ชื่อ, ตำบล', group:'กลุ่มประกาศ', g_npa:'ธนาคาร / บบส. / ขายทอดตลาด (NPA)', g_broker:'เจ้าของ / นายหน้าลงประกาศเอง', g_npa_s:'NPA', g_broker_s:'นายหน้า', target:'ที่ดินเป้าหมาย', tgt_on:'เฉพาะที่ตรงเงื่อนไข: ที่ดิน ≥ 2 งาน ติดถนนใหญ่หรือชายหาด ไม่ใช่ตอนใต้', tgt_min:'พื้นที่ขั้นต่ำ (ตร.วา)', tgt_lat:'ขอบใต้ (ละติจูด)', tgt_coast:'≤ ม. ถึงทะเล', tgt_road:'≤ ม. ถึงถนนใหญ่', tgt_badge:'ตรงเงื่อนไข', hidedup:'ซ่อนประกาศซ้ำของทรัพย์เดียวกัน', place:'สถานที่ที่ระบุในประกาศ', mobile_only:'thaihometown แสดงหน้าเฉพาะบนมือถือ: เปิดลิงก์บนมือถือ หรือใน Chrome กด F12 → โหมดอุปกรณ์ แล้วรีโหลด', dup_badge:'ประกาศซ้ำ', duplicate_of:'น่าจะซ้ำกับ', verified:'ตรวจสอบกับประกาศแล้ว', agg_n:'{n} รายการระบุได้แค่ระดับตำบล', agg_hint:'หมุดเส้นประ = ไม่มีพิกัดแน่นอน วางไว้ในตำบลนั้น (ดูที่อยู่ในประกาศ)', agg:'รวมหมุดโดยประมาณเป็นวงกลมต่อตำบล (จนกว่าจะซูมเข้า)', star_hint:'ขอบสีทอง = ตรงเงื่อนไขที่ดินเป้าหมาย; เมื่อซูมเข้าทุกหมุดจะแสดงราคา (ที่ดิน: ต่อไร่)', agg_list:'แสดงทั้ง {n} รายการในรายการด้านซ้าย', agg_zoom:'ซูมเข้าเพื่อดูทีละรายการ (เส้นประ = ตำแหน่งโดยประมาณ)', frontage:'ติดถนน/ติดทะเล (ตามประกาศ)', dist_coast_m:'ระยะถึงทะเล', dist_main_road_m:'ระยะถึงถนนใหญ่', fr_main_road:'ถนนใหญ่', fr_beach:'ชายหาด/ทะเล', fr_road:'ถนน', updates:'อัปเดตล่าสุด', ev_new:'ใหม่', ev_relisted:'กลับมาขาย', ev_price:'ราคาเปลี่ยน', ev_offmarket:'งดขาย/ขายแล้ว', ev_more:'อีก {n} รายการ…', ev_none:'ยังไม่มีอัปเดต', zoning:'ผังเมืองรวม 2549 (บังคับใช้)', zoning_draft:'ร่างผังเมืองรวม 2568', boundary:'ใกล้แนวเขต อาจเป็น', availability:'สถานะการขาย',
+          deed:'เอกสารสิทธิ์', gov_price_per_sqwa:'ราคาประเมินกรมธนารักษ์/ตร.วา', price_basis:'ราคาที่ใช้', prices:'ราคาประเมินทุกรายการ', usable_m2:'พื้นที่ใช้สอย', bedrooms:'ห้องนอน', bathrooms:'ห้องน้ำ', floors:'ชั้น', building_age:'อายุอาคาร', status:'สถานะ',
+          occupancy:'ผู้ใช้ประโยชน์', note:'หมายเหตุ', highlights:'จุดเด่น', appraisal_thb:'ราคาประเมิน', list_price:'ราคาตั้งขาย', site_price:'ราคาที่เว็บแสดง', promo_until:'โปรโมชันถึง', grade:'เกรด', years:'ปี' } };
+  const TERMS = {   // structured values -> label per language
+    type: { land:{en:'Land',zh:'土地',th:'ที่ดิน'}, house:{en:'House',zh:'独栋住宅',th:'บ้าน'}, townhouse:{en:'Townhouse',zh:'联排',th:'ทาวน์เฮ้าส์'},
+            condo:{en:'Condo',zh:'公寓',th:'ห้องชุด'}, commercial:{en:'Commercial',zh:'商业房产',th:'อาคารพาณิชย์'}, other:{en:'Other',zh:'其他',th:'อื่น ๆ'} },
+    sale: { sale:{en:'for sale',zh:'出售',th:'ขาย'}, auction:{en:'auction',zh:'拍卖',th:'ขายทอดตลาด'},
+            sale_with_redemption:{en:'sale with redemption (ขายฝาก)',zh:'买回式出售 (ขายฝาก)',th:'ขายฝาก'}, bid:{en:'bid',zh:'竞标',th:'ประมูล'} },
+    avail: { available:{en:'for sale',zh:'在售',th:'ขายอยู่'}, withdrawn:{en:'WITHDRAWN from sale',zh:'停止出售',th:'งดขาย / ถอนการยึด'},
+             sold:{en:'SOLD',zh:'已售',th:'ขายแล้ว'}, reserved:{en:'RESERVED',zh:'已预订',th:'จองแล้ว'} },
+    pin:  { exact:{en:'exact (from source)',zh:'精确（来源提供）',th:'จากแหล่งที่มา'}, place:{en:'by a place named in the post (≈ 300 m)',zh:'按帖子里的地名定位（约数百米，非精确）',th:'ตามชื่อสถานที่ในประกาศ (≈ 300 ม.)'}, parcel:{en:'parcel centroid (Land Dept, by deed no.)',zh:'地块中心（地政局按地契号）',th:'จุดกลางแปลง (กรมที่ดิน)'}, geocoded:{en:'geocoded',zh:'地理编码',th:'geocode'},
+            tambon:{en:'sub-district centroid',zh:'子区中心点',th:'จุดกลางตำบล'}, amphoe:{en:'island centroid',zh:'全岛中心点',th:'จุดกลางอำเภอ'}, none:{en:'none',zh:'无',th:'ไม่มี'} } };
+  // Thai words that appear in titles / addresses, longest first so compounds win.
+  const GLOSSARY = [
+    ['ที่ดินพร้อมสิ่งปลูกสร้าง', 'Land with building', '带建筑的土地'], ['ที่ดินว่างเปล่า', 'Vacant land', '空地'], ['ที่ดินเปล่า', 'Vacant land', '空地'],
+    ['ที่ดิน', 'Land', '土地'], ['บ้านเดี่ยว', 'Detached house', '独栋别墅'], ['บ้านแฝด', 'Semi-detached house', '双拼别墅'], ['บ้านพักอาศัย', 'House', '住宅'],
+    ['ทาวน์เฮ้าส์', 'Townhouse', '联排别墅'], ['ทาวน์เฮาส์', 'Townhouse', '联排别墅'], ['ทาวน์โฮม', 'Townhome', '联排别墅'],
+    ['อาคารพาณิชย์', 'Shophouse', '商铺楼'], ['อาคารสำนักงาน', 'Office building', '办公楼'], ['ห้องชุด/คอนโดมิเนียม', 'Condo', '公寓'],
+    ['คอนโดมิเนียม', 'Condo', '公寓'], ['ห้องชุด', 'Condo unit', '公寓单元'], ['คอนโด', 'Condo', '公寓'], ['อพาร์ทเม้นท์/หอพัก', 'Apartment / dormitory', '公寓楼/宿舍'],
+    ['อพาร์ทเม้นท์', 'Apartment', '公寓楼'], ['หอพัก', 'Dormitory', '宿舍'], ['โรงแรม', 'Hotel', '酒店'], ['รีสอร์ท', 'Resort', '度假村'], ['โกดัง', 'Warehouse', '仓库'],
+    ['โรงงาน', 'Factory', '工厂'], ['วิลล่า', 'Villa', '别墅'], ['บ้าน', 'House', '房屋'], ['โครงการ', 'project', '项目'], ['ชั้น', '-storey', '层'],
+    ['นอกโครงการ', 'outside a project', '非项目内'], ['ตำบล', '', ''], ['อำเภอ', '', ''], ['จังหวัด', '', ''], ['ต.', '', ''], ['อ.', '', ''], ['จ.', '', ''],
+    ['หมู่ที่', 'Moo', '村'], ['หมู่', 'Moo', '村'], ['ซอย', 'Soi', '巷'], ['ถนน', 'Road', '路'], ['ซ.', 'Soi', '巷'], ['ถ.', 'Rd.', '路'],
+    ['เกาะสมุย', 'Ko Samui', '苏梅岛'], ['สุราษฎร์ธานี', 'Surat Thani', '素叻他尼'], ['อ่างทอง', 'Ang Thong', '昂通'], ['ลิปะน้อย', 'Lipa Noi', '利帕诺伊'],
+    ['ตลิ่งงาม', 'Taling Ngam', '塔灵岩'], ['หน้าเมือง', 'Na Mueang', '纳蒙'], ['มะเร็ต', 'Maret', '马雷'], ['บ่อผุด', 'Bo Phut', '波普'], ['แม่น้ำ', 'Mae Nam', '湄南'],
+    ['พร้อมขาย', 'ready for sale', '可售'], ['ทรัพย์พร้อมขาย', 'ready for sale', '可售'], ['อยู่ระหว่างสำรวจ', 'under survey', '勘察中'], ['มีผู้บุกรุก', 'has squatters', '有人占用'],
+    ['มีผู้ใช้ประโยชน์ในทรัพย์', 'occupied', '有人使用中'], ['ไม่มีผู้ใช้ประโยชน์ในทรัพย์', 'vacant', '无人占用'], ['ไม่มีผู้ใช้ประโยชน์', 'vacant', '无人占用'], ['มีผู้ใช้ประโยชน์', 'occupied', '有人使用中'],
+    ['ติดต่อเจ้าหน้าที่', 'contact the officer', '请联系工作人员'], ['โฉนด', 'Chanote (title deed)', '地契 Chanote'], ['น.ส.3 ก.', 'Nor Sor 3 Kor', 'Nor Sor 3 Kor 地契'], ['น.ส.3ก', 'Nor Sor 3 Kor', 'Nor Sor 3 Kor 地契'],
+    ['น.ส.3', 'Nor Sor 3', 'Nor Sor 3 地契'], ['เลขที่', 'No.', '号'], ['จองแล้ว', 'reserved', '已被预订'], ['ขายแล้ว', 'sold', '已售'],
+    ['งดขายไม่มีผู้สู้ราคา', 'no bidder, postponed', '流拍（无人竞价）'], ['ถอนการยึด', 'seizure withdrawn', '撤销查封'], ['งดขาย', 'sale cancelled', '停止出售'],
+    ['ขายได้', 'sold at auction', '已拍出'], ['รอขาย', 'awaiting auction', '待拍'], ['นัดที่', 'appointment', '第'], ['มัดจำ', 'bid deposit', '竞拍保证金'], ['โจทก์', 'plaintiff', '原告'],
+    ['การจำนองติดไป', 'mortgage carried over', '抵押随附'], ['ไม่มีภาระจำนอง', 'free of mortgage', '无抵押'], ['ผู้ถือกรรมสิทธิ์', 'title holder', '产权持有人'],
+    ['ผู้ถือสิทธิครอบครอง', 'possessory-right holder', '占有权持有人'], ['โฉนดเลขที่', 'Chanote No.', '地契 Chanote 号'], ['ตามสำเนา น.ส. 3 ก เลขที่', 'Nor Sor 3 Kor No.', 'Nor Sor 3 Kor 号'],
+    ['ราคาที่กำหนดโดยคณะกรรมการกำหนดราคาทรัพย์', 'price set by the pricing committee', '价格委员会定价'], ['ราคาประเมินของเจ้าพนักงานประเมินราคาทรัพย์กรมบังคับคดี', 'LED appraiser valuation', '执行局估价师估价'],
+    ['ราคาประเมินของเจ้าพนักงานบังคับคดี', 'execution officer valuation', '执行官估价'], ['คดี', 'case', '案号'], ['ลำดับ', 'lot', '标的'], ['ซื้อตรง', 'direct sale', '直接购买'], ['รอประกาศราคา', 'price to be announced', '待公布价格'], ['ผังเมือง', 'zoning (per SAM)', '规划（SAM 标注）'],
+    ['เขตสีชมพู', 'pink zone', '粉色区'], ['เขตสีเขียว', 'green zone', '绿色区'], ['เขตสีเหลือง', 'yellow zone', '黄色区'], ['เขตสีส้ม', 'orange zone', '橙色区'], ['เขตสีแดง', 'red zone', '红色区'], ['หน้ากว้าง', 'frontage', '临路宽'],
+    ['มีผู้ใช้ประโยชน์ในทรัพย์สิน', 'occupied', '有人使用中'], ['บาท', 'THB', '泰铢'],
+    ['เฉวง', 'Chaweng', '查汶'], ['ละไม', 'Lamai', '拉迈'], ['บางรัก', 'Bang Rak', '邦拉'], ['เชิงมน', 'Choeng Mon', '清蒙'], ['หน้าทอน', 'Nathon', '那通'], ['บางปอ', 'Bang Po', '邦波'] ];
+  let lang = 'en';
+  try { lang = localStorage.getItem('samui-npa-lang') || (navigator.language.startsWith('zh') ? 'zh' : navigator.language.startsWith('th') ? 'th' : 'en'); } catch (e) {}
+  const t = (k, v = {}) => (I18N[lang][k] ?? I18N.en[k] ?? k).replace(/\{(\w+)\}/g, (_, n) => v[n] ?? '');
+  const term = (group, key) => (TERMS[group][key] || {})[lang] || (TERMS[group][key] || {}).en || key || '-';
+  function tr(text) {        // glossary translation of free Thai text; untranslated words stay Thai
+    if (lang === 'th' || !text) return text || '';
+    const col = lang === 'zh' ? 2 : 1;
+    let out = text;
+    for (const g of GLOSSARY) out = out.split(g[0]).join(g[col] ? ' ' + g[col] + ' ' : ' ');
+    return out.replace(/\s+-storey/g, '-storey').replace(/\s+/g, ' ').replace(/\(\s+/g, '(').replace(/\s+\)/g, ')').trim();
+  }
+  const hasThai = s => /[\u0E00-\u0E7F]/.test(s || '');
+  // land-use classes of the 2549 (2006) Ko Samui comprehensive plan; colours are the map's legend swatches
+  const ZONING = {
+    residential_low:    {c:'#fedd02', en:'Low-density residential', zh:'低密度住宅用地', th:'ที่อยู่อาศัยหนาแน่นน้อย'},
+    residential_medium: {c:'#ff8f02', en:'Medium-density residential', zh:'中密度住宅用地', th:'ที่อยู่อาศัยหนาแน่นปานกลาง'},
+    commercial:         {c:'#fd1225', en:'Commercial & high-density residential', zh:'商业及高密度住宅用地', th:'พาณิชยกรรมและที่อยู่อาศัยหนาแน่นมาก'},
+    industrial:         {c:'#9a3699', en:'Industrial & warehousing', zh:'工业及仓储用地', th:'อุตสาหกรรมและคลังสินค้า'},
+    industrial_special: {c:'#bc1295', en:'Specific industrial', zh:'特定工业用地', th:'อุตสาหกรรมเฉพาะกิจ'},
+    rural:              {c:'#02976e', en:'Rural & agricultural', zh:'乡村及农业用地', th:'ชนบทและเกษตรกรรม'},
+    open_space:         {c:'#6db52b', en:'Open space for recreation & environment', zh:'休闲及环境保护空地', th:'ที่โล่งเพื่อนันทนาการและการรักษาคุณภาพสิ่งแวดล้อม'},
+    forest:             {c:'#6db52b', en:'Forest conservation (hatched)', zh:'森林保护用地（斜线）', th:'อนุรักษ์ป่าไม้'},
+    education:          {c:'#5c6627', en:'Educational institution', zh:'教育机构用地', th:'สถาบันการศึกษา'},
+    coastal:            {c:'#00a1e7', en:'Open space for environment, tourism & fishery (coastal water)', zh:'环境保护、旅游及渔业空地（近岸水域）', th:'ที่โล่งเพื่อการรักษาคุณภาพสิ่งแวดล้อม การท่องเที่ยวและการประมง'},
+    religious:          {c:'#a19e99', en:'Religious institution', zh:'宗教机构用地', th:'สถาบันศาสนา'},
+    government:         {c:'#0b2097', en:'Government, utilities & public services', zh:'政府机构及公用设施用地', th:'สถาบันราชการ การสาธารณูปโภคและสาธารณูปการ'} };
+  const zoneHtml = (l, field = 'zoning') => { const d = l.details || {}; const z = ZONING[d[field]]; if (!z) return '';
+    const alt = ZONING[d[field + '_alt']];
+    return `<span class="dot" style="background:${z.c}"></span> ${esc(z[lang] || z.en)}` +
+      (alt ? ` <span class="k">(${t('boundary')} <span class="dot" style="background:${alt.c}"></span> ${esc(alt[lang] || alt.en)})</span>` : ''); };
+  const offMarket = l => ['withdrawn', 'sold', 'reserved'].includes((l.details || {}).availability);
+  const availHtml = l => { const a = (l.details || {}).availability; if (!a || a === 'available') return '';
+    return `<span class="off">${esc(term('avail', a))}</span>`; };
+  const DETAIL_KEYS = ['verified', 'duplicate_of', 'place', 'status', 'price_basis', 'site_price', 'prices', 'frontage', 'dist_coast_m', 'dist_main_road_m', 'occupancy', 'deed', 'gov_price_per_sqwa', 'usable_m2', 'bedrooms', 'bathrooms', 'floors', 'building_age', 'grade', 'appraisal_thb', 'list_price', 'promo_until', 'note', 'highlights'];
+  function detailsHtml(l) {
+    const d = l.details || {};
+    const rows = DETAIL_KEYS.filter(k => d[k] != null && d[k] !== '' && !(Array.isArray(d[k]) && !d[k].length)).map(k => {
+      let v = d[k];
+      if (k === 'usable_m2') v = `${(+v).toLocaleString()} m²`;
+      else if (k === 'dist_coast_m' || k === 'dist_main_road_m') v = `${(+v).toLocaleString()} m`;
+      else if (k === 'frontage') v = esc(v.map(x => t('fr_' + x)).join(' · '));
+      else if (k === 'appraisal_thb' || k === 'list_price' || k === 'site_price') v = fmtPrice(+v);
+      else if (k === 'building_age') v = `${v} ${t('years')}`;
+      else if (Array.isArray(v)) v = v.map(x => '• ' + tr(String(x))).join('<br>');
+      else v = esc(tr(String(v)));
+      return `<div><span class="k">${t(k)}:</span> ${v}</div>`;
+    });
+    const draft = zoneHtml(l, 'zoning_draft');
+    if (draft) rows.unshift(`<div><span class="k">${t('zoning_draft')}:</span> ${draft}</div>`);
+    const zone = zoneHtml(l);
+    if (zone) rows.unshift(`<div><span class="k">${t('zoning')}:</span> ${zone}</div>`);
+    if (offMarket(l)) rows.unshift(`<div><span class="k">${t('availability')}:</span> ${availHtml(l)}</div>`);
+    return rows.length ? `<div class="k" style="margin-top:4px">${t('details')}</div>${rows.join('')}` : '';
+  }
+  function applyLang() {
+    document.documentElement.lang = lang === 'zh' ? 'zh-CN' : lang;
+    document.querySelectorAll('[data-i18n]').forEach(el => el.textContent = t(el.dataset.i18n));
+    document.querySelectorAll('[data-i18n-ph]').forEach(el => el.placeholder = t(el.dataset.i18nPh));
+    $('lang').value = lang;
+  }
+
+  const map = L.map('map', { preferCanvas: true }).setView([9.512, 100.013], 12);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+  const layer = L.layerGroup().addTo(map);
+
+  let all = [], meta = {}, lastCrawl = null, markers = new Map();
+  // meta.site_kinds (written by `crawl` / `zone`) maps source key → bank | amc | court | aggregator | broker
+  const kindOf = src => (meta.site_kinds || {})[src] || 'bank';
+  const isBroker = l => kindOf(l.source) === 'broker';
+  const groupBadge = l => `<span class="badge ${isBroker(l) ? 'broker' : 'npa'}">${t(isBroker(l) ? 'g_broker_s' : 'g_npa_s')}</span>`;
+  // the buyer's filter (mirrors samui_npa/access.py `matches`): land, ≥ min sq.wa, pin north of the south limit, and
+  // near the beach / a main road by measured distance (precise pins) or by a frontage claim in the text
+  const num = (id, dflt) => { const v = parseFloat($(id).value); return isNaN(v) ? dflt : v; };
+  function matchesTarget(l) {
+    if ((l.property_type || 'other') !== 'land' || !l.area_sqwa || l.area_sqwa < num('tgt-min', 200)) return false;
+    if (l.lat == null || l.lat < num('tgt-lat', 9.49)) return false;
+    const d = l.details || {}, fr = d.frontage || [];
+    if (fr.includes('beach') || fr.includes('main_road')) return true;
+    return (d.dist_coast_m != null && d.dist_coast_m <= num('tgt-coast', 300)) || (d.dist_main_road_m != null && d.dist_main_road_m <= num('tgt-road', 150));
+  }
+  const targetBadge = l => matchesTarget(l) ? `<span class="badge target">★ ${t('tgt_badge')}</span>` : '';
+  const flagBadges = l => ((l.details || {}).duplicate_of ? `<span class="badge dup">${t('dup_badge')}</span>` : '') + ((l.details || {}).verified ? `<span class="badge verified">✓</span>` : '');
+
+  const fmtPrice = p => p == null ? t('noprice') : (p >= 1e6 ? (p / 1e6).toFixed(2) + ' M฿' : Math.round(p).toLocaleString() + ' ฿');
+  const fmtPerRai = l => l.price_per_sqwa ? fmtPrice(l.price_per_sqwa * 400) + t('perrai') : '';
+  const fmtArea = a => { if (a == null) return '–'; const rai = Math.floor(a / 400), ngan = Math.floor((a % 400) / 100), wa = +(a % 100).toFixed(1);
+    return (rai || ngan) ? `${rai}-${ngan}-${wa} ${t('rai')} (${a.toFixed(0)} ${t('sqwa')})` : `${wa} ${t('sqwa')}`; };
+  // one-line heading built from structured fields, so it is readable even when the Thai title is not translatable
+  const heading = l => [term('type', l.property_type || 'other'), l.tambon ? tr(l.tambon) : null, l.source_id].filter(Boolean).join(' · ');
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  function buildFilters() {
+    $('types').innerHTML = TYPES.map(t => `<label class="chk"><input type="checkbox" data-type="${t}" checked>
+      <span class="dot" style="background:${css(TYPE_COLOR[t])}"></span>${term('type', t)} <span class="m" id="n-${t}"></span></label>`).join('');
+    const srcs = [...new Set(all.map(l => l.source))].sort();
+    const srcRow = s => `<label class="chk"><input type="checkbox" data-src="${s}" checked>${s}
+      <span class="m">(${all.filter(l => l.source === s).length})</span></label>`;
+    const brokers = srcs.filter(s => kindOf(s) === 'broker'), npa = srcs.filter(s => kindOf(s) !== 'broker');
+    $('sources').innerHTML = ((npa.length ? `<div class="m">${t('g_npa')}</div>` + npa.map(srcRow).join('') : '')
+      + (brokers.length ? `<div class="m" style="margin-top:4px">${t('g_broker')}</div>` + brokers.map(srcRow).join('') : '')) || '<span class="m">no listings yet</span>';
+    document.querySelectorAll('#side input, #side select').forEach(el => { if (el.id !== 'lang') el.addEventListener('input', render); });
+    $('reset').onclick = () => { document.querySelectorAll('#side input[type=checkbox]').forEach(c => c.checked = c.id === 'nopx' || c.id === 'hidedup' || c.id.startsWith('g-') || !!(c.dataset.type || c.dataset.src));   // 'agg' and 'tgt' stay off
+      $('pmin').value = ''; $('pmax').value = ''; $('sort').value = 'price'; render(); };
+  }
+
+  function filtered() {
+    const types = new Set([...document.querySelectorAll('[data-type]:checked')].map(c => c.dataset.type));
+    const srcs = new Set([...document.querySelectorAll('[data-src]:checked')].map(c => c.dataset.src));
+    const pmin = parseFloat($('pmin').value), pmax = parseFloat($('pmax').value);
+    const nopx = $('nopx').checked, fresh = $('fresh').checked, exact = $('exactgeo').checked, hideoff = $('hideoff').checked;
+    const q = $('q').value.trim().toLowerCase();
+    const gNpa = $('g-npa').checked, gBroker = $('g-broker').checked, hidedup = $('hidedup').checked;
+    // free-text match over id, title, address, deed, case number and the raw record (LED: law_suit_no, deedno, collCode …)
+    const hay = l => [l.id, l.title, l.address, l.tambon, (l.details || {}).deed, JSON.stringify(l.raw || {})].join(' ').toLowerCase();
+    return all.filter(l => {
+      if (!types.has(l.property_type || 'other') || !srcs.has(l.source)) return false;
+      if (isBroker(l) ? !gBroker : !gNpa) return false;
+      if ($('tgt').checked && !matchesTarget(l)) return false;
+      if (hidedup && !q && (l.details || {}).duplicate_of) return false;   // a search must still find a hidden re-post
+      if (l.price_thb == null) { if (!nopx) return false; }
+      else { if (!isNaN(pmin) && l.price_thb < pmin) return false; if (!isNaN(pmax) && l.price_thb > pmax) return false; }
+      if (fresh && lastCrawl && l.last_seen !== lastCrawl) return false;
+      if (exact && !['exact', 'geocoded', 'parcel'].includes(l.geo_precision)) return false;
+      if (hideoff && offMarket(l)) return false;
+      if (q && !hay(l).includes(q)) return false;
+      return l.lat != null && l.lng != null;
+    });
+  }
+
+  function popup(l) {
+    const hist = (l.price_history || []).length > 1 ? `<div class="k">${t('hist')}: ${l.price_history.map(h => `${h.date} ${fmtPrice(h.price_thb)}`).join(' → ')}</div>` : '';
+    const img = (l.images || []).slice(0, 2).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener"><img src="${esc(u)}" alt="" loading="lazy"></a>`).join('');   // LED: photo + plaintiff's sketch map
+    const title = tr(l.title || l.id);
+    const orig = lang !== 'th' && hasThai(l.title) ? `<div class="k" lang="th">${t('original')}: ${esc(l.title)}</div>` : '';
+    return `<div class="popup">${groupBadge(l)}${targetBadge(l)}${flagBadges(l)}<b>${esc(heading(l))}</b>
+      <div>${esc(title)}</div>${orig}
+      <div>${fmtPrice(l.price_thb)} ${l.price_per_sqwa ? `<span class="k">(${fmtPerRai(l)})</span>` : ''}</div>
+      <div><span class="k">${t('area')}:</span> ${fmtArea(l.area_sqwa)}</div>
+      <div><span class="k">${t('type')}:</span> ${esc(term('type', l.property_type || 'other'))} · <span class="k">${t('sale')}:</span> ${esc(term('sale', l.sale_method))}${l.auction_date ? ` · ${t('auction')} ` + esc(l.auction_date) : ''}</div>
+      <div><span class="k">${t('address')}:</span> ${esc(tr(l.address) || '-')}</div>
+      <div><span class="k">${t('pin')}:</span> ${esc(term('pin', l.geo_precision))}</div>
+      ${detailsHtml(l)}
+      <div><span class="k">${t('first')}</span> ${esc(l.first_seen)} · <span class="k">${t('last')}</span> ${esc(l.last_seen)}</div>
+      ${hist}
+      <div><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(t('open', { src: l.source }))}</a></div>${l.source === 'thaihometown' ? `<div class="k">${esc(t('mobile_only'))}</div>` : ''}${img}</div>`;
+  }
+
+  const EXPLODE_ZOOM = 15, LABEL_ZOOM = 16;
+  const starStyle = (l, style) => matchesTarget(l) ? { ...style, color: '#e0a800', weight: 3 } : style;
+  const label = l => (l.property_type === 'land' && l.price_per_sqwa) ? fmtPrice(l.price_per_sqwa * 400) + t('perrai') : fmtPrice(l.price_thb);
+  const attachLabel = (m, l) => { if (map.getZoom() >= LABEL_ZOOM) m.bindTooltip(`${matchesTarget(l) ? '★ ' : ''}${label(l)}`, { permanent: true, direction: 'top', offset: [0, -8], className: 'lbl' + (matchesTarget(l) ? ' star' : '') }); };
+  const hash = s => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; } return h; };
+  function aggPopup(g) {
+    const items = g.rows.map(l => `<div class="ai"><span class="dot" style="background:${css(TYPE_COLOR[l.property_type] || '--other')}"></span> ${targetBadge(l)}${fmtPrice(l.price_thb)}${l.price_per_sqwa ? ` <span class="k">(${fmtPerRai(l)})</span>` : ''} · ${fmtArea(l.area_sqwa)} · ${esc(term('type', l.property_type || 'other'))} · <a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(tr(l.title || l.id).slice(0, 40))}</a></div>`).join('');
+    return `<div class="popup"><b>${esc(g.name)}</b> · ${esc(t('agg_n', { n: g.rows.length }))}<div class="k">${esc(t('agg_hint'))} · ${esc(t('agg_zoom'))}</div>
+      <div style="max-height:260px;overflow:auto;margin-top:4px">${items}</div>
+      <div style="margin-top:4px"><a href="#" class="agg-list">${esc(t('agg_list', { n: g.rows.length }))}</a></div></div>`;
+  }
+  let lastExploded = false, lastLabeled = false;
+  map.on('zoomend', () => { const z = map.getZoom();
+    if (($('agg').checked && (z >= EXPLODE_ZOOM) !== lastExploded) || (z >= LABEL_ZOOM) !== lastLabeled) { lastExploded = z >= EXPLODE_ZOOM; lastLabeled = z >= LABEL_ZOOM; render(); } });
+
+  function render() {
+    const rows = filtered();
+    const sort = $('sort').value;
+    rows.sort((a, b) => sort === 'seen' ? String(b.first_seen).localeCompare(String(a.first_seen))
+      : sort === 'sqwa' ? ((a.price_per_sqwa ?? Infinity) - (b.price_per_sqwa ?? Infinity))
+      : ((a.price_thb ?? Infinity) - (b.price_thb ?? Infinity)));
+    layer.clearLayers(); markers.clear();
+    // Listings known only to sub-district level are NOT scattered around the centroid (a spiral of fake positions
+    // that re-shuffles on every filter change); they become one dashed grey circle per sub-district with the count.
+    const groups = new Map(), seen = {};
+    for (const l of rows) {
+      if (!['exact', 'geocoded', 'parcel'].includes(l.geo_precision)) {
+        const k = l.lat.toFixed(4) + ',' + l.lng.toFixed(4);
+        if (!groups.has(k)) groups.set(k, { lat: l.lat, lng: l.lng, name: (l.details || {}).place ? tr(l.details.place) : (l.tambon ? tr(l.tambon) : tr('เกาะสมุย')), rows: [] });
+        groups.get(k).rows.push(l);
+        continue;
+      }
+      let lat = l.lat, lng = l.lng;
+      const k = lat.toFixed(5) + ',' + lng.toFixed(5); const n = (seen[k] = (seen[k] || 0) + 1);
+      if (n > 1) { lat += 0.00004 * n; lng += 0.00004 * n; }   // identical coordinates (re-posts): nudge a few metres so both stay clickable
+      const stale = lastCrawl && l.last_seen !== lastCrawl;
+      const off = offMarket(l);   // withdrawn / sold / reserved: grey fill, red ring
+      const br = isBroker(l);     // owner / agent classifieds: pink ring, smaller and paler than NPA pins
+      const m = L.circleMarker([lat, lng], starStyle(l, { radius: br ? 6 : 8, color: off ? '#c0392b' : br ? '#c2185b' : '#222', weight: off || br ? 2 : 1,
+        fillColor: off ? '#bbb' : css(TYPE_COLOR[l.property_type] || '--other'), fillOpacity: stale ? .35 : br ? .6 : .85 }))
+        .bindPopup(popup(l), { maxWidth: 300 });
+      if (map.getZoom() >= LABEL_ZOOM) attachLabel(m, l); else m.bindTooltip(`${off ? term('avail', l.details.availability) + ' · ' : ''}${fmtPrice(l.price_thb)}${l.price_per_sqwa ? ' · ' + fmtPerRai(l) : ''} · ${term('type', l.property_type || 'other')}`);
+      m.addTo(layer); markers.set(l.id, m);
+    }
+    const exploded = !$('agg').checked || map.getZoom() >= EXPLODE_ZOOM;
+    for (const g of groups.values()) {
+      if (exploded) {   // zoomed in: one dashed pin per listing, position = stable hash of the id (approximate, within the sub-district)
+        const n = g.rows.length, R = g.rows[0].geo_precision === 'place' ? 0.0012 * Math.min(2, Math.sqrt(n)) : 0.0012 * Math.sqrt(n);
+        for (const l of g.rows) {
+          const h = hash(l.id), ang = (h % 3600) / 3600 * 2 * Math.PI, r = R * Math.sqrt(((h >>> 12) % 1000) / 1000);
+          const lat = g.lat + r * Math.cos(ang), lng = g.lng + r * Math.sin(ang) / Math.cos(g.lat * Math.PI / 180);
+          const off = offMarket(l), br = isBroker(l);
+          const m = L.circleMarker([lat, lng], starStyle(l, { radius: br ? 6 : 8, color: off ? '#c0392b' : br ? '#c2185b' : '#222', weight: off || br ? 2 : 1, dashArray: '3,3',
+            fillColor: off ? '#bbb' : css(TYPE_COLOR[l.property_type] || '--other'), fillOpacity: br ? .5 : .7 }))
+            .bindPopup(popup(l), { maxWidth: 300 });
+          if (map.getZoom() >= LABEL_ZOOM) attachLabel(m, l); else m.bindTooltip(`≈ ${esc(g.name)} · ${fmtPrice(l.price_thb)}${l.price_per_sqwa ? ' · ' + fmtPerRai(l) : ''} · ${term('type', l.property_type || 'other')}`);
+          m.addTo(layer); markers.set(l.id, m);
+        }
+        continue;
+      }
+      const n = g.rows.length, size = Math.round(Math.min(50, 24 + 3 * Math.sqrt(n)));
+      const byType = {}; g.rows.forEach(l => byType[l.property_type || 'other'] = (byType[l.property_type || 'other'] || 0) + 1);
+      const m = L.marker([g.lat, g.lng], { icon: L.divIcon({ className: '', html: `<div class="agg" style="width:${size}px;height:${size}px">${n}</div>`, iconSize: [size, size], iconAnchor: [size / 2, size / 2] }), zIndexOffset: -1000 })
+        .bindTooltip(`${esc(g.name)} · ${Object.entries(byType).map(([k, v]) => `${term('type', k)} ${v}`).join(' · ')}`)
+        .bindPopup(aggPopup(g), { maxWidth: 360 });
+      m.on('popupopen', e => { const a = e.popup.getElement().querySelector('.agg-list'); if (a) a.onclick = ev => { ev.preventDefault(); $('q').value = g.rows[0].tambon || ''; render(); }; });
+      m.addTo(layer); g.rows.forEach(l => markers.set(l.id, m));
+    }
+    for (const t of TYPES) { const n = rows.filter(l => (l.property_type || 'other') === t).length; const el = $('n-' + t); if (el) el.textContent = `(${n})`; }
+    $('count').textContent = t('shown', { n: rows.length, total: all.length });
+    $('n-g-npa').textContent = `(${rows.filter(l => !isBroker(l)).length}/${all.filter(l => !isBroker(l)).length})`;
+    $('n-g-broker').textContent = `(${rows.filter(isBroker).length}/${all.filter(isBroker).length})`;
+    $('n-tgt').textContent = `(${all.filter(matchesTarget).length})`;
+    $('n-dup').textContent = `(${all.filter(l => (l.details || {}).duplicate_of).length})`;
+    renderUpdates();
+    if ($('q').value.trim() && rows.length && rows.length <= 3) { const m = markers.get(rows[0].id); if (m) { map.setView(m.getLatLng(), 16); if (rows.length === 1) m.openPopup(); } }
+    $('list').innerHTML = rows.map(l => `<div class="it ${lastCrawl && l.last_seen !== lastCrawl ? 'stale' : ''} ${offMarket(l) ? 'offm' : ''}" data-id="${esc(l.id)}">
+      <span class="dot" style="background:${offMarket(l) ? '#bbb' : css(TYPE_COLOR[l.property_type] || '--other')}"></span>
+      ${availHtml(l)}${targetBadge(l)}${flagBadges(l)} <span class="p">${fmtPrice(l.price_thb)}</span> <span class="m">${fmtArea(l.area_sqwa)}${l.price_per_sqwa ? ' · ' + fmtPerRai(l) : ''}</span><br>
+      ${esc(heading(l))}<br><span class="m">${esc(tr(l.title || '').slice(0, 70))}</span><br><span class="m">${isBroker(l) ? groupBadge(l) : ''}${esc(l.source)} · ${esc(l.first_seen)}${l.auction_date ? ' · ' + t('auction') + ' ' + esc(l.auction_date) : ''}${zoneHtml(l) ? ' · ' + zoneHtml(l) : ''}${zoneHtml(l, 'zoning_draft') ? ' → ' + zoneHtml(l, 'zoning_draft') : ''}</span></div>`).join('');
+    $('list').querySelectorAll('.it').forEach(el => el.onclick = () => { const m = markers.get(el.dataset.id); if (m) { map.setView(m.getLatLng(), 15); m.openPopup(); } });
+  }
+
+  // ---- latest-updates panel (data/updates.json, newest first; written by `crawl`)
+  let events = [];
+  function renderUpdates() {
+    // follow the listing-group checkboxes so the panel shows the same population as the map
+    const gNpa = $('g-npa').checked, gBroker = $('g-broker').checked;
+    const shown = events.filter(e => kindOf(e.source) === 'broker' ? gBroker : gNpa);
+    $('upd-hd').firstElementChild.textContent = `${t('updates')} (${shown.length})`;
+    if (!shown.length) { $('upd-bd').innerHTML = `<div class="ev m">${t('ev_none')}</div>`; return; }
+    const byDay = new Map();
+    for (const e of shown) { if (!byDay.has(e.date)) byDay.set(e.date, []); byDay.get(e.date).push(e); }
+    const byId = new Map(all.map(l => [l.id, l]));
+    let html = '', first = true;
+    for (const [day, evs] of byDay) {
+      const counts = {}; evs.forEach(e => counts[e.kind] = (counts[e.kind] || 0) + 1);
+      const summary = Object.entries(counts).map(([k, n]) => `${t('ev_' + k)} ${n}`).join(' · ');
+      html += `<div class="day ${first ? '' : 'closed'}" data-day="${esc(day)}">${esc(day)} · ${esc(summary)}</div><div class="rows">`;
+      for (const e of evs.slice(0, 60)) {
+        const l = byId.get(e.id);
+        const price = e.kind === 'price' ? `${fmtPrice(e.from)} → ${fmtPrice(e.to)}` : (l ? fmtPrice(l.price_thb) : (e.to != null ? fmtPrice(e.to) : ''));
+        const where = l ? `${term('type', l.property_type || 'other')} · ${l.tambon ? tr(l.tambon) : ''}` : '';
+        html += `<div class="ev" data-id="${esc(e.id)}"><span class="badge ${e.kind}">${t('ev_' + e.kind)}</span>${esc(price)} <span class="m">${esc(where)}</span><br><span class="m">${kindOf(e.source) === 'broker' ? `<span class="badge broker">${t('g_broker_s')}</span>` : ''}${esc(e.source)} · ${esc(tr(e.title || e.id).slice(0, 60))}</span></div>`;
+      }
+      if (evs.length > 60) html += `<div class="ev m">${t('ev_more', { n: evs.length - 60 })}</div>`;
+      html += '</div>'; first = false;
+    }
+    $('upd-bd').innerHTML = html;
+    $('upd-bd').querySelectorAll('.day').forEach(d => d.onclick = () => d.classList.toggle('closed'));
+    $('upd-bd').querySelectorAll('.ev[data-id]').forEach(el => el.onclick = () => { const m = markers.get(el.dataset.id); if (m) { map.setView(m.getLatLng(), 15); m.openPopup(); } });
+  }
+  $('upd-hd').onclick = () => { $('updates').classList.toggle('closed'); $('upd-toggle').textContent = $('updates').classList.contains('closed') ? '▾' : '▴'; };
+  fetch('data/updates.json', { cache: 'no-store' }).then(r => r.ok ? r.json() : []).then(ev => { events = ev; renderUpdates(); }).catch(() => renderUpdates());
+
+  function load(data) {
+    all = Array.isArray(data) ? data : (data.listings || []);
+    meta = data.meta || {}; lastCrawl = meta.last_crawl || null;
+    const src = meta.sources || {};
+    const bad = Object.entries(src).filter(([, r]) => r.status !== 'ok').map(([k, r]) => `${k}: ${r.status}${r.reason ? ' (' + r.reason + ')' : ''}`);
+    $('meta').textContent = t('meta', { n: all.length, gen: data.generated || '?', crawl: lastCrawl || '?' }) + (bad.length ? ` · ${t('failed')}: ${bad.join('; ')}` : '');
+    applyLang(); buildFilters(); render(); renderUpdates();
+  }
+
+  $('lang').addEventListener('change', () => { lang = $('lang').value; try { localStorage.setItem('samui-npa-lang', lang); } catch (e) {}
+    applyLang(); if (all.length) { buildFilters(); render(); } renderUpdates(); });
+
+  fetch('data/listings.json', { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(r.status + ' ' + r.statusText); return r.json(); })
+    .then(load)
+    .catch(e => {
+      $('err').innerHTML = `Could not load data/listings.json (${esc(e.message)}).\nServe this folder over HTTP, e.g. <code>python3 -m http.server 8765</code> in tools/samui-npa and open http://localhost:8765/viewer.html — or pick the file: `;
+      const inp = document.createElement('input'); inp.type = 'file'; inp.accept = '.json';
+      inp.onchange = () => inp.files[0].text().then(t => { $('err').textContent = ''; load(JSON.parse(t)); });
+      $('err').appendChild(inp);
+    });
+})();
+</script>
+</body>
+</html>
