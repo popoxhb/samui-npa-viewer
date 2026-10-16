@@ -1,5 +1,41 @@
 [
 {
+"date": "2026-10-16",
+"id": "ktb:59SS010300434",
+"source": "ktb",
+"title": "บ้านเดี่ยว อ่างทอง (59SS010300434)",
+"kind": "price",
+"from": 13860000.0,
+"to": 10080000.0
+},
+{
+"date": "2026-10-16",
+"id": "led:2057743-57117",
+"source": "led",
+"title": "ที่ดินพร้อมสิ่งปลูกสร้าง แม่น้ำ (คดี ผบE.61/2568 ลำดับ 9 - 1)",
+"kind": "offmarket",
+"from": "available",
+"to": "sold"
+},
+{
+"date": "2026-10-16",
+"id": "led:2113041-32019",
+"source": "led",
+"title": "ที่ดินพร้อมสิ่งปลูกสร้าง ลิปะน้อย (คดี ผบ.1366/2562 ลำดับ 1 - 1)",
+"kind": "relisted",
+"from": "withdrawn",
+"to": "available"
+},
+{
+"date": "2026-10-16",
+"id": "led:2104772-22474",
+"source": "led",
+"title": "ห้องชุด แม่น้ำ (คดี ผบE.2080/2568 ลำดับ 24 - 1)",
+"kind": "relisted",
+"from": "withdrawn",
+"to": "available"
+},
+{
 "date": "2026-10-15",
 "id": "kbank:028818196",
 "source": "kbank",
