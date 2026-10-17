@@ -8,29 +8,26 @@
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 493.3,
+    "seconds": 24.2,
     "verified": true
    },
    "gsb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.6,
+    "seconds": 2.1,
     "verified": true
    },
    "dcash": {
     "status": "ok",
-    "fetched": 1,
-    "samui": 1,
-    "seconds": 2.8,
+    "fetched": 2,
+    "samui": 2,
+    "seconds": 2.5,
     "verified": true
    },
    "kbank": {
-    "status": "ok",
-    "fetched": 32,
-    "samui": 32,
-    "seconds": 11.7,
-    "verified": true
+    "status": "error",
+    "reason": "Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.kasikornbank.com/th/propertyforsale/search/?province=84&district=8404\nCall log:\n  - navigating to \"https://www.kasikornbank.com/th/propertyforsale/search/?province=84&district=8404\", waiting until \"domcontentloaded\"\n"
    },
    "pamco": {
     "status": "ok",
@@ -43,91 +40,91 @@
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 40.8,
+    "seconds": 19.4,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 3.8,
+    "seconds": 2.8,
     "verified": true
    },
    "bbl": {
     "status": "ok",
     "fetched": 9,
     "samui": 9,
-    "seconds": 2.4,
+    "seconds": 3.7,
     "verified": true
    },
    "ktb": {
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 8.6,
+    "seconds": 13.5,
     "verified": true
    },
    "smebank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 0.5,
+    "seconds": 0.7,
     "verified": true
    },
    "bam": {
     "status": "ok",
     "fetched": 17,
     "samui": 17,
-    "seconds": 54.4,
+    "seconds": 67.1,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 9.4,
+    "seconds": 10.6,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 100,
     "samui": 100,
-    "seconds": 11.6,
+    "seconds": 14.5,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 18.9,
+    "seconds": 19.7,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 92.8,
+    "seconds": 14.0,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.8,
+    "seconds": 1.7,
     "verified": true
    },
    "cimb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.6,
+    "seconds": 1.5,
     "verified": true
    },
    "meezub": {
     "status": "ok",
     "fetched": 56,
     "samui": 54,
-    "seconds": 505.7,
+    "seconds": 74.5,
     "verified": true
    },
    "baania": {
@@ -141,14 +138,14 @@
     "status": "ok",
     "fetched": 564,
     "samui": 537,
-    "seconds": 15299.6,
+    "seconds": 718.4,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 389,
     "samui": 370,
-    "seconds": 6701.9,
+    "seconds": 2349.1,
     "verified": true
    }
   },
@@ -7733,7 +7730,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3816,
+    "productCountView": 3822,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -7862,7 +7859,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3635,
+    "productCountView": 3645,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -7989,7 +7986,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2590,
+    "productCountView": 2595,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -21801,7 +21798,7 @@
     "per_rai": "ไร่ละ 279,070 บาท",
     "size": "พื้นที่ 10 ไร่ 3 งาน",
     "opts": "ติดถนน",
-    "posted": "11 เดือน",
+    "posted": "12 เดือน",
     "category": "ที่ดิน",
     "description": "ขายที่ดินบนภูเขา เกาะสมุย วิวทะเลที่ดินแบ่งขาย ไร่ละ 3,000,000 บาท\nสามารถรวมโฉนดได้ ทั้งหมด4แปลง 10ไร่ 3งาน 32,250,00 บาท ราคาคุยกันได้ เจ้าของที่ดินขายเอง\nสถานที่ตั้ง ซ.พิทักษ์ทอง ม.5 ต.ลิปะน้อย\nสถานที่ใกล้เคียง\n- IDA B DOMAIN\n- Samui Elephant Spa\n- SafeZone Samui\nติดต่อ 0994899590 Call หรือ WhatsApp (TH/EN) (คุณปิ่น)\n0828148836 (คุณแตงโม) Call หรือ Line (TH)\n#ที่ดินติดทะเล #ที่ดินบนภูเขา #ที่ดินเกาะสมุย #ที่ดินสุราษฎร์ธานี"
    },
@@ -23816,7 +23813,7 @@
     "per_rai": "",
     "size": "พื้นที่ 2 งาน",
     "opts": "",
-    "posted": "เมื่อวาน",
+    "posted": "2 วัน",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "description": "รหัสลูกค้า : PA0990\nขาย/ให้เช่าระยะยาว โรงแรมเกาะสมุย พร้อมกิจการ ใจกลางเฉวง ใกล้เซ็นทรัลสมุย ลงทุนต่อยอดได้ทันที พิเศษ 55 ล้าน\nที่ตั้ง : ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84320\nแผนที่ : \nhttps://maps.app.goo.gl/4JrqWsv9WZDGEL1A6?g_st=ic\nขนาดพื้นที่ : 200 ตารางวา (ครึ่งไร่)\nพื้นที่ใช้สอย : 700 ตารางเมตร\nรายละเอียด :\n- 2 ชั้น\n- ออฟฟิศ 2 ห้อง\n- 18 ห้องนอน (18 เวอร์ชั่น)\n- 18 ห้องน้ำ\n- 1 ห้องครัว (สำหรับพนักงานใช้รับประทานอาหารช่วงพัก)\n- ที่จอดรถ 7 คัน\n- ภายในสะอาดห้องกว้าง\n- ทีวีขนาด 55 นิ้ว และ 65 นิ้ว\n- ทำความสะอาดและเปลี่ยนแปลงให้สวยงามทุกปี\n- ราคาห้องพักช่วง Low Season 1,200 - 1,500 บาท/คืน\n- ราคาห้องพักช่วง Peak Season 2,500 - 5,000 บาท/คืน ขึ้นอยู่กับช่วงเวลาว่าลูกค้าจะเข้าพักช่วงไหน\n- ทำเลดี ใจกลางเมืองเฉวง\n- โรงแรมเข้าทางซอยโรงพยาบาลบ้านดอนสมุย\n- เจ้าของขายเอง ไม่ได้ขายเพราะกิจการไม่ดี แต่เนื่องจากลูกไม่ได้สานต่อธุรกิจ จึงตัดสินใจขาย ถือเป็นโอกาสดีสำหรับผู้ที่ต้องการลงทุน ภายในตกแต่งสวย พร้อมดำเนินกิจการต่อได้ทันที\n- ห้องพักตกแต่งสวย สามารถปล่อยเช่ารายวันได้ในราคาดี ไม่รับปล่อยเช่ารายเดือน เพื่อรักษามาตรฐานของโรงแรม\nสถานที่ใกล้เคียง :\n- ใกล้โลตัสเฉวงใหญ่\n- ใกล้แม็คโครเฉวง\n- ใกล้บิ๊กซีเฉวง สาขาใหญ่\n- ใจกลางเมือง สะดวกสบาย\n- ใกล้สนามบิน เดินสะดวกมากๆ\n- มีโรงแรมเพียงแห่งเดียวในโซนนี้\nราคาขายพิเศษ : 55 ล้านบาท\nเงื่อนไขการเช่าระยะยาว : 10 ปี\nค่าเช่ารวมตลอดระยะเวลา 10 ปี : 30 ล้านบาท\n- ไม่มีค่าเช่ารายเดือน และไม่มีค่าเช่ารายเดือนเพิ่มเติมตลอดอายุสัญญา\n- แบ่งชำระค่าเช่าเป็น 2 งวด งวดละ 15 ล้านบาท\n- งวดที่ 1 : 15 ล้านบาท ชำระในวันทำสัญญา ครอบคลุมระยะเวลา 5 ปีแรก\n- ผู"
    },
