@@ -8,147 +8,147 @@
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 44.2,
+    "seconds": 14.1,
     "verified": true
    },
    "gsb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.6,
+    "seconds": 1.9,
     "verified": true
    },
    "dcash": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 2.7,
+    "seconds": 4.7,
     "verified": true
    },
    "kbank": {
     "status": "ok",
     "fetched": 32,
     "samui": 32,
-    "seconds": 13.7,
+    "seconds": 23.2,
     "verified": true
    },
    "pamco": {
     "status": "ok",
     "fetched": 5,
     "samui": 5,
-    "seconds": 2.0,
+    "seconds": 1.9,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 14.0,
+    "seconds": 13.4,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.9,
+    "seconds": 3.3,
     "verified": true
    },
    "bbl": {
     "status": "ok",
     "fetched": 9,
     "samui": 9,
-    "seconds": 3.0,
+    "seconds": 2.5,
     "verified": true
    },
    "ktb": {
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 9.4,
+    "seconds": 316.7,
     "verified": true
    },
    "smebank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 0.4,
+    "seconds": 0.5,
     "verified": true
    },
    "bam": {
     "status": "ok",
     "fetched": 17,
     "samui": 17,
-    "seconds": 594.0,
+    "seconds": 38.4,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 9.2,
+    "seconds": 9.3,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 100,
     "samui": 100,
-    "seconds": 13.3,
+    "seconds": 12.0,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 113.8,
+    "seconds": 18.9,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 14.7,
+    "seconds": 14.3,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.1,
+    "seconds": 1.9,
     "verified": true
    },
    "cimb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.1,
+    "seconds": 1.7,
     "verified": true
    },
    "meezub": {
     "status": "ok",
     "fetched": 56,
     "samui": 54,
-    "seconds": 978.5,
+    "seconds": 1068.4,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 5.2,
+    "seconds": 2.8,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
     "fetched": 564,
     "samui": 537,
-    "seconds": 1695.7,
+    "seconds": 7476.0,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 389,
     "samui": 370,
-    "seconds": 3204.5,
+    "seconds": 4852.4,
     "verified": true
    }
   },
@@ -7536,7 +7536,7 @@
     "bedrooms": 4.0,
     "bathrooms": 3.0,
     "deed": "Land title deed No. 3571",
-    "note": "New · Area 4.00 X 17.00 meters",
+    "note": "New Popular · Area 4.00 X 17.00 meters",
     "zoning": "commercial",
     "zoning_draft": "commercial",
     "dist_coast_m": 193,
@@ -7553,7 +7553,7 @@
     "price": "22,574,000 THB",
     "bed": "4",
     "bath": "3",
-    "tags": "New"
+    "tags": "New Popular"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-18",
@@ -7733,7 +7733,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3829,
+    "productCountView": 3830,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -7862,7 +7862,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3652,
+    "productCountView": 3655,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -7989,7 +7989,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2603,
+    "productCountView": 2605,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -21634,7 +21634,7 @@
     "per_rai": "",
     "size": "พื้นที่ 3 งาน 69 ตร.วา",
     "opts": "บ้านเดี่ยว, ติดภูเขา, วิวสวย",
-    "posted": "เมื่อวาน",
+    "posted": "2 วัน",
     "category": "บ้าน",
     "description": "ขายบ้านเดี่ยว สมุย สไตล์ modern tropical\nขนาด 369.8 ตร.ว. ประกอบด้วย 3 ห้องนอน 3 ห้องน้ำ 1 ห้องรับแขก 1 ห้องครัว\nตั้งอยู่บนเขา วิวหาดเฉวงน้อย\nทำเลดี เงียบสงบ\nเหมาะสำหรับซื้ออยู่อาศัยและลงทุน\nใกล้ สิ่งอำนวยความสะดวกและแหล่งท่องเที่ยว\nจุดชมวิวลาดเกาะ 230 ม.\nหาดเฉวงน้อย 470 ม.\nหาดละไม 2.8 กม.\nหินตาหินยาย 5.4 กม.\nขายราคา 20 ล้านบาท\nสนใจติดต่อ 081 639 5354\n-----------------------------\nHouse on the hill for sale samui, modern tropical style\nArea 369.8 sq.w. with 3brs, 3bths, 1large living room and 1 kitchen\nLocate on the hill , views over Chaweng Noi Bay\nGood location, peaceful and local environment\nSuitable for living and investment.\nnearby\nChaweng Viewpoint 240 m\nChaweng Noi Beach 470 m\nLamai Beach 2.8 km\nHin Ta & Hin Yai Rocks 5.4 km\nPrice 20 MB\nCall 081 639 5354"
    },
@@ -23486,7 +23486,7 @@
     "per_rai": "",
     "size": "พื้นที่ 4 ไร่ 42 ตร.วา",
     "opts": "ติดทะเล",
-    "posted": "เมื่อวาน",
+    "posted": "วันนี้",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "coords_basis": "post",
     "site_pin": [
@@ -23816,7 +23816,7 @@
     "per_rai": "",
     "size": "พื้นที่ 2 งาน",
     "opts": "",
-    "posted": "2 วัน",
+    "posted": "3 วัน",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "description": "รหัสลูกค้า : PA0990\nขาย/ให้เช่าระยะยาว โรงแรมเกาะสมุย พร้อมกิจการ ใจกลางเฉวง ใกล้เซ็นทรัลสมุย ลงทุนต่อยอดได้ทันที พิเศษ 55 ล้าน\nที่ตั้ง : ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84320\nแผนที่ : \nhttps://maps.app.goo.gl/4JrqWsv9WZDGEL1A6?g_st=ic\nขนาดพื้นที่ : 200 ตารางวา (ครึ่งไร่)\nพื้นที่ใช้สอย : 700 ตารางเมตร\nรายละเอียด :\n- 2 ชั้น\n- ออฟฟิศ 2 ห้อง\n- 18 ห้องนอน (18 เวอร์ชั่น)\n- 18 ห้องน้ำ\n- 1 ห้องครัว (สำหรับพนักงานใช้รับประทานอาหารช่วงพัก)\n- ที่จอดรถ 7 คัน\n- ภายในสะอาดห้องกว้าง\n- ทีวีขนาด 55 นิ้ว และ 65 นิ้ว\n- ทำความสะอาดและเปลี่ยนแปลงให้สวยงามทุกปี\n- ราคาห้องพักช่วง Low Season 1,200 - 1,500 บาท/คืน\n- ราคาห้องพักช่วง Peak Season 2,500 - 5,000 บาท/คืน ขึ้นอยู่กับช่วงเวลาว่าลูกค้าจะเข้าพักช่วงไหน\n- ทำเลดี ใจกลางเมืองเฉวง\n- โรงแรมเข้าทางซอยโรงพยาบาลบ้านดอนสมุย\n- เจ้าของขายเอง ไม่ได้ขายเพราะกิจการไม่ดี แต่เนื่องจากลูกไม่ได้สานต่อธุรกิจ จึงตัดสินใจขาย ถือเป็นโอกาสดีสำหรับผู้ที่ต้องการลงทุน ภายในตกแต่งสวย พร้อมดำเนินกิจการต่อได้ทันที\n- ห้องพักตกแต่งสวย สามารถปล่อยเช่ารายวันได้ในราคาดี ไม่รับปล่อยเช่ารายเดือน เพื่อรักษามาตรฐานของโรงแรม\nสถานที่ใกล้เคียง :\n- ใกล้โลตัสเฉวงใหญ่\n- ใกล้แม็คโครเฉวง\n- ใกล้บิ๊กซีเฉวง สาขาใหญ่\n- ใจกลางเมือง สะดวกสบาย\n- ใกล้สนามบิน เดินสะดวกมากๆ\n- มีโรงแรมเพียงแห่งเดียวในโซนนี้\nราคาขายพิเศษ : 55 ล้านบาท\nเงื่อนไขการเช่าระยะยาว : 10 ปี\nค่าเช่ารวมตลอดระยะเวลา 10 ปี : 30 ล้านบาท\n- ไม่มีค่าเช่ารายเดือน และไม่มีค่าเช่ารายเดือนเพิ่มเติมตลอดอายุสัญญา\n- แบ่งชำระค่าเช่าเป็น 2 งวด งวดละ 15 ล้านบาท\n- งวดที่ 1 : 15 ล้านบาท ชำระในวันทำสัญญา ครอบคลุมระยะเวลา 5 ปีแรก\n- ผู"
    },
@@ -24271,7 +24271,7 @@
     "per_rai": "ไร่ละ 3,000,000 บาท",
     "size": "พื้นที่ 6 ไร่",
     "opts": "ที่ดินเปล่า, ติดถนน",
-    "posted": "3 สัปดาห์",
+    "posted": "4 สัปดาห์",
     "category": "ที่ดิน",
     "coords_basis": "site_pin",
     "description": "ขายที่ดินวิวทะเล 6 ไร่ ทางขึ้นเนินเขา ทางเข้าน้ำตก ติดถนนสาธารณะ บรรยากาศดี ทำเลสวย ตำบลลิปะน้อย เกาะสมุย สุราษฎร์ธานี\n.\nข้อมูลเพิ่มเติม\n● ที่ดินวิวทะเล ทางขึ้นเนินเขา ทางเข้าน้ำตก\n● ตำบลลิปะน้อย เกาะสมุย\n● ติดทางถนนสาธารณะ บรรยากาศดี ทำเลสวย\n● ที่เป็นโฉนด พร้อมโอนกรรมสิทธิ์\n.\nใกล้สถานที่ท่องเทียวสำคัญ\n● น้ำตกลาดวานร\n● น้ำตกตานิ่ม\n● หาดลิปะน้อย\n● ตลาดสดศรีฟ้า\n.\nขายไร่ละ 3 ล้านบาท\nรวมยกแปลง 18 ล้านบาท\n.\nติดต่อสอบถาม หรือนัดดูบ้าน (คุณโบว์)\nCall : 099-359-4236\nLine : nubow8910\n.\n-------------------------------------------------------\n.\n.\nบริการโพสต์อสังหา ขาย-เช่าทรัพย์ทุกประเภท ผ่านเว็บใหญ่ Top google ฟรี FB 20 กลุ่มใหญ่\nhttp://www.yongservice.com"
@@ -24851,7 +24851,7 @@
    "lng": 99.982281,
    "geo_precision": "exact",
    "images": [
-    "https://media.pamco.co.th/intranet/migrate_pic/C10175.jpg"
+    "https://media.pamco.co.th/images/property-thumbnail/P00787-6fe10b1c375e1.jpeg"
    ],
    "sale_method": "sale",
    "auction_date": null,
