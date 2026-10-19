@@ -1,5 +1,23 @@
 [
 {
+"date": "2026-10-19",
+"id": "kbank:028816387",
+"source": "kbank",
+"title": "บ้านเดี่ยว อ่างทอง (02-88-16387)",
+"kind": "offmarket",
+"from": "available",
+"to": "reserved"
+},
+{
+"date": "2026-10-19",
+"id": "kbank:058802964",
+"source": "kbank",
+"title": "คอนโดมิเนียม บ่อผุด (05-88-02964)",
+"kind": "relisted",
+"from": "reserved",
+"to": "available"
+},
+{
 "date": "2026-10-17",
 "id": "kbank:028818196",
 "source": "kbank",
