@@ -1,5 +1,14 @@
 [
 {
+"date": "2026-10-21",
+"id": "led:2139790-23860",
+"source": "led",
+"title": "ที่ดินพร้อมสิ่งปลูกสร้าง บ่อผุด (คดี ผบ.607/2566 ลำดับ 23 - 1)",
+"kind": "offmarket",
+"from": "available",
+"to": "withdrawn"
+},
+{
 "date": "2026-10-19",
 "id": "kbank:028816387",
 "source": "kbank",
