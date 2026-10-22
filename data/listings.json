@@ -1,6 +1,6 @@
 {
  "generated": "2026-10-22",
- "count": 1198,
+ "count": 1199,
  "meta": {
   "last_crawl": "2026-10-22",
   "sources": {
@@ -8,141 +8,147 @@
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 959.1,
+    "seconds": 945.9,
     "verified": true
    },
    "gsb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.0,
+    "seconds": 1.6,
     "verified": true
    },
    "dcash": {
     "status": "ok",
     "fetched": 2,
     "samui": 2,
-    "seconds": 2.9,
+    "seconds": 2.8,
     "verified": true
    },
    "kbank": {
-    "status": "error",
-    "reason": "Error: Page.evaluate: TypeError: Failed to fetch\n    at eval (eval at evaluate (:311:30), <anonymous>:2:19)\n    at UtilityScript.evaluate (<anonymous>:318:18)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    "status": "ok",
+    "fetched": 31,
+    "samui": 31,
+    "seconds": 10.6,
+    "verified": true
    },
    "pamco": {
     "status": "ok",
     "fetched": 5,
     "samui": 5,
-    "seconds": 2.0,
+    "seconds": 2.3,
     "verified": true
    },
    "fin4luck": {
-    "status": "error",
-    "reason": "RuntimeError: request failed after 3 attempts: GET https://www.fin4luck.co.th/api/propertySale?filter%5BisPublic%5D%5B%24ne%5D=false&sort=-createdAt&limit=100&skip=100: HTTPSConnectionPool(host='www.fin4luck.co.th', port=443): Read timed out. (read timeout=30.0)"
+    "status": "ok",
+    "fetched": 1,
+    "samui": 1,
+    "seconds": 3658.7,
+    "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.9,
+    "seconds": 3.5,
     "verified": true
    },
    "bbl": {
     "status": "ok",
     "fetched": 9,
     "samui": 9,
-    "seconds": 34.6,
+    "seconds": 2.1,
     "verified": true
    },
    "ktb": {
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 144.2,
+    "seconds": 8.2,
     "verified": true
    },
    "smebank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 0.2,
+    "seconds": 0.5,
     "verified": true
    },
    "bam": {
     "status": "ok",
     "fetched": 17,
     "samui": 17,
-    "seconds": 1216.2,
+    "seconds": 2184.1,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 915.0,
+    "seconds": 8.8,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 100,
     "samui": 100,
-    "seconds": 9.2,
+    "seconds": 10.1,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 19.1,
+    "seconds": 20.3,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 1197.6,
+    "seconds": 637.7,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 603.3,
+    "seconds": 1.8,
     "verified": true
    },
    "cimb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.0,
+    "seconds": 1.8,
     "verified": true
    },
    "meezub": {
     "status": "ok",
     "fetched": 56,
     "samui": 54,
-    "seconds": 3636.2,
+    "seconds": 1917.6,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 2.9,
+    "seconds": 1.8,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
-    "fetched": 566,
-    "samui": 539,
-    "seconds": 36010.6,
+    "fetched": 567,
+    "samui": 540,
+    "seconds": 8971.8,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 389,
     "samui": 370,
-    "seconds": 8557.5,
+    "seconds": 507.0,
     "verified": true
    }
   },
@@ -4064,7 +4070,7 @@
     "id": "6a5dd615a8c9eb57be478128"
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -4216,7 +4222,7 @@
    "lng": 99.9386,
    "geo_precision": "exact",
    "images": [
-    "https://www.ghbhomecenter.com/v3/property/api/Media/261021776082787641"
+    "https://www.ghbhomecenter.com/v3/property/api/Media/261022404287146102"
    ],
    "sale_method": "sale",
    "auction_date": null,
@@ -4461,7 +4467,7 @@
    "lng": 99.944,
    "geo_precision": "exact",
    "images": [
-    "https://www.ghbhomecenter.com/v3/property/api/Media/261021815597093022"
+    "https://www.ghbhomecenter.com/v3/property/api/Media/261022435766988686"
    ],
    "sale_method": "sale",
    "auction_date": null,
@@ -4522,7 +4528,7 @@
    "lng": 100.007,
    "geo_precision": "exact",
    "images": [
-    "https://www.ghbhomecenter.com/v3/property/api/Media/261021781132639181"
+    "https://www.ghbhomecenter.com/v3/property/api/Media/261022405780715844"
    ],
    "sale_method": "sale",
    "auction_date": null,
@@ -4642,7 +4648,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -4726,7 +4732,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -4811,7 +4817,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -4896,7 +4902,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -4980,7 +4986,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5066,7 +5072,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5155,7 +5161,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5238,7 +5244,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5323,7 +5329,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5406,7 +5412,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5481,7 +5487,7 @@
     "AreaValue": 345.0,
     "UseableArea": 51.3,
     "BuildingAge": 17,
-    "GAScore": null,
+    "GAScore": 58,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "อยู่ระหว่างสำรวจ",
@@ -5495,7 +5501,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5586,7 +5592,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5667,7 +5673,7 @@
     "AreaValue": 419.0,
     "UseableArea": 406.5,
     "BuildingAge": 14,
-    "GAScore": 61,
+    "GAScore": 62,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "มีผู้บุกรุก",
@@ -5681,7 +5687,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5760,7 +5766,7 @@
     "AreaValue": 180.0,
     "UseableArea": 215.0,
     "BuildingAge": 8,
-    "GAScore": 79,
+    "GAScore": 95,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -5774,7 +5780,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5850,7 +5856,7 @@
     "AreaValue": 194.1,
     "UseableArea": 756.57,
     "BuildingAge": 10,
-    "GAScore": 520,
+    "GAScore": 518,
     "IsNew": false,
     "IsHot": true,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -5864,7 +5870,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -5945,7 +5951,7 @@
     "AreaValue": 35.0,
     "UseableArea": 116.0,
     "BuildingAge": 12,
-    "GAScore": 78,
+    "GAScore": 75,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "มีผู้บุกรุก",
@@ -5959,7 +5965,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6052,7 +6058,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6129,7 +6135,7 @@
     "AreaValue": 65.5,
     "UseableArea": 81.75,
     "BuildingAge": 6,
-    "GAScore": 88,
+    "GAScore": 87,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "มีผู้บุกรุก",
@@ -6143,7 +6149,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6227,7 +6233,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6310,7 +6316,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6401,7 +6407,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6492,7 +6498,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6577,7 +6583,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6667,7 +6673,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6852,7 +6858,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -6945,7 +6951,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -7035,7 +7041,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -7124,7 +7130,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -7200,7 +7206,7 @@
     "AreaValue": 335.5,
     "UseableArea": 335.5,
     "BuildingAge": 16,
-    "GAScore": 78,
+    "GAScore": 76,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -7214,7 +7220,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -7302,7 +7308,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -7386,7 +7392,7 @@
     "IsSoldOut": false
    },
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "price_history": [
     {
      "date": "2026-10-13",
@@ -7727,7 +7733,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3860,
+    "productCountView": 3867,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -7856,7 +7862,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3686,
+    "productCountView": 3693,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -7983,7 +7989,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2639,
+    "productCountView": 2650,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -18376,9 +18382,9 @@
     "https://asset.led.go.th/PPKPicture/2569/07-2569/24/40424j.jpg"
    ],
    "sale_method": "auction",
-   "auction_date": "2026-10-29",
+   "auction_date": "2026-11-19",
    "details": {
-    "status": "รอขาย",
+    "status": "งดขาย",
     "price_basis": "ราคาประเมินของเจ้าพนักงานบังคับคดี",
     "prices": [
      "ราคาประเมินของเจ้าพนักงานบังคับคดี 285,600 บาท"
@@ -18387,7 +18393,7 @@
     "occupancy": "ผู้ถือกรรมสิทธิ์",
     "note": "ไม่มีภาระจำนอง · มัดจำ 25000 บาท · โจทก์ ธนาคารไทยพาณิชย์ จำกัด (มหาชน) ,บริษัท เจ เอ็ม ที เน็ทเวอร์ค เซอร์วิสเซ็ส จำกัด (มหาชน)  ผู้สวมสิทธิ์",
     "highlights": [
-     "นัดที่ 1 2026-10-29 รอขาย",
+     "นัดที่ 1 2026-10-29 งดขาย",
      "นัดที่ 2 2026-11-19 รอขาย",
      "นัดที่ 3 2026-12-09 รอขาย",
      "นัดที่ 4 2026-12-30 รอขาย",
@@ -18399,7 +18405,7 @@
     "zoning_draft": "residential_low",
     "dist_coast_m": 656,
     "dist_main_road_m": 57,
-    "availability": "available"
+    "availability": "withdrawn"
    },
    "raw": {
     "str_bid_num": "17 - 1",
@@ -18457,7 +18463,7 @@
     "deedcity": "สุราษฎร์ธานี",
     "landtype": "โฉนดเลขที่",
     "landdesc": "ตามโฉนด",
-    "issale1": "0",
+    "issale1": "10",
     "issale2": "0",
     "issale3": "0",
     "issale4": "0",
@@ -21628,7 +21634,7 @@
     "per_rai": "",
     "size": "พื้นที่ 3 งาน 69 ตร.วา",
     "opts": "บ้านเดี่ยว, ติดภูเขา, วิวสวย",
-    "posted": "5 วัน",
+    "posted": "6 วัน",
     "category": "บ้าน",
     "description": "ขายบ้านเดี่ยว สมุย สไตล์ modern tropical\nขนาด 369.8 ตร.ว. ประกอบด้วย 3 ห้องนอน 3 ห้องน้ำ 1 ห้องรับแขก 1 ห้องครัว\nตั้งอยู่บนเขา วิวหาดเฉวงน้อย\nทำเลดี เงียบสงบ\nเหมาะสำหรับซื้ออยู่อาศัยและลงทุน\nใกล้ สิ่งอำนวยความสะดวกและแหล่งท่องเที่ยว\nจุดชมวิวลาดเกาะ 230 ม.\nหาดเฉวงน้อย 470 ม.\nหาดละไม 2.8 กม.\nหินตาหินยาย 5.4 กม.\nขายราคา 20 ล้านบาท\nสนใจติดต่อ 081 639 5354\n-----------------------------\nHouse on the hill for sale samui, modern tropical style\nArea 369.8 sq.w. with 3brs, 3bths, 1large living room and 1 kitchen\nLocate on the hill , views over Chaweng Noi Bay\nGood location, peaceful and local environment\nSuitable for living and investment.\nnearby\nChaweng Viewpoint 240 m\nChaweng Noi Beach 470 m\nLamai Beach 2.8 km\nHin Ta & Hin Yai Rocks 5.4 km\nPrice 20 MB\nCall 081 639 5354"
    },
@@ -21795,7 +21801,7 @@
     "per_rai": "ไร่ละ 279,070 บาท",
     "size": "พื้นที่ 10 ไร่ 3 งาน",
     "opts": "ติดถนน",
-    "posted": "12 เดือน",
+    "posted": "วันนี้",
     "category": "ที่ดิน",
     "description": "ขายที่ดินบนภูเขา เกาะสมุย วิวทะเลที่ดินแบ่งขาย ไร่ละ 3,000,000 บาท\nสามารถรวมโฉนดได้ ทั้งหมด4แปลง 10ไร่ 3งาน 32,250,00 บาท ราคาคุยกันได้ เจ้าของที่ดินขายเอง\nสถานที่ตั้ง ซ.พิทักษ์ทอง ม.5 ต.ลิปะน้อย\nสถานที่ใกล้เคียง\n- IDA B DOMAIN\n- Samui Elephant Spa\n- SafeZone Samui\nติดต่อ 0994899590 Call หรือ WhatsApp (TH/EN) (คุณปิ่น)\n0828148836 (คุณแตงโม) Call หรือ Line (TH)\n#ที่ดินติดทะเล #ที่ดินบนภูเขา #ที่ดินเกาะสมุย #ที่ดินสุราษฎร์ธานี"
    },
@@ -21849,7 +21855,7 @@
     "per_rai": "ไร่ละ 16,000,000 บาท",
     "size": "พื้นที่ 12 ไร่ 3 งาน 40 ตร.วา",
     "opts": "เจ้าของขายเอง, ที่ดินเปล่า, ติดถนน, ติดทะเล, วิวสวย",
-    "posted": "วันนี้",
+    "posted": "1 ปี",
     "category": "ที่ดิน",
     "description": "ขายที่ดินริมชายทะเลเกาะสมุย 12 ไร่ 3 งาน 40 ตร.วา\nมีทั้งหมดรวม 3 โฉนด ขายยกแปลง 205.6 ล้านบาท (ไร่ละ 16ลบ.)\nที่ดินแปลงนี้ติดถนน ติดหาด ติดทะเล ด้านหน้าติดทะเลและหาดทรายกว้าง 75 เมตร ความยาวตามแนวถนน 80 เมตร ด้านหลังที่ดินลาดขึ้นเนินสูง มองเห็นชายหาด ทะเล และทิวเขา สวยงามมาก แถมใกล้สนามบินเพียง 2 กม.ด้วย\nตำแหน่งที่ตั้งที่ดิน\nถนน บ่อผุด - ปลายแหลม บ้านบางรักษ์ ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\nตั้งอยู่บริเวณตรงข้าม แหลมไม้แก่น ถนนทางหลวงแผ่นดินสายบ่อผุด - ปลายแหลม ( 4171 ) อยู่ห่างจากบ้านบางรักประมาณ 2 กิโลเมตร และใช้เวลาในการขับรถไปยัง สนามบินสมุน(USM)ประมาณ 10นาที คุณสามารถใช้เวลาขับรถเพียง 3นาที เพื่อไปยังถนนสายรอบเกาะสมุยได้ในเวลาอันสั้น โดยใช้ถนนสายหลักนี้ และที่ตั้งของที่ดินห่างจากแหล่งท่องเที่ยวหลักของเกาะสมุยคือ Fisherman’s village เพียง 1.9 กิโลเมตร\nราคาเจ้าของขายเองเพียงไร่ละ 16  ล้านบาท รวม 205.6  ล้านบาท\nสนใจติดต่อ\nK.กิต\n0962248802\n#ที่ดินติดทะเลเกาะสมุย\n#ที่ดินเกาะสมุย\n#Samuiisland\n#KohSamui\n#KohSamuiLandforSale\n#BeachLandforSale"
    },
@@ -21902,7 +21908,7 @@
     "per_rai": "ไร่ละ 24,130,879 บาท",
     "size": "พื้นที่ 2 ไร่ 1 งาน 78 ตร.วา",
     "opts": "เจ้าของขายเอง, ที่ดินเปล่า, ติดภูเขา, ติดทะเล, วิวสวย",
-    "posted": "วันนี้",
+    "posted": "1 ปี",
     "category": "ที่ดิน",
     "description": "ขายที่ดินเกาะสมุยติดชายหาด ติดถนนใหญ่รอบเกาะ\nขายยก 2 แปลง รวม 2 ไร่ 1 งาน 78 ตรว\nที่ดินตั้งอยู่ที่ ต.มะเร็ต อ.เกาะสมุย จ.สุราษฎร์ธานี\nใกล้แหล่งชุมชนอาศัย ใกล้สถานที่ท่องเที่ยว\nสถานที่ใกล้เคียง : วัดราชธรรมาราม (วัดพระธาตุศิลางู), หินตา-หินยาย, หาดละไม, ตลาดสดหัวถนน\n*ใกล้กับจุดลงโครงการสะพานเชื่อมเกาะสมุยกับชายฝั่งสุราษฎร์ธานี และนครศรีธรรมราช\nขายยกรวม 59,000,000 บาท\nสนใจจริงสอบถามเพิ่มเติม\nK.กิต โทร. 096 224 8802"
    },
@@ -21954,7 +21960,7 @@
     "per_rai": "ไร่ละ 3,400,000 บาท",
     "size": "พื้นที่ 4 ไร่ 1 งาน 19 ตร.วา",
     "opts": "เจ้าของขายเอง, ที่ดินเปล่า, ติดถนน, ติดภูเขา, วิวสวย",
-    "posted": "วันนี้",
+    "posted": "1 ปี",
     "category": "ที่ดิน",
     "description": "ขายที่ดินเกาะสมุย วิวทะเล 4ไร่ 1งาน กว่าๆ ด้านหลังติดภูเขา ถนนสาธารณะ เข้าออกสะดวก\nซอยสันติสุข 2 ต.ตลิ่งงาม อ.เกาะสมุย จ.สุราษฎร์ธานี\nอยู่ตีนเขา ไม่ลาดชัน ไฟฟ้าพร้อม\nเป็นที่ดินโฉนดครุฑแดง\nอยู่ห่างท่าเรือท้องกรูดเพียง 3 นาที\nอยู่ห่างพระเจดีย์แหลมสอ 8 นาที\nเหมาะสำหรับการลงทุน หรือสร้างบ้านเช่าหลายหลัง\n*ใกล้กับจุดลงโครงการสะพานเชื่อมเกาะสมุยกับชายฝั่งสุราษฎร์ธานี และนครศรีธรรมราช\nราคาพิเศษ เหลือเพียงไร่ละ 3.4 ล้านบาท ( 14,611,500 บาท )\nสนใจจริงติดต่อ K.กิต โทร. 0962248802\n#ที่ดินติดทะเลเกาะสมุย\n#ที่ดินเกาะสมุย\n#Samuiisland\n#KohSamui\n#KohSamuiLandforSale\n#BeachLandforSale"
    },
@@ -22762,7 +22768,7 @@
     "per_rai": "",
     "size": "พื้นที่ 1 งาน 45 ตร.วา",
     "opts": "บ้านเดี่ยว, ติดถนน",
-    "posted": "วันนี้",
+    "posted": "1 ปี",
     "category": "บ้าน",
     "coords_basis": "post",
     "description": "💼📍 Investment Opportunity – House with Land in Prime Koh Samui Location! 🏡🌴\nLocated in Maenam, just minutes from the beach and key amenities – perfect for rental income or resale potential.\n🔹 Property Highlights\n• Land Size: 145.8 sq. wah (approx. 583.2 sq.m.)\n• 4 Bedrooms | 2 Bathrooms | 1 Living Room | 1 Kitchen\n💰 Only 4.95 Million THB! – High return potential for long-term rental or property flipping\n🌟 Strategic Location Nearby\n📮 250m – Maenam Post Office\n🏫 450m – Oonrak School Samui\n🏖 1.0 km – Maenam Beach\n🎡 3.4 km – Fisherman’s Village Walking Street\n🏥 8.4 km – Bangkok Hospital Samui\n✈ 9.5 km – Samui International Airport\n📍 Location: \nhttps://maps.app.goo.gl/tBrTpoHeWFRWKSbh8\n🔥 Rare find in a high-demand area – Act fast before it’s gone!\n📞 Khun Nang: 091-8291416\n📞 Khun Nam: 098-7388772\n💬 Message us today for more info!\n."
@@ -22821,7 +22827,7 @@
     "per_rai": "",
     "size": "พื้นที่ 92 ตร.วา",
     "opts": "บ้านเดี่ยว, ติดถนน",
-    "posted": "วันนี้",
+    "posted": "1 ปี",
     "category": "บ้าน",
     "coords_basis": "post",
     "description": "🌴 Luxury Villa Near the Beach | Maenam, Koh Samui 🌊\nModern 2-storey private pool villa in a peaceful location — just 200 meters from the island's ring road.\nConveniently close to beaches, schools, hospital, airport, and popular attractions.\n🏡 3 Bedrooms | 3 Bathrooms | Fully Equipped Kitchen\n📏 Land size: 368 sqm (92 sq. wah)\n💧 Private Pool\n🚪 Elegant Entrance Gate & Fencing for Full Privacy\n📜 Title Deed: Chanote (Red Garuda)\n🔨 Currently under construction — almost complete & ready for handover soon\n✨ Only 9.8 million THB\n📍 Location Highlights\n📌 200 m – Ring Road\n📬 250 m – Maenam Post Office\n🏫 450 m – Oonrak Koh Samui School\n🏖 1.0 km – Maenam Beach\n🎣 3.4 km – Fisherman’s Village Walking Street\n🏥 8.4 km – Bangkok Hospital Samui\n✈️ 9.5 km – Samui International Airport\n🗺 Location: \nhttps://maps.app.goo.gl/dnNxp1npaWBQHUzEA\n📞 For more details, contact:\nNang – 091-8291416"
@@ -23480,7 +23486,7 @@
     "per_rai": "",
     "size": "พื้นที่ 4 ไร่ 42 ตร.วา",
     "opts": "ติดทะเล",
-    "posted": "3 วัน",
+    "posted": "4 วัน",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "coords_basis": "post",
     "site_pin": [
@@ -23810,7 +23816,7 @@
     "per_rai": "",
     "size": "พื้นที่ 2 งาน",
     "opts": "",
-    "posted": "6 วัน",
+    "posted": "1 สัปดาห์",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "description": "รหัสลูกค้า : PA0990\nขาย/ให้เช่าระยะยาว โรงแรมเกาะสมุย พร้อมกิจการ ใจกลางเฉวง ใกล้เซ็นทรัลสมุย ลงทุนต่อยอดได้ทันที พิเศษ 55 ล้าน\nที่ตั้ง : ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84320\nแผนที่ : \nhttps://maps.app.goo.gl/4JrqWsv9WZDGEL1A6?g_st=ic\nขนาดพื้นที่ : 200 ตารางวา (ครึ่งไร่)\nพื้นที่ใช้สอย : 700 ตารางเมตร\nรายละเอียด :\n- 2 ชั้น\n- ออฟฟิศ 2 ห้อง\n- 18 ห้องนอน (18 เวอร์ชั่น)\n- 18 ห้องน้ำ\n- 1 ห้องครัว (สำหรับพนักงานใช้รับประทานอาหารช่วงพัก)\n- ที่จอดรถ 7 คัน\n- ภายในสะอาดห้องกว้าง\n- ทีวีขนาด 55 นิ้ว และ 65 นิ้ว\n- ทำความสะอาดและเปลี่ยนแปลงให้สวยงามทุกปี\n- ราคาห้องพักช่วง Low Season 1,200 - 1,500 บาท/คืน\n- ราคาห้องพักช่วง Peak Season 2,500 - 5,000 บาท/คืน ขึ้นอยู่กับช่วงเวลาว่าลูกค้าจะเข้าพักช่วงไหน\n- ทำเลดี ใจกลางเมืองเฉวง\n- โรงแรมเข้าทางซอยโรงพยาบาลบ้านดอนสมุย\n- เจ้าของขายเอง ไม่ได้ขายเพราะกิจการไม่ดี แต่เนื่องจากลูกไม่ได้สานต่อธุรกิจ จึงตัดสินใจขาย ถือเป็นโอกาสดีสำหรับผู้ที่ต้องการลงทุน ภายในตกแต่งสวย พร้อมดำเนินกิจการต่อได้ทันที\n- ห้องพักตกแต่งสวย สามารถปล่อยเช่ารายวันได้ในราคาดี ไม่รับปล่อยเช่ารายเดือน เพื่อรักษามาตรฐานของโรงแรม\nสถานที่ใกล้เคียง :\n- ใกล้โลตัสเฉวงใหญ่\n- ใกล้แม็คโครเฉวง\n- ใกล้บิ๊กซีเฉวง สาขาใหญ่\n- ใจกลางเมือง สะดวกสบาย\n- ใกล้สนามบิน เดินสะดวกมากๆ\n- มีโรงแรมเพียงแห่งเดียวในโซนนี้\nราคาขายพิเศษ : 55 ล้านบาท\nเงื่อนไขการเช่าระยะยาว : 10 ปี\nค่าเช่ารวมตลอดระยะเวลา 10 ปี : 30 ล้านบาท\n- ไม่มีค่าเช่ารายเดือน และไม่มีค่าเช่ารายเดือนเพิ่มเติมตลอดอายุสัญญา\n- แบ่งชำระค่าเช่าเป็น 2 งวด งวดละ 15 ล้านบาท\n- งวดที่ 1 : 15 ล้านบาท ชำระในวันทำสัญญา ครอบคลุมระยะเวลา 5 ปีแรก\n- ผู"
    },
@@ -23924,7 +23930,7 @@
     "per_rai": "ตรว.ละ 26,875 บาท",
     "size": "พื้นที่ 1 งาน 60 ตร.วา",
     "opts": "เจ้าของขายเอง, ที่ดินเปล่า",
-    "posted": "6 วัน",
+    "posted": "วันนี้",
     "category": "ที่ดิน",
     "description": "ขายที่ดินเปล่า ทำเลดี วิวทะเล บ่อผุด เกาะสมุย จ.สุราษฎร์ธานี\nที่ตั้ง : ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84320\nขนาดเนื้อที่ : 160 ตารางวา\nขนาดพื้นที่ใช้สอย : 640 ตารางเมตร\nรายละเอียด\n-โฉนดครุฑแดง พร้อมโอน\n-วิวทะเลและวิวหาดเฉวงแบบพาโนรามา\n-ถนนคอนกรีตเข้าถึงที่ดิน เดินทางสะดวก\n-ไฟฟ้าและประปาพร้อมใช้งาน\n-บรรยากาศเงียบสงบ เป็นส่วนตัว\n-เหมาะสำหรับสร้างพูลวิลล่า บ้านพักตากอากาศ หรือซื้อเพื่อการลงทุนในอนาคต\nจุดเด่น\n-ที่ดินตั้งอยู่บนเนินเขาในย่านบ่อผุด หนึ่งในทำเลยอดนิยมของเกาะสมุย\n-โดดเด่นด้วยวิวทะเลและวิวหาดเฉวงที่สวยงาม\n-พร้อมบรรยากาศเงียบสงบและความเป็นส่วนตัว แต่ยังเดินทางไปยังสถานที่สำคัญได้อย่างสะดวก\n-โอกาสดีสำหรับผู้ที่กำลังมองหาที่ดินวิวทะเลบนเกาะสมุย ทั้งเพื่อสร้างบ้านในฝัน บ้านพักตากอากาศ หรือพัฒนาเพื่อการลงทุนในอนาคต\nสถานที่สำคัญใกล้เคียง\n-หาดเฉวง\n-Fisherman's Village บ่อผุด\n-หาดบ่อผุด\n-สนามบินนานาชาติสมุย\n-ร้านอาหาร คาเฟ่ และแหล่งท่องเที่ยวชั้นนำของเกาะสมุย\nราคา 4,300,000 บาท\nสนใจติดต่อ คุณบอล\nโทร : 094-802-4146\nLine ID : kbl788\n..................................\n🇬🇧 Prime Sea View Land for Sale – Bophut, Koh Samui\nBuild Your Dream Villa or Invest in One of Koh Samui's Most Desirable Locations\nA rare opportunity to own 160 sq. wah (640 sq. m.) of freehold land on a peaceful hillside in Bophut, Koh Samui, featuring beautiful panoramic sea views overlooking Chaweng Beach.\nPerfect for a luxury private villa, holiday home, boutique resort, or long-term investment.\nProperty Highlights\n-Freehold Chanote Title Deed – Ready to Transfer\n-Land Size: 160 sq. wah (640 sq. m"
    },
@@ -23983,7 +23989,7 @@
     "per_rai": "ไร่ละ 148,988 บาท",
     "size": "พื้นที่ 11 ไร่ 46 ตร.วา",
     "opts": "ที่ดินเปล่า, ติดทะเล, วิวสวย",
-    "posted": "3 เดือน",
+    "posted": "วันนี้",
     "category": "ที่ดิน",
     "coords_basis": "site_pin",
     "description": "มีโฉนดเรียบร้อย อยู่ในซอย โรงพยาบาลบ้านดอนอินเตอร์ฯ ซ.เฉวง 6 ทางไปสนามบินเกาะสมุย. ด้านหน้าที่ดินติดถนน อยู่ใกล้โรงเรียนนานาชาติ, รพ.บ้านดอนอินเตอร์, ห้างบิ๊กซีฯ, ห้างแม็คโคร ฯลฯ\nที่ดินแปลงนี้ทำเลดีมากๆ ติดถนนสายหลัก เหมาะสำหรับทำโครงการหมู่บ้านจัดสรร คอนโดมิเนียม โรงแรม รีสอร์ต หรือโครงการขนาดใหญ่ เพื่อลงทุนเก็งกำไร ทำโกดัง โรงงาน บ้านพักอาศัย ออฟฟิศ เป็นต้น\nขาย: ตร.วา ละ 36,000 บาท (แบ่งขายได้)\n* ค่าใช้จ่ายในการโอนตามตกลง รายละเอียดตามนี้เลยครับผม\nรูปภาพเพิ่มเติมตามนี้เลยนะครับ:\nhttps://drive.google.com/drive/mobile/folders/1bakZSNWXYf31w5MyoVRqG7wX5SEGya47\ngoogle maps ตามนี้เลยครับ\nhttps://goo.gl/maps/vF3YBbLLGiJd9DBu7?g_st=ac\nช่องทางการติดต่อ📞\nคุณเคน: 0863635163 เจ้าของ\nคุณไพศาล: 0815569929 เลขา"
@@ -24043,7 +24049,7 @@
     "per_rai": "",
     "size": "พื้นที่ 22 ไร่ 1 งาน 59.9 ตร.วา",
     "opts": "ติดถนน, ติดภูเขา, ติดทะเล, วิวสวย, เฟอร์นิเจอร์ครบ",
-    "posted": "3 สัปดาห์",
+    "posted": "วันนี้",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "coords_basis": "post",
     "description": "รายละเอียดทรัพย์\nที่ตั้ง: ติดหาดเฉวงและถนนสายเฉวง-เชิงมน ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\nขนาดที่ดิน: 22-1-59.9 ไร่ (8,959.9 ตารางวา)\nพื้นที่ใช้สอย : 7,147 ตรม.\nจำนวนห้อง : 124 ห้อง\nหน้ากว้างติดทะเล ประมาณ 70 เมตร\nหน้ากว้างติดถนน ประมาณ 110 เมตร\nผังเมือง: สีชมพู\nสถานที่ใกล้เคียง\n2.5 KM – สนามบินสมุย\n3.0 KM – อ่าวเฉวง\n5.5 KM – โลตัส สมุย\n6.0 KM – โรงพยาบาลกรุงเทพสมุย\n6.2 KM – Big C สมุย\nราคาเสนอขาย : 854,000,000 บาท\nGPS: 9.548721, 100.074737\nhttps://maps.app.goo.gl/qmiJfU3r3EmWCZsf6\nสนใจสอบถามรายละเอียดเพิ่มเติม\nรายละเอียดตัวแทน : 082-444-9779 (ชยพล), 093-662-6391 (พิริยา)\nCode : LSI-257/2026\nFor more information\nWebsite:\nhttps://www.knightfrank.co.th/thailand-investment/land-for-sale-in-thailand\nTel: 02-643-8223 ต่อ 194\nE-mail:\n[email protected]\nLine: @KFT_LAND\nhttps://smpl.is/zqkp"
@@ -24322,7 +24328,7 @@
     "per_rai": "",
     "size": "พื้นที่ 1 งาน 15 ตร.วา",
     "opts": "ติดถนน, พร้อมอยู่",
-    "posted": "วันนี้",
+    "posted": "1 เดือน",
     "category": "บ้าน",
     "coords_basis": "site_pin",
     "description": "ขายด่วน! บ้านเดี่ยว 2 หลัง ในรั้วเดียวกัน พื้นที่จุใจ 115 ตร.วา ทำเลดี เกาะสมุย ใกล้ตลาดศรีฟ้า ตลิ่งงาม\n.\nคุ้มสุดๆ ได้บ้านถึง 2 หลังในพื้นที่เดียว เหมาะทั้งอยู่อาศัยเอง ครอบครัวใหญ่ หรือปล่อยเช่าทำกำไร ใกล้แหล่งชุมชน เดินทางสะดวกสบาย\n.\nรายละเอียดบ้าน\n● พื้นที่รวม 115 ตารางวา\n● ห้องนอน : 5 ห้องนอน (พร้อมแอร์ใหม่แกะกล่อง 6 เครื่อง)\n● ห้องน้ำ : 2 ห้องน้ำ (พร้อมเครื่องทำน้ำอุ่น 2 เครื่อง)\n● ห้องรับแขก : 2 ห้อง\n● ห้องครัว :ครัวนอกบ้าน แยกเป็นสัดส่วน\n● ที่จอดรถ: กว้างขวาง จอดได้ 3-4 คัน\n.\nระบบน้ำ : มีระบบประปาบาดาลส่วนตัว น้ำแรงตลอดปี น้ำไม่มีขาดหมดกังวลเรื่องหน้าร้อน\n.\nทำเลที่ตั้ง : ซอยหลังตลาดศรีฟ้า ตลิ่งงาม เกาะสมุยอยู่ในแหล่งชุมชน ปลอดภัย เดินทางเข้า-ออกสะดวก\n.\nราคาขายเพียง : 4,500,000 บาท เท่านั้น!\n(ราคานี้รวมภาษีและค่าใช้จ่ายในการโอนกรรมสิทธิ์ทั้งหมดแล้ว)\n.\nติดต่อสอบถาม หรือนัดดูบ้าน (คุณโบว์)\nCall : 099-359-4236\nLine : nubow8910\n.\n--------------------------------------------------------\n.\n.\nบริการโพสต์อสังหา ขาย-เช่าทรัพย์ทุกประเภท ผ่านเว็บใหญ่ Top google ฟรี FB 20 กลุ่มใหญ่\nhttp://www.yongservice.com"
@@ -24377,7 +24383,7 @@
     "per_rai": "ไร่ละ 4,996,877 บาท",
     "size": "พื้นที่ 4 ไร่ 1 ตร.วา",
     "opts": "ที่ดินเปล่า, ติดภูเขา, วิวสวย",
-    "posted": "วันนี้",
+    "posted": "เมื่อวาน",
     "category": "ที่ดิน",
     "coords_basis": "post",
     "site_pin": [
@@ -45473,40 +45479,28 @@
    "title": "ขายที่ดินซีวิวบรรยากาศดีเกาะสมุย",
    "property_type": "land",
    "price_thb": 20000000.0,
-   "area_sqwa": 1000.0,
+   "area_sqwa": null,
    "address": "ต.บ่อผุด อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "บ่อผุด",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.531343999999999,
-   "lng": 100.025211,
-   "geo_precision": "exact",
+   "lat": 9.542,
+   "lng": 100.053,
+   "geo_precision": "tambon",
    "images": [
     "https://www.teedin108.com/public/photo/original/20260114091601_5999756966fc6169e26.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "deed": "โฉนด",
-    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的 Google Maps 链接",
-    "highlights": [
-     "ขายที่ดินบนเกาะสมุยแปลงที่สวยงามล้อมรอบไปด้วยธรรมชาติที่เงียบสงบบรรยากาศที่สดใสสดชื่นพร้อมกับวิวทะเล,วิวภูเขาที่สวยงาม และเพียบพร้อมไปด้วยถนนคอนกรีต,ไฟฟ้า ใกล้หาดบ่ดผุด,หาดเฉวง,ฟิชเชอร์แมนวิลเลจบ่อผุด,หาดบางรัก,ท่าเรือบางรัก,สนามบินเกาะสมุย,ห้างสรรพสินค้า,ซุปเปอร์มาร์เก็ต,ตลาดสด,โรงเรียนเอกชนนานาชาติ,และโรงพยาบาลที่ทันสมัย หาที่ไหนไม่ได้แล้วในเกาะสมุย (ประเทศไทย)\n\n ขนาด 2ไร่ 2งาน (4,000 ตารางเมตร."
-    ],
-    "zoning": "rural",
-    "zoning_draft": "rural",
-    "frontage": [
-     "road"
-    ],
-    "dist_coast_m": 3262,
-    "dist_main_road_m": 1839,
+    "note": "私人/中介挂牌（非银行 NPA）",
     "availability": "available"
    },
    "raw": {
     "property_type_code": "L",
     "posted": "2026-01-14 09:16:40",
     "price_list": "20000000",
-    "description": "ขายที่ดินบนเกาะสมุยแปลงที่สวยงามล้อมรอบไปด้วยธรรมชาติที่เงียบสงบบรรยากาศที่สดใสสดชื่นพร้อมกับวิวทะเล,วิวภูเขาที่สวยงาม และเพียบพร้อมไปด้วยถนนคอนกรีต,ไฟฟ้า ใกล้หาดบ่ดผุด,หาดเฉวง,ฟิชเชอร์แมนวิลเลจบ่อผุด,หาดบางรัก,ท่าเรือบางรัก,สนามบินเกาะสมุย,ห้างสรรพสินค้า,ซุปเปอร์มาร์เก็ต,ตลาดสด,โรงเรียนเอกชนนานาชาติ,และโรงพยาบาลที่ทันสมัย หาที่ไหนไม่ได้แล้วในเกาะสมุย (ประเทศไทย)\n\n ขนาด 2ไร่ 2งาน (4,000 ตารางเมตร.)\n\n เอกสารโฉนด นส.4จ.\n\n ขายในราคาไร่ละ 8 ล้านบาท.\n\nสนใจ คุณแมวเจ้าของโดยตรง 0861202678\n\nLine / Whatsapp \n\nตำแหน่งพิกัดที่ดิน\n\nhttps://maps.app.goo.gl/GkHLZpN9pa29qyF98",
-    "coords_basis": "post"
+    "description": ""
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-22",
@@ -45517,7 +45511,7 @@
     }
    ],
    "id": "teedin108:3977496",
-   "price_per_sqwa": 20000.0
+   "price_per_sqwa": null
   },
   {
    "source": "teedin108",
@@ -45531,36 +45525,26 @@
    "tambon": "ลิปะน้อย",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.490864,
-   "lng": 99.925131,
-   "geo_precision": "exact",
+   "lat": 9.479,
+   "lng": 99.942,
+   "geo_precision": "tambon",
    "images": [],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "deed": "โฉนด",
-    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的 Google Maps 链接",
-    "highlights": [
-     "ขายที่ดินติดทะเลชายหาด บนเกาะสมุย (82.5 ตารางวา) \n\nราคา: 15,500,000 บาท\n\nที่ตั้งหาดลิปะน้อยเกาะสมุย\n\n นี่เป็นโอกาสของคุณที่จะได้เป็นเจ้าของหนึ่งในแปลงเล็ก ๆ ที่เหลืออยู่ใน Koh Samui ขนาดเล็กของ Koh Samui \n\n •เอกสารที่ดิน: โฉนด พร้อมสำหรับการโอนถูกตามกฎหมายอย่างเต็มรูปแบบ\n\n • Zoning: หาด Lipanoi ชายหาดที่เงียบสงบพร้อมวิลล่าหรูหราและรีสอร์ทใกล้เคียง \n\n •ด้านหน้า: เข้าถึงชายหาดโดยตรงพร้อมวิวทะเลแบบพา"
-    ],
+    "note": "私人/中介挂牌（非银行 NPA）",
     "verified": "人工核对 2026-10-14（high）：ขายที่ดินติดทะเลชายหาด บนเกาะสมุย (82.5 ตารางวา)",
-    "zoning": "residential_low",
-    "zoning_draft": "residential_low",
     "frontage": [
      "beach"
     ],
-    "dist_coast_m": 23,
-    "dist_main_road_m": 222,
     "availability": "available",
-    "zoning_draft_alt": "open_space",
     "duplicate_of": "teedin108:3893969"
    },
    "raw": {
     "property_type_code": "L",
     "posted": "2026-01-14 21:02:23",
     "price_list": "15500000",
-    "description": "ขายที่ดินติดทะเลชายหาด บนเกาะสมุย (82.5 ตารางวา) \n\nราคา: 15,500,000 บาท\n\nที่ตั้งหาดลิปะน้อยเกาะสมุย\n\n นี่เป็นโอกาสของคุณที่จะได้เป็นเจ้าของหนึ่งในแปลงเล็ก ๆ ที่เหลืออยู่ใน Koh Samui ขนาดเล็กของ Koh Samui \n\n •เอกสารที่ดิน: โฉนด พร้อมสำหรับการโอนถูกตามกฎหมายอย่างเต็มรูปแบบ\n\n • Zoning: หาด Lipanoi ชายหาดที่เงียบสงบพร้อมวิลล่าหรูหราและรีสอร์ทใกล้เคียง \n\n •ด้านหน้า: เข้าถึงชายหาดโดยตรงพร้อมวิวทะเลแบบพาโนรามาและพระอาทิตย์ตกดิน\n\n •เหตุใดจึงมีศักยภาพสำหรับผู้ซื้อ: มีพื้นที่ จำกัด ขนาดเล็กพล็อตชายหาดด้านหน้าโดยเฉพาะในเกาะ Samui\n\n •ประเภทของที่ดิน: ที่ดินที่ราบแบนและพร้อมที่จะสร้างวิลล่าหรูหราสำหรับบ้านพักในวันหยุดที่สมบูรณ์แบบของคุณหรือสร้างวิลล่าหรูหราให้เช่า พื้นที่พิเศษด้านที่ดินข้างถนนด้านหน้าของแผ่นดินสำหรับที่จอดรถของผู้มาเยือน\n\n โทรศัพท์\n\n Mr.Maew 0861202678 Whatsapp / Line\n\n\n\nhttps://maps.app.goo.gl/mjAA6fJ8zGzLZouN6",
-    "coords_basis": "post"
+    "description": ""
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-22",
@@ -45585,9 +45569,9 @@
    "tambon": "ตลิ่งงาม",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.433,
-   "lng": 99.99,
-   "geo_precision": "place",
+   "lat": 9.429,
+   "lng": 99.956,
+   "geo_precision": "tambon",
    "images": [
     "https://www.teedin108.com/public/photo/original/20260126151125_847600697721ad91c8d.jpg"
    ],
@@ -45595,14 +45579,7 @@
    "auction_date": null,
    "details": {
     "note": "私人/中介挂牌（非银行 NPA）",
-    "highlights": [
-     "ที่ดินติดถนนคอนกรีต ถนนพิบูลย์พัฒนา ความกว้างของถนนประมาณ 8 เมตร\n\n\n\nที่ดินมีสองแปลง มีถนนผ่านหน้าที่ดิน ที่แปลงเล็กพื้นที่ 1-3-30.4 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลีกประมาณ 39 เมตร อีกแปลงหนึ่งเป็นแปลงใหญ่พื้นที่ 5-1-57.5 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลึกประมาณ 138 เมตร\n\n\n\nปัจจุบันที่ดินปลูกต้นมะพร้าว ระดับของที่ดินสูงกว่าระดับของถนนถ้าสร้างสิ่งปลูกสร้างไม่จำเป็นต้องถมดิน\n\n\n\nทำเลอยู"
-    ],
     "verified": "人工核对 2026-10-14（medium）：พื้นที่ทั้งหมด: 7-0-87.9 ไร่ ขายราคาไร่ละ 3,000,000 บาท (stored = small plot only)",
-    "place": "แหลมสอ",
-    "frontage": [
-     "road"
-    ],
     "availability": "available",
     "duplicate_of": "teedin108:3772592"
    },
@@ -45610,7 +45587,7 @@
     "property_type_code": "L",
     "posted": "2026-01-26 15:11:31",
     "price_list": null,
-    "description": "ที่ดินติดถนนคอนกรีต ถนนพิบูลย์พัฒนา ความกว้างของถนนประมาณ 8 เมตร\n\n\n\nที่ดินมีสองแปลง มีถนนผ่านหน้าที่ดิน ที่แปลงเล็กพื้นที่ 1-3-30.4 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลีกประมาณ 39 เมตร อีกแปลงหนึ่งเป็นแปลงใหญ่พื้นที่ 5-1-57.5 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลึกประมาณ 138 เมตร\n\n\n\nปัจจุบันที่ดินปลูกต้นมะพร้าว ระดับของที่ดินสูงกว่าระดับของถนนถ้าสร้างสิ่งปลูกสร้างไม่จำเป็นต้องถมดิน\n\n\n\nทำเลอยู่ใกล้แหล่งท่องเที่ยว ใกล้โรงแรม ใกล้ภัตตาคาร ใกล้ชายทะเล ใกล้วัด ฯลฯ เหมาะสำหรับสร้างโรงแรม สร้างรีสอร์ท สร้างร้านอาหาร ฯลฯ\n\n\n\n\n\n\n\nที่ดินตั้งอยู่ใกล้กับสถานที่สำคัญ เช่น…\n\n\n\n· 600 ม. - ภัตตาคาร Oasis de Madame\n\n\n\n· 800 ม. - โรงแรม Samui Ridgeway\n\n\n\n· 850 ม. - โรงแรม Nirvana Villa\n\n\n\n· 2.2 กม. – ฟาร์มงูเกาะสมุย\n\n\n\n· 3.5 กม. - ท่าเรือเดอะเทรเชอร์เกาะมัดสุม-สมุย\n\n\n\n· 3.2 กม. – ชายทะเลเกาะสมุย\n\n\n\n· 4.5 กม. – วัดพระเจดีย์แหลมสอ\n\n\n\nพื้นที่ทั้งหมด: 7-0-87.9 ไร่\n\n\n\nขายราคาไร่ละ 3,000,000 บาท\n\n\n\nค่าโอนเจ้าของที่ดินและผู้ซื้อออกค่าใช้จ่ายฝ่ายละครึ่ง\n\n\n\nที่อยู่ทีดิน: ถนนพิบูลย์พัฒนา ต.ตลิ่งงาม อ.เกาะสมุย จ.สุราษฎร์ธานี"
+    "description": ""
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-22",
@@ -45875,8 +45852,7 @@
     ],
     "dist_coast_m": 3262,
     "dist_main_road_m": 1839,
-    "availability": "available",
-    "duplicate_of": "teedin108:3977496"
+    "availability": "available"
    },
    "raw": {
     "property_type_code": "L",
@@ -46959,24 +46935,16 @@
    "tambon": "บ่อผุด",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.533,
-   "lng": 100.064,
-   "geo_precision": "place",
+   "lat": 9.542,
+   "lng": 100.053,
+   "geo_precision": "tambon",
    "images": [
     "https://www.teedin108.com/public/photo/original/20260228174940_50314569a2c8442e168.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "bedrooms": 3.0,
-    "bathrooms": 3.0,
-    "floors": 2.0,
-    "usable_m2": 200.0,
     "note": "私人/中介挂牌（非银行 NPA）",
-    "highlights": [
-     "ขายบ้านเดี่ยว 2 ชั้น เนื้อที่ 55 ตารางวา\n\nพื้นที่ใช้สอย 200 ตารางเมตร ขนาด 3 ห้องนอน 3 ห้องน้ำ พร้อมสระว่ายน้ำในบ้าน\n\nบ้านเฉวง ชุมชนเฉวงใหญ่ 12 เกาะสมุย The Privacy CHAWENG\n\n\n\n\n\nราคาขาย 6.9 ล้านบาท \n\n\n\n\n\nสถานที่ใกล้เคียง\n\n1. อ่าวเฉวงใหญ่\n\n2. โลตัส เกาะสมุย\n\n3. แม็คโคร เกาะสมุย\n\n4. สนามบินสมุย\n\n5. โรงพยาบาลกรุงเทพ สมุย\n\n\n\nที่ตั้ง\n\nตำบล บ่อผุด อำเภอเกาะสมุย สุราษฎร์ธานี\n\n\n\n--------------------------"
-    ],
-    "place": "หาดเฉวง",
     "availability": "available",
     "duplicate_of": "teedin108:3966177"
    },
@@ -46984,7 +46952,7 @@
     "property_type_code": "H",
     "posted": "2026-02-28 17:49:49",
     "price_list": "6900000",
-    "description": "ขายบ้านเดี่ยว 2 ชั้น เนื้อที่ 55 ตารางวา\n\nพื้นที่ใช้สอย 200 ตารางเมตร ขนาด 3 ห้องนอน 3 ห้องน้ำ พร้อมสระว่ายน้ำในบ้าน\n\nบ้านเฉวง ชุมชนเฉวงใหญ่ 12 เกาะสมุย The Privacy CHAWENG\n\n\n\n\n\nราคาขาย 6.9 ล้านบาท \n\n\n\n\n\nสถานที่ใกล้เคียง\n\n1. อ่าวเฉวงใหญ่\n\n2. โลตัส เกาะสมุย\n\n3. แม็คโคร เกาะสมุย\n\n4. สนามบินสมุย\n\n5. โรงพยาบาลกรุงเทพ สมุย\n\n\n\nที่ตั้ง\n\nตำบล บ่อผุด อำเภอเกาะสมุย สุราษฎร์ธานี\n\n\n\n--------------------------------------------------------\n\n\n\nสนใจชมบ้านหรือขอข้อมูลเพิ่มเติมได้ที่\n\nคุณเอียด\n\nTel. 081-815-5028\n\nLine. 081-815-5028"
+    "description": ""
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-10-22",
@@ -48271,7 +48239,7 @@
     "dist_coast_m": 3269,
     "dist_main_road_m": 1816,
     "availability": "available",
-    "duplicate_of": "teedin108:3977496"
+    "duplicate_of": "teedin108:3990730"
    },
    "raw": {
     "property_type_code": "L",
@@ -50473,7 +50441,7 @@
      "ขายที่ดินซีวิวทะเลวิวภูเขา บนเกาะสมุย ซอยเขาพระโซนเฉวงบ่อผุด ขนาด 2.5 ไร่. ถนนไฟฟ้าพร้อม,ก่อสร้างสูงได้ 6 เมตร. มี รปภ.ค่อยเปิดปิดประตูให้ ขาย 20 ล้านบาท. โทร. 0861202678"
     ],
     "availability": "available",
-    "duplicate_of": "teedin108:3977496"
+    "duplicate_of": "teedin108:3990730"
    },
    "raw": {
     "property_type_code": "L",
@@ -52675,6 +52643,57 @@
    ],
    "id": "teedin108:4132161",
    "price_per_sqwa": 7500.0
+  },
+  {
+   "source": "teedin108",
+   "source_id": "4133542",
+   "url": "https://www.teedin108.com/land/view/4133542/",
+   "title": "ที่ดินแบ่งขาย เริ่มต้น 110 ตร.ว. ติดถ.ทวีราษฎร์ภักดี ใกล้หาดบางโพ จ.สุราษฎร์ธานี",
+   "property_type": "land",
+   "price_thb": 6050000.0,
+   "area_sqwa": 110.0,
+   "address": "ต.แม่น้ำ อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "tambon": "แม่น้ำ",
+   "amphoe": "เกาะสมุย",
+   "province": "สุราษฎร์ธานี",
+   "lat": 9.575,
+   "lng": 99.97,
+   "geo_precision": "place",
+   "images": [
+    "https://www.teedin108.com/public/photo/original/20261022171157_9574206ad9e16dab68e.jpg",
+    "https://www.teedin108.com/public/photo/original/20261022171158_1377096ad9e16e737bf.jpg",
+    "https://www.teedin108.com/public/photo/original/20261022171159_9859106ad9e16f26a97.jpg",
+    "https://www.teedin108.com/public/photo/original/20261022171159_4581616ad9e16fbbc7d.jpg",
+    "https://www.teedin108.com/public/photo/original/20261022171200_3161636ad9e170a0a39.jpg",
+    "https://www.teedin108.com/public/photo/original/20261022171203_4476776ad9e17367cec.jpg"
+   ],
+   "sale_method": "sale",
+   "auction_date": null,
+   "details": {
+    "price_basis": "正文另有单价说明：65,000 Baht/sq.wa（× 110 平方哇 = 7.15M฿，与网站标价 6.05M฿ 不一致）",
+    "note": "私人/中介挂牌（非银行 NPA）",
+    "highlights": [
+     "ที่ดินแบ่งขาย เริ่มต้น 110 ตร.ว. ติดถ.ทวีราษฎร์ภักดี ใกล้หาดบางโพ จ.สุราษฎร์ธานี\n\n\n\n ที่ตั้ง : ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\n\n\n\n ราคาขาย\n\n แปลงที่ 1-7 และ 11 ราคา 55,000 บาท/ตร.ว.\n\n แปลงที่ 8-10 ราคา 65,000 บาท/ตร.ว.\n\n\n\n รายละเอียดที่ดินแบ่งขาย\n\n แปลงที่ 1-3 เนื้อที่แปลงละ 0-1-10 ไร่\n\n แปลงที่ 4-6 เนื้อที่แปลงละ 0-1-40 ไร่\n\n แปลงที่ 7 เนื้อที่ 0-1-30 ไร่\n\n แปลงที่ 8-9 เนื้อที่แปลงละ"
+    ],
+    "place": "บางปอ",
+    "availability": "available"
+   },
+   "raw": {
+    "property_type_code": "L",
+    "posted": "2026-10-22 17:12:05",
+    "price_list": "6050000",
+    "description": "ที่ดินแบ่งขาย เริ่มต้น 110 ตร.ว. ติดถ.ทวีราษฎร์ภักดี ใกล้หาดบางโพ จ.สุราษฎร์ธานี\n\n\n\n ที่ตั้ง : ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\n\n\n\n ราคาขาย\n\n แปลงที่ 1-7 และ 11 ราคา 55,000 บาท/ตร.ว.\n\n แปลงที่ 8-10 ราคา 65,000 บาท/ตร.ว.\n\n\n\n รายละเอียดที่ดินแบ่งขาย\n\n แปลงที่ 1-3 เนื้อที่แปลงละ 0-1-10 ไร่\n\n แปลงที่ 4-6 เนื้อที่แปลงละ 0-1-40 ไร่\n\n แปลงที่ 7 เนื้อที่ 0-1-30 ไร่\n\n แปลงที่ 8-9 เนื้อที่แปลงละ 0-1-40 ไร่\n\n แปลงที่ 10 เนื้อที่ 0-1-74.9 ไร่\n\n แปลงที่ 11 เนื้อที่ 3-0-52.3 ไร่\n\n พื้นที่ถนน (ทางเข้าหลักและถนนภายใน) เนื้อที่ 1-0-89 ไร่\n\n\n\n สถานที่ใกล้เคียง\n\n โรงเรียนบ้านแหลมหอย 1.01 กม.\n\n โรงเรียนเซนต์โยเซฟเกาะสมุย 4.29 กม.\n\n โรงเรียนวัดภูเขาทอง 4.46 กม.\n\n โรงพยาบาลส่งเสริมสุขภาพตำบลอ่างทอง 4.86 กม.\n\n โรงพยาบาลส่งเสริมสุขภาพตำบลแม่น้ำ 4.94 กม.\n\n หาดบางโพ 0.14 กม.\n\n หาดบางปอ 1.81 กม.\n\n เซเว่นอีเลฟเว่น สาขา ถนนบางปอ เกาะสมุย (รหัสสาขา: 19514) 1.25 กม.\n\n เซเว่นอีเลฟเว่น สาขา บางปอซอย 4 (รหัสสาขา: 04157) 1.30 กม.\n\n เซเว่นอีเลฟเว่น สาขา ถนนบ้านใต้ เกาะสมุย (รหัสสาขา: 23701) 1.59 กม.\n\n เซเว่นอีเลฟเว่น สาขา บ้านใต้ ซอย 4 (รหัสสาขา: 07371) 1.64 กม.\n\n เซเว่นอีเลฟเว่น สาขา ถนนหน้าพระลานสมุย (รหัสสาขา: 23801) 2.67 กม.\n\n\n\n ติดต่อสอบถาม\n\n คุณชุติญา\n\n โทร : 094-516-1565\n\n Line : maninya\n\n Onland459\n\n โทร : 091-979-1491\n\n Line : @realistestate\n\n รายละเอียดเพิ่มเติม : ขายด่วนที่สุด\n\n\n\n_____________________________\n\n Land for Sale in Separate Plots, Starting from 110 Sq.wah, Fronting Thawi Rat Phakdi Road, Near Bang Po Beach, Surat Thani Province\n\n\n\n Location: Mae Nam Subdistrict, Koh Samui Dis"
+   },
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "price_history": [
+    {
+     "date": "2026-10-22",
+     "price_thb": 6050000.0
+    }
+   ],
+   "id": "teedin108:4133542",
+   "price_per_sqwa": 55000.0
   },
   {
    "source": "thaihometown",
