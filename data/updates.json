@@ -1,5 +1,14 @@
 [
 {
+"date": "2026-10-28",
+"id": "led:2120888-24137",
+"source": "led",
+"title": "ที่ดินพร้อมสิ่งปลูกสร้าง บ่อผุด (คดี ผบ.1025/2559 ลำดับ 5 - 1)",
+"kind": "offmarket",
+"from": "available",
+"to": "withdrawn"
+},
+{
 "date": "2026-10-27",
 "id": "meezub:869362",
 "source": "meezub",
