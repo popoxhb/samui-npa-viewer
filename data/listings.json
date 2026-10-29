@@ -8,7 +8,7 @@
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 15.2,
+    "seconds": 15.1,
     "verified": true
    },
    "gsb": {
@@ -26,31 +26,28 @@
     "verified": true
    },
    "kbank": {
-    "status": "ok",
-    "fetched": 28,
-    "samui": 28,
-    "seconds": 11.8,
-    "verified": true
+    "status": "error",
+    "reason": "TimeoutError: Page.goto: Timeout 90000ms exceeded.\nCall log:\n  - navigating to \"https://www.kasikornbank.com/th/propertyforsale/search/?province=84&district=8404\", waiting until \"domcontentloaded\"\n"
    },
    "pamco": {
     "status": "ok",
     "fetched": 5,
     "samui": 5,
-    "seconds": 2.1,
+    "seconds": 1.9,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 29.6,
+    "seconds": 15.8,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 3.5,
+    "seconds": 3.3,
     "verified": true
    },
    "bbl": {
@@ -61,7 +58,7 @@
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 20.7,
+    "seconds": 9.7,
     "verified": true
    },
    "smebank": {
@@ -75,77 +72,77 @@
     "status": "ok",
     "fetched": 17,
     "samui": 17,
-    "seconds": 1107.7,
+    "seconds": 941.7,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 9.1,
+    "seconds": 9.5,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 121,
     "samui": 121,
-    "seconds": 20.5,
+    "seconds": 14.7,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 953.7,
+    "seconds": 792.6,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 925.2,
+    "seconds": 15.8,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.2,
+    "seconds": 2.0,
     "verified": true
    },
    "cimb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.6,
+    "seconds": 1.8,
     "verified": true
    },
    "meezub": {
     "status": "ok",
     "fetched": 54,
     "samui": 52,
-    "seconds": 287.0,
+    "seconds": 1485.9,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 903.8,
+    "seconds": 1.7,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
     "fetched": 570,
     "samui": 543,
-    "seconds": 13697.1,
+    "seconds": 4103.2,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 387,
     "samui": 368,
-    "seconds": 13876.2,
+    "seconds": 2364.4,
     "verified": true
    }
   },
@@ -7812,7 +7809,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3937,
+    "productCountView": 3939,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -7941,7 +7938,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3743,
+    "productCountView": 3745,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8068,7 +8065,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2711,
+    "productCountView": 2727,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -24554,7 +24551,7 @@
     "per_rai": "",
     "size": "พื้นที่ 3 งาน 69 ตร.วา",
     "opts": "บ้านเดี่ยว, ติดภูเขา, วิวสวย",
-    "posted": "2 วัน",
+    "posted": "3 วัน",
     "category": "บ้าน",
     "description": "ขายบ้านเดี่ยว สมุย สไตล์ modern tropical\nขนาด 369.8 ตร.ว. ประกอบด้วย 3 ห้องนอน 3 ห้องน้ำ 1 ห้องรับแขก 1 ห้องครัว\nตั้งอยู่บนเขา วิวหาดเฉวงน้อย\nทำเลดี เงียบสงบ\nเหมาะสำหรับซื้ออยู่อาศัยและลงทุน\nใกล้ สิ่งอำนวยความสะดวกและแหล่งท่องเที่ยว\nจุดชมวิวลาดเกาะ 230 ม.\nหาดเฉวงน้อย 470 ม.\nหาดละไม 2.8 กม.\nหินตาหินยาย 5.4 กม.\nขายราคา 20 ล้านบาท\nสนใจติดต่อ 081 639 5354\n-----------------------------\nHouse on the hill for sale samui, modern tropical style\nArea 369.8 sq.w. with 3brs, 3bths, 1large living room and 1 kitchen\nLocate on the hill , views over Chaweng Noi Bay\nGood location, peaceful and local environment\nSuitable for living and investment.\nnearby\nChaweng Viewpoint 240 m\nChaweng Noi Beach 470 m\nLamai Beach 2.8 km\nHin Ta & Hin Yai Rocks 5.4 km\nPrice 20 MB\nCall 081 639 5354"
    },
@@ -26736,7 +26733,7 @@
     "per_rai": "",
     "size": "พื้นที่ 2 งาน",
     "opts": "",
-    "posted": "1 สัปดาห์",
+    "posted": "2 สัปดาห์",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "description": "รหัสลูกค้า : PA0990\nขาย/ให้เช่าระยะยาว โรงแรมเกาะสมุย พร้อมกิจการ ใจกลางเฉวง ใกล้เซ็นทรัลสมุย ลงทุนต่อยอดได้ทันที พิเศษ 55 ล้าน\nที่ตั้ง : ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84320\nแผนที่ : \nhttps://maps.app.goo.gl/4JrqWsv9WZDGEL1A6?g_st=ic\nขนาดพื้นที่ : 200 ตารางวา (ครึ่งไร่)\nพื้นที่ใช้สอย : 700 ตารางเมตร\nรายละเอียด :\n- 2 ชั้น\n- ออฟฟิศ 2 ห้อง\n- 18 ห้องนอน (18 เวอร์ชั่น)\n- 18 ห้องน้ำ\n- 1 ห้องครัว (สำหรับพนักงานใช้รับประทานอาหารช่วงพัก)\n- ที่จอดรถ 7 คัน\n- ภายในสะอาดห้องกว้าง\n- ทีวีขนาด 55 นิ้ว และ 65 นิ้ว\n- ทำความสะอาดและเปลี่ยนแปลงให้สวยงามทุกปี\n- ราคาห้องพักช่วง Low Season 1,200 - 1,500 บาท/คืน\n- ราคาห้องพักช่วง Peak Season 2,500 - 5,000 บาท/คืน ขึ้นอยู่กับช่วงเวลาว่าลูกค้าจะเข้าพักช่วงไหน\n- ทำเลดี ใจกลางเมืองเฉวง\n- โรงแรมเข้าทางซอยโรงพยาบาลบ้านดอนสมุย\n- เจ้าของขายเอง ไม่ได้ขายเพราะกิจการไม่ดี แต่เนื่องจากลูกไม่ได้สานต่อธุรกิจ จึงตัดสินใจขาย ถือเป็นโอกาสดีสำหรับผู้ที่ต้องการลงทุน ภายในตกแต่งสวย พร้อมดำเนินกิจการต่อได้ทันที\n- ห้องพักตกแต่งสวย สามารถปล่อยเช่ารายวันได้ในราคาดี ไม่รับปล่อยเช่ารายเดือน เพื่อรักษามาตรฐานของโรงแรม\nสถานที่ใกล้เคียง :\n- ใกล้โลตัสเฉวงใหญ่\n- ใกล้แม็คโครเฉวง\n- ใกล้บิ๊กซีเฉวง สาขาใหญ่\n- ใจกลางเมือง สะดวกสบาย\n- ใกล้สนามบิน เดินสะดวกมากๆ\n- มีโรงแรมเพียงแห่งเดียวในโซนนี้\nราคาขายพิเศษ : 55 ล้านบาท\nเงื่อนไขการเช่าระยะยาว : 10 ปี\nค่าเช่ารวมตลอดระยะเวลา 10 ปี : 30 ล้านบาท\n- ไม่มีค่าเช่ารายเดือน และไม่มีค่าเช่ารายเดือนเพิ่มเติมตลอดอายุสัญญา\n- แบ่งชำระค่าเช่าเป็น 2 งวด งวดละ 15 ล้านบาท\n- งวดที่ 1 : 15 ล้านบาท ชำระในวันทำสัญญา ครอบคลุมระยะเวลา 5 ปีแรก\n- ผู"
    },
@@ -26969,7 +26966,7 @@
     "per_rai": "",
     "size": "พื้นที่ 22 ไร่ 1 งาน 59.9 ตร.วา",
     "opts": "ติดถนน, ติดภูเขา, ติดทะเล, วิวสวย, เฟอร์นิเจอร์ครบ",
-    "posted": "6 วัน",
+    "posted": "1 สัปดาห์",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "coords_basis": "post",
     "description": "รายละเอียดทรัพย์\nที่ตั้ง: ติดหาดเฉวงและถนนสายเฉวง-เชิงมน ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\nขนาดที่ดิน: 22-1-59.9 ไร่ (8,959.9 ตารางวา)\nพื้นที่ใช้สอย : 7,147 ตรม.\nจำนวนห้อง : 124 ห้อง\nหน้ากว้างติดทะเล ประมาณ 70 เมตร\nหน้ากว้างติดถนน ประมาณ 110 เมตร\nผังเมือง: สีชมพู\nสถานที่ใกล้เคียง\n2.5 KM – สนามบินสมุย\n3.0 KM – อ่าวเฉวง\n5.5 KM – โลตัส สมุย\n6.0 KM – โรงพยาบาลกรุงเทพสมุย\n6.2 KM – Big C สมุย\nราคาเสนอขาย : 854,000,000 บาท\nGPS: 9.548721, 100.074737\nhttps://maps.app.goo.gl/qmiJfU3r3EmWCZsf6\nสนใจสอบถามรายละเอียดเพิ่มเติม\nรายละเอียดตัวแทน : 082-444-9779 (ชยพล), 093-662-6391 (พิริยา)\nCode : LSI-257/2026\nFor more information\nWebsite:\nhttps://www.knightfrank.co.th/thailand-investment/land-for-sale-in-thailand\nTel: 02-643-8223 ต่อ 194\nE-mail:\n[email protected]\nLine: @KFT_LAND\nhttps://smpl.is/zqkp"
@@ -27136,7 +27133,7 @@
     "per_rai": "ตรม.ละ 100,548 บาท",
     "size": "",
     "opts": "",
-    "posted": "2 วัน",
+    "posted": "3 วัน",
     "category": "คอนโด",
     "coords_basis": "post",
     "description": "รหัสลูกค้า: PA1204\nขายวิง สมุย คอนโด ชั้น 1 ทำเลดี เดินทางสะดวก อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\nที่ตั้ง: ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84320\nแผนที่: \nhttps://maps.app.goo.gl/929CNrEwmRgoB43i6\nขนาดพื้นที่: 32.82 ตร.ม.\nรายละเอียด:\n- ชั้น 1\n- 1 ห้องนอน\n- 1 ห้องน้ำ\n- ทำเลดี เดินทางสะดวก\nสิ่งอำนวยความสะดวก:\n- กล้องวงจรปิด\n- ลานจอดรถในร่ม\n- สวน\n- ฟิตเนส\n- ระบบรักษาความปลอดภัย 24 ชม.\n- สระว่ายน้ำ\n- สนามเทนนิส\nสถานที่ใกล้เคียง:\n- Fisherman’s Village – 5 นาที\n- หาดบ่อผุด – 5 นาที\n- สนามบินสมุย – 10 นาที\nราคาขาย: 3.3 ล้านบาท\nสนใจติดต่อ:\nMatan: 093-004-5508\nCustomer Code: PA1204\nFor Sale: Wings Samui Condominium, 1st Floor\nPrime location, convenient access, Koh Samui, Surat Thani\nLocation: Bo Phut Subdistrict, Koh Samui District, Surat Thani 84320\nMap: \nhttps://maps.app.goo.gl/929CNrEwmRgoB43i6\nUnit Size: 32.82 sq.m.\nDetails:\n- 1st floor\n- 1 bedroom\n- 1 bathroom\n- Prime location with convenient access\nFacilities:\n- CCTV\n- Covered parking\n- Garden\n- Fitness center\n- 24-hour security\n- Swimming pool\n- Tennis court\nNearby Places:\n- Fisherman’s Village – 5 minutes\n- Bo Phut Beach – 5 minutes\n- Samui Airport – 10 minutes\nSelling Price: THB 3.3 million\nContact:\nMatan: 093-004-5508"
@@ -56805,10 +56802,10 @@
      "🚩 ขายด่วน! โรงแรม 4 ชั้น 31 ห้อง พร้อมพูลวิลล่า 14 หลัง\n:: บนพื้นที่ 3 ไร่ 3 งาน 10 ตร.วา ใกล้หาดเฉวง \nเกาะสมุย\n ติดถนนหลัก\n:: เยื้อง รร.เชอราตัน ราคาพิเศษ!! ✨\n------------------------------------------------\n สามารถรับชมวิดิโอได้ที่ \nhttps://www.youtube.com/watch?v=cStkRjbToGg\n------------------------------------------------\n🏬 โรงแรมทำเลหาดเฉวง 4 ชั้น 31 ห้อง พร้อมพูลวิลล่า14 หลัง\n:: มีสระว่ายน้ำ",
      "มีเฟอร์นิเจอร์",
      "",
+     "ใกล้ทะเล",
      "ใกล้หาด",
      "ติดถนน",
-     "ติดถนนหลัก",
-     "ดำเนินกิจการต่อได้"
+     "ติดถนนหลัก"
     ],
     "place": "หาดเฉวง",
     "frontage": [
@@ -56821,7 +56818,7 @@
     "ptype": "Business",
     "zone": "ขายธุรกิจ",
     "price_card": "฿ 250,000,000 บาท",
-    "tags": "มีเฟอร์นิเจอร์, , ใกล้หาด, ติดถนน, ติดถนนหลัก, ดำเนินกิจการต่อได้",
+    "tags": "มีเฟอร์นิเจอร์, , ใกล้ทะเล, ใกล้หาด, ติดถนน, ติดถนนหลัก",
     "posted": "2026-07-24",
     "description": "🚩 ขายด่วน! โรงแรม 4 ชั้น 31 ห้อง พร้อมพูลวิลล่า 14 หลัง\n:: บนพื้นที่ 3 ไร่ 3 งาน 10 ตร.วา ใกล้หาดเฉวง \nเกาะสมุย\n ติดถนนหลัก\n:: เยื้อง รร.เชอราตัน ราคาพิเศษ!! ✨\n------------------------------------------------\n สามารถรับชมวิดิโอได้ที่ \nhttps://www.youtube.com/watch?v=cStkRjbToGg\n------------------------------------------------\n🏬 โรงแรมทำเลหาดเฉวง 4 ชั้น 31 ห้อง พร้อมพูลวิลล่า14 หลัง\n:: มีสระว่ายน้ำทุกหลัง ลูกค้าส่วนมากเป็นนักท่องเที่ยวต่างชาติ ติดถนนหลัก\n:: อยู่ใกล้ชุมชนและแหล่งท่องเที่ยว เยื้องกับ รร.เชอราตัน สมุย ขายในราคาสุดพิเศษ!\n------------------------------------------------\n⭐️ รายละเอียด\n:: โรงแรม 4 ชั้น 31ห้อง พูลวิลล่า 14 หลัง พร้อมสระว่ายน้ำทุกหลัง\n:: พื้นที่ใช้สอย 3,409 ตร.เมตร บนพื้นที่ 3-3-10 ไร่\n:: โซนร้านอาหาร โซนสระว่ายน้ำของโรงแรม รองรับลูกค้าทั้งของที่พัก และลูกค้าที่ต้องการมาทานอาหาร ได้ตลอดทั้งวัน\n:: มีห้องประชุมสัมนา สามรถรองรับกลุ่มลูกค้าบริษัทได้ พร้อมที่พักให้พนักงาน\n:: มีที่จอดสำหรับรถยนต์ และมอเตอร์ไซด์นักท่องเที่ยว\n:: โรงแรมได้รับ SHA Plus+ สร้างความน่าเชื่อถือและมั่นใจ ให้แก่ผู้เข้าพักว่าสะอาดและปลอดภัยด้านสุขอนามัย\n:: โรงแรมระดับ 4 ดาว มีใบอนุญาตโรงแรมถูกต้องตามกฎหมาย\n------------------------------------------------\n:: ทำเลดีมาก ติดถนนทวีราษฎร์ภักดี ซึ่งเป็นถนนหลักในการสัญจรบน\nเกาะสมุย\n:: ใกล้จุดท่องเที่ยว ร้านอาหาร ชุมชน และแหล่งอำนวยความสะดวกมากมาย เช่น โรงพยาบาล เซเว่น คาเฟ่\n:: ผู้ที่มารับช่วงต่อ สามารถดำเนินกิจการต่อได้เลย แต่หากต้องการพัฒนาเพื่อเพิ่มยอดขาย ก็สามารถทำได้เช่นกัน\n:: โรงแรมตั้งอยู่ในพื้นที่มีศักยภาพ ติดถนนหลัก ทำเลหาดเฉวง ซึ่งเป็"
    },
