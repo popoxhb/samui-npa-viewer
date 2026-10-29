@@ -1,5 +1,41 @@
 [
 {
+"date": "2026-10-29",
+"id": "kbank:016602685",
+"source": "kbank",
+"title": "ที่ดินว่างเปล่า มะเร็ต (01-66-02685)",
+"kind": "new",
+"from": null,
+"to": 350000000.0
+},
+{
+"date": "2026-10-29",
+"id": "led:2185236-45687",
+"source": "led",
+"title": "ที่ดินพร้อมสิ่งปลูกสร้าง อ่างทอง (คดี ผบ.898/2559 ลำดับ 2 - 1)",
+"kind": "offmarket",
+"from": "available",
+"to": "withdrawn"
+},
+{
+"date": "2026-10-29",
+"id": "led:2186782-51393",
+"source": "led",
+"title": "ที่ดินพร้อมสิ่งปลูกสร้าง บ่อผุด (คดี ผบ.41/2566 ลำดับ 8 - 1)",
+"kind": "offmarket",
+"from": "available",
+"to": "withdrawn"
+},
+{
+"date": "2026-10-29",
+"id": "teedin108:4136763",
+"source": "teedin108",
+"title": "EXCLUSIVE LUXURY POOL VILLAS TESORO VALLEY · KOH SAMUI Starting from THB 17.9 Million",
+"kind": "new",
+"from": null,
+"to": 17900000.0
+},
+{
 "date": "2026-10-28",
 "id": "led:2120888-24137",
 "source": "led",
