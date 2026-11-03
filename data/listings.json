@@ -8,7 +8,7 @@
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 15.7,
+    "seconds": 9.5,
     "verified": true
    },
    "gsb": {
@@ -22,7 +22,7 @@
     "status": "ok",
     "fetched": 2,
     "samui": 2,
-    "seconds": 903.6,
+    "seconds": 2.8,
     "verified": true
    },
    "kbank": {
@@ -36,21 +36,21 @@
     "status": "ok",
     "fetched": 5,
     "samui": 5,
-    "seconds": 2.2,
+    "seconds": 2.3,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 819.4,
+    "seconds": 20.8,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 4.2,
+    "seconds": 3.0,
     "verified": true
    },
    "bbl": {
@@ -61,70 +61,70 @@
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 8.7,
+    "seconds": 10.2,
     "verified": true
    },
    "smebank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 0.9,
+    "seconds": 0.8,
     "verified": true
    },
    "bam": {
     "status": "ok",
     "fetched": 17,
     "samui": 17,
-    "seconds": 940.7,
+    "seconds": 37.3,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 9.5,
+    "seconds": 10.3,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 127,
     "samui": 127,
-    "seconds": 13.3,
+    "seconds": 11.1,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 20.3,
+    "seconds": 19.3,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 16.7,
+    "seconds": 16.0,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.9,
+    "seconds": 2.1,
     "verified": true
    },
    "cimb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.9,
+    "seconds": 1.8,
     "verified": true
    },
    "meezub": {
     "status": "ok",
     "fetched": 53,
     "samui": 51,
-    "seconds": 1879.3,
+    "seconds": 83.0,
     "verified": true
    },
    "baania": {
@@ -138,14 +138,14 @@
     "status": "ok",
     "fetched": 566,
     "samui": 539,
-    "seconds": 11628.3,
+    "seconds": 727.0,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 820,
     "samui": 801,
-    "seconds": 1182.7,
+    "seconds": 1325.2,
     "verified": true
    }
   },
@@ -7952,7 +7952,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3982,
+    "productCountView": 3984,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8081,7 +8081,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3789,
+    "productCountView": 3792,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8208,7 +8208,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2779,
+    "productCountView": 2784,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -27308,7 +27308,7 @@
     "per_rai": "",
     "size": "พื้นที่ 55 ตร.วา",
     "opts": "",
-    "posted": "2 วัน",
+    "posted": "3 วัน",
     "category": "บ้าน",
     "coords_basis": "site_pin",
     "description": "ชื่อโครงการ : บ้านตะเกียน\nที่ตั้ง : ซอยอ่างทอง 11 ตำบลอ่างทอง อำเภอเกาะสมุย สุราษฎร์ธานี 84140\nพื้นที่ : 55 ตารางวา | พื้นที่ใช้สอย 90 ตารางเมตร\nจำนวนห้อง : 3 ห้องนอน 3 ห้องน้ำ ห้องรับแขก ห้องครัว\nที่จอดรถ : 1 คัน\nส่วนกลาง : สวน\nทรัพย์สินหันหน้าทิศ : ตะวันออก\nรีวิว : บ้านเดี่ยวชั้นเดียว มีห้องพักชั้น 2 ปลูกสร้างเอง บนทำเลเกาะสมุย เหมาะสำหรับอยู่อาศัย บ้านพักตากอากาศ หรือปล่อยเช่า Airbnb สภาพสวย และอยู่ห่างจากหาดบางมะขามเพียง 1 กิโลเมตรเท่านั้น\nจุดเด่นของบ้านนี้\n- ทำเลดีมาก ใกล้หาดบางมะขามเพียง 1 กม. เดินทางสะดวก\n- บ้านปลูกสร้างเอง แข็งแรง ใช้วัสดุดี\n- มีห้องพักชั้น 2 เพิ่มพื้นที่ใช้สอยหลากหลาย\n- เหมาะอยู่อาศัย / บ้านพักตากอากาศ / ปล่อยเช่า Airbnb\n- ใกล้ตลาด–ร้านอาหาร–จุดท่องเที่ยวสำคัญของสมุย\nสถานที่ใกล้เคียง :\nสถานที่ช้อปปิ้งและไลฟ์สไตล์\n- หาดบางมะขาม\n- หาดหน้าทอน\n- หาดแหลมใหญ่\n- น้ำตกหินลาด เกาะสมุย\n- Nathon Fresh Market\n- ครัวเสวยสมุย\nสถานศึกษา\n- โรงเรียนเซนต์โยเซฟเกาะสมุย\n- โรงเรียนเกาะสมุย\nโรงพยาบาล\n- โรงพยาบาลเกาะสมุย"
@@ -28270,7 +28270,7 @@
     "per_rai": "ไร่ละ 4,996,877 บาท",
     "size": "พื้นที่ 4 ไร่ 1 ตร.วา",
     "opts": "ที่ดินเปล่า, ติดภูเขา, วิวสวย",
-    "posted": "3 วัน",
+    "posted": "4 วัน",
     "category": "ที่ดิน",
     "coords_basis": "post",
     "site_pin": [
