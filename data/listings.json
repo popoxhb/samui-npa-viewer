@@ -8,49 +8,49 @@
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 10.1,
+    "seconds": 921.9,
     "verified": true
    },
    "gsb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.6,
+    "seconds": 1.7,
     "verified": true
    },
    "dcash": {
     "status": "ok",
     "fetched": 2,
     "samui": 2,
-    "seconds": 2.5,
+    "seconds": 4.2,
     "verified": true
    },
    "kbank": {
     "status": "ok",
     "fetched": 29,
     "samui": 29,
-    "seconds": 14.7,
+    "seconds": 11.3,
     "verified": true
    },
    "pamco": {
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 1.9,
+    "seconds": 2.3,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 15.1,
+    "seconds": 1490.0,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.7,
+    "seconds": 3.2,
     "verified": true
    },
    "bbl": {
@@ -61,91 +61,91 @@
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 9.6,
+    "seconds": 1024.1,
     "verified": true
    },
    "smebank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 0.3,
+    "seconds": 0.5,
     "verified": true
    },
    "bam": {
     "status": "ok",
     "fetched": 17,
     "samui": 17,
-    "seconds": 636.0,
+    "seconds": 1346.7,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 8.8,
+    "seconds": 315.1,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 127,
     "samui": 127,
-    "seconds": 916.7,
+    "seconds": 11.6,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 1757.4,
+    "seconds": 2720.5,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 952.6,
+    "seconds": 15.2,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.8,
+    "seconds": 933.1,
     "verified": true
    },
    "cimb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.5,
+    "seconds": 1.7,
     "verified": true
    },
    "meezub": {
     "status": "ok",
     "fetched": 53,
     "samui": 51,
-    "seconds": 1765.5,
+    "seconds": 4299.4,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 2.5,
+    "seconds": 2.0,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
     "fetched": 564,
     "samui": 537,
-    "seconds": 6745.6,
+    "seconds": 740.7,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 820,
     "samui": 801,
-    "seconds": 1231.7,
+    "seconds": 1246.4,
     "verified": true
    }
   },
@@ -2609,7 +2609,7 @@
    "url": "https://www.bam.co.th/th/npa/property/38566",
    "title": "อาคารพาณิชย์ เกาะสมุย (DESRTCB0100001)",
    "property_type": "commercial",
-   "price_thb": null,
+   "price_thb": 3150000.0,
    "area_sqwa": 21.0,
    "address": "ต.บ่อผุด อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "บ่อผุด",
@@ -2629,6 +2629,8 @@
     "bedrooms": 2,
     "bathrooms": 3,
     "grade": "B",
+    "list_price": 4620000.0,
+    "promo_until": "2026-11-30",
     "zoning": "residential_low",
     "zoning_draft": "commercial",
     "dist_coast_m": 1086,
@@ -2648,14 +2650,15 @@
     "bathrooms": 3,
     "parking": 1,
     "propertyCode": "DESRTCB0100001",
-    "price": 0,
-    "originalPrice": "$undefined",
-    "priceType": "contact",
-    "validToDate": null,
+    "price": 3150000,
+    "originalPrice": 4620000,
+    "priceType": "special",
+    "validToDate": "2026-11-30T00:00:00.000Z",
     "imageUrl": "https://bam-bo-fs-prd.bam.co.th/bam/813ff14e-38566-2.jpg",
     "propertySource": "NPA",
     "href": "/npa/property/38566",
     "badges": "ทรัพย์พร้อมขาย",
+    "original_price": 4620000,
     "sub_type": "ที่ดินพร้อมอาคารพาณิชย์"
    },
    "first_seen": "2026-10-13",
@@ -2664,10 +2667,14 @@
     {
      "date": "2026-10-13",
      "price_thb": 0.0
+    },
+    {
+     "date": "2026-11-04",
+     "price_thb": 3150000.0
     }
    ],
    "id": "bam:38566",
-   "price_per_sqwa": null
+   "price_per_sqwa": 150000.0
   },
   {
    "source": "bam",
@@ -7952,7 +7959,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3990,
+    "productCountView": 3992,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8081,7 +8088,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3798,
+    "productCountView": 3801,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8208,7 +8215,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2793,
+    "productCountView": 2795,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -25495,7 +25502,12 @@
    "sale_method": "sale",
    "auction_date": null,
    "details": {
+    "bedrooms": 3.0,
+    "bathrooms": 3.0,
     "note": "私人/中介挂牌（非银行 NPA）· บ้านเดี่ยว, ติดภูเขา, วิวสวย",
+    "highlights": [
+     "ขายบ้านเดี่ยว สมุย สไตล์ modern tropical\nขนาด 369.8 ตร.ว. ประกอบด้วย 3 ห้องนอน 3 ห้องน้ำ 1 ห้องรับแขก 1 ห้องครัว\nตั้งอยู่บนเขา วิวหาดเฉวงน้อย\nทำเลดี เงียบสงบ\nเหมาะสำหรับซื้ออยู่อาศัยและลงทุน\nใกล้ สิ่งอำนวยความสะดวกและแหล่งท่องเที่ยว\nจุดชมวิวลาดเกาะ 230 ม.\nหาดเฉวงน้อย 470 ม.\nหาดละไม 2.8 กม.\nหินตาหินยาย 5.4 กม.\nขายราคา 20 ล้านบาท\nสนใจติดต่อ 081 639 5354\n-----------------------------\nHouse on the hil"
+    ],
     "place": "หาดเฉวง",
     "availability": "available"
    },
@@ -25505,8 +25517,8 @@
     "size": "พื้นที่ 3 งาน 69 ตร.วา",
     "opts": "บ้านเดี่ยว, ติดภูเขา, วิวสวย",
     "posted": "1 สัปดาห์",
-    "category": null,
-    "description": ""
+    "category": "บ้าน",
+    "description": "ขายบ้านเดี่ยว สมุย สไตล์ modern tropical\nขนาด 369.8 ตร.ว. ประกอบด้วย 3 ห้องนอน 3 ห้องน้ำ 1 ห้องรับแขก 1 ห้องครัว\nตั้งอยู่บนเขา วิวหาดเฉวงน้อย\nทำเลดี เงียบสงบ\nเหมาะสำหรับซื้ออยู่อาศัยและลงทุน\nใกล้ สิ่งอำนวยความสะดวกและแหล่งท่องเที่ยว\nจุดชมวิวลาดเกาะ 230 ม.\nหาดเฉวงน้อย 470 ม.\nหาดละไม 2.8 กม.\nหินตาหินยาย 5.4 กม.\nขายราคา 20 ล้านบาท\nสนใจติดต่อ 081 639 5354\n-----------------------------\nHouse on the hill for sale samui, modern tropical style\nArea 369.8 sq.w. with 3brs, 3bths, 1large living room and 1 kitchen\nLocate on the hill , views over Chaweng Noi Bay\nGood location, peaceful and local environment\nSuitable for living and investment.\nnearby\nChaweng Viewpoint 240 m\nChaweng Noi Beach 470 m\nLamai Beach 2.8 km\nHin Ta & Hin Yai Rocks 5.4 km\nPrice 20 MB\nCall 081 639 5354"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-04",
@@ -26525,7 +26537,7 @@
     "per_rai": "",
     "size": "พื้นที่ 1 ไร่",
     "opts": "ติดภูเขา, ติดทะเล",
-    "posted": "เมื่อวาน",
+    "posted": "2 วัน",
     "category": "บ้าน",
     "description": "ขายวิลล่าวิวทะเล พร้อมสระว่ายน้ำ ที่เกาะสมุย\nหมายเลขประกาศ 066-67-04-004\nประเภทธุรกิจ: วิลล่าให้เช่า\nที่ตั้ง: หาดเฉวง เกาะสมุย\nลักษณะเด่น: วิลล่ามี 3 ชั้น ด้านในตกแต่งอย่างหรูหราพร้อมด้วยสระว่ายน้ำ และอ่างจากุซซี่ และมองเห็นวิวสวยงามของทะเล ด้านในมีห้องนอน 5 ห้อง และห้องน้ำ 4 ห้อง ที่ดินขนาด 1 ไร่ และมีแผงโซล่าร์ติดตั้ง น้ำใช้จากบ่อบาดาล เจ้าของมีข้อมูลภาษีประจำปีที่ให้ดูสำหรับผู้สนใจจริงเท่านั้น และหลังจากนัดเข้าดูวิลล่า\nการครอบครองทรัพย์สิน: ขายทรัพย์สิน พร้อมโฉนดที่ดิน\nราคา: 37,700,000 บาท\nรายละเอียดเพิ่มเติม: ติดต่อเราเพื่อสอบถามข้อมูลเพิ่มเติม (กรุณาแจ้งชื่อ เบอร์โทรศัพท์ และอีเมลล์)"
    },
@@ -27035,7 +27047,7 @@
     "per_rai": "",
     "size": "พื้นที่ 22 ตร.วา",
     "opts": "ติดถนน",
-    "posted": "11 เดือน",
+    "posted": "12 เดือน",
     "category": "บ้าน",
     "description": "ขายอาคาร 3 ชั้น พร้อมผู้เช่าเต็ม\nต.บ่อผุด อ.เกาะสมุย จ.สุราษฎร์ธานี\nราคาขาย 4,950,000 บาท\nโฉนดครุฑแดง 22.9 ตร.วา\nค่าโอน 50/50\n────────────────────────────────────────\nรายละเอียดทรัพย์\nอาคาร 3 ชั้น ขนาดกะทัดรัด\nห้องพัก 4 ห้อง (ผู้เช่าเต็ม)\nห้องน้ำ 5 ห้อง / ห้องออฟฟิศ 1 ห้อง / ห้องครัว 1 ห้อง\nโรงจอดรถต่อเติม พร้อมใช้งาน\nเฟอร์นิเจอร์ + แอร์ครบทุกห้อง (ยกเว้นชั้น 1)\n────────────────────────────────────────\nจุดเด่น\nผู้เช่าเต็ม = รายได้ทันที\nอาคาร Multi-Purpose ใช้เป็นที่อยู่อาศัย, ปล่อยเช่า, หรือโฮมออฟฟิศ\nเหมาะนักลงทุนหรือผู้ต้องการธุรกิจบนเกาะสมุย\n────────────────────────────────────────\nสถานที่ใกล้เคียง (ประมาณ)\nหาดเฉวง 2.5 กม. | เซ็นทรัลเฟสติวัล 3.0 กม. | สนามบินสมุย 4.5 กม.\nหาดบ่อผุด 3.5 กม. | Fisherman’s Village 4.0 กม.\nวัดพระใหญ่ 6.0 กม. | วัดปลายแหลม 6.5 กม. | หาดแม่น้ำ 7.0 กม.\nหาดละไม 10.0 กม. | น้ำตกหน้าเมือง 12.0 กม. | โรงพยาบาลกรุงเทพสมุย 5.0 กม.\n────────────────────────────────────────\nติดต่อสอบถาม\nTel: 089-633-1978\nLINE: \nhttps://line.me/ti/p/0iGj9Uhi2g\nWhatsApp: \nhttps://wa.me/66896331978\nWebsite: \nhttps://winnerestate-souththailand.com\n────────────────────────────────────────\n#ขายอาคารพร้อมผู้เช่า #ลงทุนอสังหาสมุย #บ้านพร้อมรายได้ #อาคาร3ชั้นสมุย #บ้านเชิงพาณิชย์เกาะสมุย #อสังหาน่าลงทุน #ขายบ้านสมุย #โฮมออฟฟิศเกาะสมุย #ลงทุนเกาะสมุย #ผู้เช่าเต็มอยู่แล้ว #ทำเลดีเกาะสมุย #อาคารเกาะสมุย #WinnerEstateSouthThailand"
    },
@@ -27303,7 +27315,7 @@
     "per_rai": "",
     "size": "พื้นที่ 55 ตร.วา",
     "opts": "",
-    "posted": "3 วัน",
+    "posted": "4 วัน",
     "category": "บ้าน",
     "coords_basis": "site_pin",
     "description": "ชื่อโครงการ : บ้านตะเกียน\nที่ตั้ง : ซอยอ่างทอง 11 ตำบลอ่างทอง อำเภอเกาะสมุย สุราษฎร์ธานี 84140\nพื้นที่ : 55 ตารางวา | พื้นที่ใช้สอย 90 ตารางเมตร\nจำนวนห้อง : 3 ห้องนอน 3 ห้องน้ำ ห้องรับแขก ห้องครัว\nที่จอดรถ : 1 คัน\nส่วนกลาง : สวน\nทรัพย์สินหันหน้าทิศ : ตะวันออก\nรีวิว : บ้านเดี่ยวชั้นเดียว มีห้องพักชั้น 2 ปลูกสร้างเอง บนทำเลเกาะสมุย เหมาะสำหรับอยู่อาศัย บ้านพักตากอากาศ หรือปล่อยเช่า Airbnb สภาพสวย และอยู่ห่างจากหาดบางมะขามเพียง 1 กิโลเมตรเท่านั้น\nจุดเด่นของบ้านนี้\n- ทำเลดีมาก ใกล้หาดบางมะขามเพียง 1 กม. เดินทางสะดวก\n- บ้านปลูกสร้างเอง แข็งแรง ใช้วัสดุดี\n- มีห้องพักชั้น 2 เพิ่มพื้นที่ใช้สอยหลากหลาย\n- เหมาะอยู่อาศัย / บ้านพักตากอากาศ / ปล่อยเช่า Airbnb\n- ใกล้ตลาด–ร้านอาหาร–จุดท่องเที่ยวสำคัญของสมุย\nสถานที่ใกล้เคียง :\nสถานที่ช้อปปิ้งและไลฟ์สไตล์\n- หาดบางมะขาม\n- หาดหน้าทอน\n- หาดแหลมใหญ่\n- น้ำตกหินลาด เกาะสมุย\n- Nathon Fresh Market\n- ครัวเสวยสมุย\nสถานศึกษา\n- โรงเรียนเซนต์โยเซฟเกาะสมุย\n- โรงเรียนเกาะสมุย\nโรงพยาบาล\n- โรงพยาบาลเกาะสมุย"
@@ -27335,22 +27347,29 @@
    "tambon": "มะเร็ต",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.465,
-   "lng": 100.047,
-   "geo_precision": "place",
+   "lat": 9.4550982,
+   "lng": 100.0405091,
+   "geo_precision": "exact",
    "images": [
     "https://f.meezub.com/media/property/thbs3x/26/0221/6999251e3404d.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）· ติดทะเล",
-    "place": "หาดละไม",
+    "bedrooms": 70.0,
+    "bathrooms": 70.0,
+    "note": "私人/中介挂牌（非银行 NPA）· ติดทะเล · 坐标取自帖子中的 Google Maps 链接",
+    "highlights": [
+     "ขาย โรง แรม รีสอร์ท\nสวยมาก อยู่บน หาดละไม อ.เกาะสมุย จ.สุราษฎร์ธานี\nขนาดห้องพัก70 ห้อง พื้นที่ 4 ไร่ กว่า\nหน้าชายหาด ส่วนตัว ยาว 80 เมตร\nโฉนด ลอย\nขาย 450 ล้านบาท\nเป็นที่พักหรูระดับ 4.0 ดาวที่ตั้งอยู่ในเกาะสมุย\nโรงแรมตั้งอยู่ห่างจากใจกลางเมืองเพียง 1 กิโลเมตร\nโรงแรมสร้างขึ้นในปี 2016 และมีจำนวนห้องพักทั้งหมด 70 ห้อง\n โรงแรมห่างจากสนามบินเพียง 30 นาที\nที่เที่ยวใกล้ที่พัก\nหาดละไม 70 ม.\nไทย สคูบา ไดฟ์"
+    ],
+    "zoning": "open_space",
+    "zoning_draft": "commercial",
     "frontage": [
      "beach"
     ],
-    "availability": "available",
-    "duplicate_of": "teedin108:4000052"
+    "dist_coast_m": 64,
+    "dist_main_road_m": 262,
+    "availability": "available"
    },
    "raw": {
     "addr": "มะเร็ต, เกาะสมุย, สุราษฎร์ธานี",
@@ -27358,8 +27377,13 @@
     "size": "พื้นที่ 4 ไร่ 42 ตร.วา",
     "opts": "ติดทะเล",
     "posted": "1 สัปดาห์",
-    "category": null,
-    "description": ""
+    "category": "อพาร์ทเม้นท์ / โรงแรม",
+    "coords_basis": "post",
+    "site_pin": [
+     9.4551908,
+     100.0405172
+    ],
+    "description": "ขาย โรง แรม รีสอร์ท\nสวยมาก อยู่บน หาดละไม อ.เกาะสมุย จ.สุราษฎร์ธานี\nขนาดห้องพัก70 ห้อง พื้นที่ 4 ไร่ กว่า\nหน้าชายหาด ส่วนตัว ยาว 80 เมตร\nโฉนด ลอย\nขาย 450 ล้านบาท\nเป็นที่พักหรูระดับ 4.0 ดาวที่ตั้งอยู่ในเกาะสมุย\nโรงแรมตั้งอยู่ห่างจากใจกลางเมืองเพียง 1 กิโลเมตร\nโรงแรมสร้างขึ้นในปี 2016 และมีจำนวนห้องพักทั้งหมด 70 ห้อง\n โรงแรมห่างจากสนามบินเพียง 30 นาที\nที่เที่ยวใกล้ที่พัก\nหาดละไม 70 ม.\nไทย สคูบา ไดฟ์ 260 ม.\nแฟมิลี่มาร์ท 290 ม.\nหินตาหินยาย 310 ม.\nแม็คโคร 450 ม.\nพิกัด : \nhttps://maps.app.goo.gl/rx8TVLfsfJjHmK9E8\nรายละเอียดโปรดติดต่อ : Line:paul20net\ntel:089-794-6481 (ขอทุนตรงหรือติดทุนเท่านั้นครับ)"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-04",
@@ -27876,29 +27900,39 @@
    "source_id": "865147",
    "url": "https://www.meezub.com/apartment-sale/865147",
    "title": "ขายโรมแรมติดทะเลหาดเฉวง 22 ไร่ เกาะสมุย จังหวัดสุราษฎร์ธานี",
-   "property_type": "other",
+   "property_type": "commercial",
    "price_thb": 854000000.0,
-   "area_sqwa": 8800.0,
+   "area_sqwa": 8959.9,
    "address": "ต.บ่อผุด อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "บ่อผุด",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.533,
-   "lng": 100.064,
-   "geo_precision": "place",
+   "lat": 9.548721,
+   "lng": 100.074737,
+   "geo_precision": "exact",
    "images": [
     "https://f.meezub.com/media/property/thbs3x/26/0723/6a61bda7e565d.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）· ติดถนน, ติดภูเขา, ติดทะเล, วิวสวย, เฟอร์นิเจอร์ครบ",
-    "place": "หาดเฉวง",
+    "bedrooms": 124.0,
+    "bathrooms": 124.0,
+    "note": "私人/中介挂牌（非银行 NPA）· ติดถนน, ติดภูเขา, ติดทะเล, วิวสวย, เฟอร์นิเจอร์ครบ · 坐标取自帖子中的 Google Maps 链接",
+    "highlights": [
+     "รายละเอียดทรัพย์\nที่ตั้ง: ติดหาดเฉวงและถนนสายเฉวง-เชิงมน ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\nขนาดที่ดิน: 22-1-59.9 ไร่ (8,959.9 ตารางวา)\nพื้นที่ใช้สอย : 7,147 ตรม.\nจำนวนห้อง : 124 ห้อง\nหน้ากว้างติดทะเล ประมาณ 70 เมตร\nหน้ากว้างติดถนน ประมาณ 110 เมตร\nผังเมือง: สีชมพู\nสถานที่ใกล้เคียง\n2.5 KM – สนามบินสมุย\n3.0 KM – อ่าวเฉวง\n5.5 KM – โลตัส สมุย\n6.0 KM – โรงพยาบาลกรุงเทพสมุย\n6.2 KM – Big C สมุย"
+    ],
+    "zoning": "rural",
+    "zoning_draft": "residential_low",
     "frontage": [
      "beach",
      "road"
     ],
-    "availability": "available"
+    "dist_coast_m": 123,
+    "dist_main_road_m": 15,
+    "availability": "available",
+    "zoning_draft_alt": "open_space",
+    "duplicate_of": "scb:42005S02G8C00875"
    },
    "raw": {
     "addr": "ถนนเฉวง-เชิงมน, บ่อผุด, เกาะสมุย, สุราษฎร์ธานี",
@@ -27906,8 +27940,9 @@
     "size": "พื้นที่ 22 ไร่ 1 งาน 59.9 ตร.วา",
     "opts": "ติดถนน, ติดภูเขา, ติดทะเล, วิวสวย, เฟอร์นิเจอร์ครบ",
     "posted": "1 สัปดาห์",
-    "category": null,
-    "description": ""
+    "category": "อพาร์ทเม้นท์ / โรงแรม",
+    "coords_basis": "post",
+    "description": "รายละเอียดทรัพย์\nที่ตั้ง: ติดหาดเฉวงและถนนสายเฉวง-เชิงมน ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\nขนาดที่ดิน: 22-1-59.9 ไร่ (8,959.9 ตารางวา)\nพื้นที่ใช้สอย : 7,147 ตรม.\nจำนวนห้อง : 124 ห้อง\nหน้ากว้างติดทะเล ประมาณ 70 เมตร\nหน้ากว้างติดถนน ประมาณ 110 เมตร\nผังเมือง: สีชมพู\nสถานที่ใกล้เคียง\n2.5 KM – สนามบินสมุย\n3.0 KM – อ่าวเฉวง\n5.5 KM – โลตัส สมุย\n6.0 KM – โรงพยาบาลกรุงเทพสมุย\n6.2 KM – Big C สมุย\nราคาเสนอขาย : 854,000,000 บาท\nGPS: 9.548721, 100.074737\nhttps://maps.app.goo.gl/qmiJfU3r3EmWCZsf6\nสนใจสอบถามรายละเอียดเพิ่มเติม\nรายละเอียดตัวแทน : 082-444-9779 (ชยพล), 093-662-6391 (พิริยา)\nCode : LSI-257/2026\nFor more information\nWebsite:\nhttps://www.knightfrank.co.th/thailand-investment/land-for-sale-in-thailand\nTel: 02-643-8223 ต่อ 194\nE-mail:\n[email protected]\nLine: @KFT_LAND\nhttps://smpl.is/zqkp"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-04",
@@ -27918,7 +27953,7 @@
     }
    ],
    "id": "meezub:865147",
-   "price_per_sqwa": 97045.45454545454
+   "price_per_sqwa": 95313.56376745277
   },
   {
    "source": "meezub",
@@ -28242,7 +28277,7 @@
     "per_rai": "ไร่ละ 4,996,877 บาท",
     "size": "พื้นที่ 4 ไร่ 1 ตร.วา",
     "opts": "ที่ดินเปล่า, ติดภูเขา, วิวสวย",
-    "posted": "4 วัน",
+    "posted": "5 วัน",
     "category": "ที่ดิน",
     "coords_basis": "post",
     "site_pin": [
@@ -50124,7 +50159,8 @@
     "zoning_draft": "commercial",
     "dist_coast_m": 64,
     "dist_main_road_m": 262,
-    "availability": "available"
+    "availability": "available",
+    "duplicate_of": "meezub:843159"
    },
    "raw": {
     "property_type_code": "L",
@@ -104799,7 +104835,7 @@
    "source": "thaihometown",
    "source_id": "5301451",
    "url": "https://www.thaihometown.com/ที่ดินเกาะสมุยสุราษฎร์ธานี-land-5301451",
-   "title": "🔥 ขายที่ดินแปลงสวย ใกล้หาดบางปอเพียง 750 เมตร | สร้างวิลล่า 2 ชั้น มองเห็นวิวทะเล! เกาะสมุย\n🌴 RARE LAND OPPORTUNITY | SEA VIEW POTENTIAL FROM 2ND FLOOR! KOH SAMUI",
+   "title": "🔥 ขายที่ดินแปลงสวย ใกล้หาดบางปอเพียง 750 เมตร | สร้างวิลล่า 2 ชั้น มองเห็นวิวทะเล! เกาะสมุย\n🌴 RARE LAND OPPORTUNITY | SEA V...",
    "property_type": "land",
    "price_thb": 7900000.0,
    "area_sqwa": 500.0,
@@ -104811,19 +104847,13 @@
    "lng": 99.97,
    "geo_precision": "place",
    "images": [
-    "https://www.thaihometown.com/photo/image_file183/5301451/5301451-1.jpg",
-    "https://www.thaihometown.com/photo/image_file183/5301451/5301451-2.jpg",
-    "https://www.thaihometown.com/photo/image_file183/5301451/5301451-3.jpg",
-    "https://www.thaihometown.com/photo/image_file183/5301451/5301451-4.jpg",
-    "https://www.thaihometown.com/photo/image_file183/5301451/5301451-5.jpg"
+    "https://www.thaihometown.com/photo/image_file183/5301451/5301451-1.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "deed": "โฉนด",
     "note": "私人/中介挂牌（非银行 NPA）",
     "highlights": [
-     "🔥 ขายที่ดินแปลงสวย ใกล้หาดบางปอเพียง 750 เมตร | สร้างวิลล่า 2 ชั้น มองเห็นวิวทะเล! 🌊🌴(English Details Below)\n💎 ที่ดิน 1 ไร่ 1 งาน | ทำเลศักยภาพ บางปอ เกาะสมุย | ราคาเพียง 7.9 ล้านบาท!\nที่ดินแปลงสวย รูปทรงสี่เหลี่ยม ทำเลเงียบสงบ ใกล้หาดบางปอเพียง 750 เมตร จุดเด่นคือสามารถสร้างวิลล่า 2 ชั้น เพื่อเปิดรับวิวทะเลจากชั้นบนได้ 🌅\nเหมาะสำหรับสร้างบ้านพักตากอากาศ พูลวิลล่าหรู หรือพัฒนาโครงการขนาดเล็กเพื่อกา",
      "วิวทะเล",
      "ใกล้ทะเล",
      "ใกล้ชายหาด",
@@ -104844,7 +104874,7 @@
     "price_card": "฿ 7,900,000 บาท",
     "tags": "วิวทะเล, ใกล้ทะเล, ใกล้ชายหาด, แปลงสวย, ระยะยาว, ติดถนน, หน้ากว้าง",
     "posted": "2026-11-02",
-    "description": "🔥 ขายที่ดินแปลงสวย ใกล้หาดบางปอเพียง 750 เมตร | สร้างวิลล่า 2 ชั้น มองเห็นวิวทะเล! 🌊🌴(English Details Below)\n💎 ที่ดิน 1 ไร่ 1 งาน | ทำเลศักยภาพ บางปอ เกาะสมุย | ราคาเพียง 7.9 ล้านบาท!\nที่ดินแปลงสวย รูปทรงสี่เหลี่ยม ทำเลเงียบสงบ ใกล้หาดบางปอเพียง 750 เมตร จุดเด่นคือสามารถสร้างวิลล่า 2 ชั้น เพื่อเปิดรับวิวทะเลจากชั้นบนได้ 🌅\nเหมาะสำหรับสร้างบ้านพักตากอากาศ พูลวิลล่าหรู หรือพัฒนาโครงการขนาดเล็กเพื่อการลงทุน\n💰 ราคาขาย 7,900,000 บาท\n📍 บางปอ เกาะสมุย\n📐 ขนาดที่ดิน 2,000 ตร.ม. (1-1-0 ไร่)\n📄 โฉนดครุฑแดง (Freehold)\n🔑 RE/MAX ID: RO079-30\n✨ จุดเด่นที่ดิน\n🌊 สร้าง 2 ชั้น เห็นวิวทะเล! – สามารถออกแบบวิลล่า 2 ชั้น พร้อมพื้นที่พักผ่อนหรือระเบียงชั้นบน เพื่อเปิดรับวิวทะเลได้\n🏖️ ใกล้หาดบางปอเพียง 750 เมตร – ขับรถเพียงประมาณ 2 นาทีถึงชายหาด\n📐 ที่ดินรูปทรงสวย – แปลงสี่เหลี่ยม พื้นที่กว้างถึง 2,000 ตร.ม. หน้ากว้างติดถนนประมาณ 40 เมตร เหมาะสำหรับวางผังพัฒนาโครงการ\n🏡 เหมาะสำหรับสร้างพูลวิลล่าหรู – สามารถวางแผนสร้างบ้านพักส่วนตัวพร้อมสระว่ายน้ำ สวน และพื้นที่พักผ่อนได้อย่างลงตัว\n🌴 ทำเลเงียบสงบ เป็นส่วนตัว – รายล้อมด้วยวิลล่าหรู โครงการที่อยู่อาศัย และธรรมชาติร่มรื่น\n🚗 เดินทางสะดวก – มีถนนคอนกรีตเข้าถึง ใกล้ร้านอาหาร คาเฟ่ 7-Eleven และสิ่งอำนวยความสะดวก\n📍 สถานที่ใกล้เคียง\n• หาดบางปอ – 2 นาที\n• ท่าเรือหน้าทอน – 10 นาที\n• โรงพยาบาลเกาะสมุย – 16 นาที\n• สนามบินสมุย – 28 นาที\n💎 ทำไมที่ดินแปลงนี้จึงน่าสนใจ?\n✔ ที่ดินขนาดใหญ่ 2,000 ตร.ม. ใกล้ชายหาด\n✔ มีศักยภาพสร้างวิลล่า 2 ชั้น เพื่อชมวิวทะเล\n✔ เหมาะสำหรับบ้านพักตากอากาศหรือโครงการพูลวิลล่า\n✔ โฉนดครุฑแดง ถือครองกรรมสิทธิ์แบบ Freehold\n✔ เหมาะสำหรับผู้ที่มองหาที่"
+    "description": ""
    },
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-04",
