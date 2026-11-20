@@ -6,65 +6,65 @@
   "sources": {
    "krungsri": {
     "status": "ok",
-    "fetched": 4,
-    "samui": 4,
-    "seconds": 1994.8,
+    "fetched": 3,
+    "samui": 3,
+    "seconds": 7.3,
     "verified": true
    },
    "gsb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.5,
+    "seconds": 1.6,
     "verified": true
    },
    "dcash": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 2.6,
+    "seconds": 2.5,
     "verified": true
    },
    "kbank": {
     "status": "ok",
     "fetched": 27,
     "samui": 27,
-    "seconds": 13.1,
+    "seconds": 13.6,
     "verified": true
    },
    "pamco": {
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 2.2,
+    "seconds": 1.8,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 259.6,
+    "seconds": 18.9,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 3.3,
+    "seconds": 2.2,
     "verified": true
    },
    "bbl": {
     "status": "ok",
     "fetched": 9,
     "samui": 9,
-    "seconds": 2.9,
+    "seconds": 3.9,
     "verified": true
    },
    "ktb": {
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 19.6,
+    "seconds": 9.8,
     "verified": true
    },
    "smebank": {
@@ -75,42 +75,42 @@
     "status": "ok",
     "fetched": 18,
     "samui": 18,
-    "seconds": 617.0,
+    "seconds": 41.9,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 9.5,
+    "seconds": 10.8,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 114,
     "samui": 114,
-    "seconds": 913.0,
+    "seconds": 10.8,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 921.2,
+    "seconds": 19.7,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 14.8,
+    "seconds": 14.6,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.2,
+    "seconds": 1.8,
     "verified": true
    },
    "cimb": {
@@ -121,28 +121,28 @@
     "status": "ok",
     "fetched": 48,
     "samui": 46,
-    "seconds": 2157.2,
+    "seconds": 67.6,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 2.2,
+    "seconds": 1.8,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
     "fetched": 569,
     "samui": 542,
-    "seconds": 7321.8,
+    "seconds": 4465.4,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
-    "fetched": 403,
-    "samui": 385,
-    "seconds": 2311.9,
+    "fetched": 821,
+    "samui": 802,
+    "seconds": 1439.3,
     "verified": true
    }
   },
@@ -8024,7 +8024,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3931,
+    "productCountView": 3935,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8153,7 +8153,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3766,
+    "productCountView": 3777,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8280,7 +8280,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2720,
+    "productCountView": 2725,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -26486,7 +26486,7 @@
     "per_rai": "ไร่ละ 18,000,000 บาท",
     "size": "พื้นที่ 24 ไร่",
     "opts": "ที่ดินเปล่า, ติดถนน, ติดทะเล, วิวสวย",
-    "posted": "5 วัน",
+    "posted": "6 วัน",
     "category": "ที่ดิน",
     "coords_basis": "post",
     "site_pin": [
@@ -27441,7 +27441,7 @@
     "per_rai": "",
     "size": "พื้นที่ 4 ไร่ 42 ตร.วา",
     "opts": "ติดทะเล",
-    "posted": "5 วัน",
+    "posted": "6 วัน",
     "category": "อพาร์ทเม้นท์ / โรงแรม",
     "coords_basis": "post",
     "site_pin": [
@@ -55407,7 +55407,7 @@
    "title": "ขายบ้านพร้อมที่ดิน 93 ตร.ว. ใกล้หาดละไม ถนนทวีราษฎร์ภักดี เกาะสมุย สุราษฎร์ธานี",
    "property_type": "house",
    "price_thb": 4000000.0,
-   "area_sqwa": 93.0,
+   "area_sqwa": 93.1,
    "address": "ต.หน้าเมือง อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "หน้าเมือง",
    "amphoe": "เกาะสมุย",
@@ -55421,15 +55421,25 @@
    "sale_method": "sale",
    "auction_date": null,
    "details": {
+    "bedrooms": 2.0,
+    "bathrooms": 2.0,
+    "usable_m2": 60.0,
     "note": "私人/中介挂牌（非银行 NPA）",
+    "highlights": [
+     "ติดต่อ : คุณเจษ 094-442-6259\n\nOffice : 02-049-5049\n\nที่ตั้ง : ถนนทวีราษฎร์ภักดี ตำบลหน้าเมือง อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84140\n\nพื้นที่ : 93.1 ตารางวา | พื้นที่ใช้สอย 60 ตารางเมตร\n\nจำนวนห้อง : 2 ห้องนอน 2 ห้องน้ำ 2 ห้องรับแขก 2 ห้องครัว\n\nที่จอดรถ : 4 คัน\n\nทรัพย์สินหันหน้าทิศ : ตะวันออก\n\nรีวิว : ใกล้ถนนสายหลักทวีราษฎร์ภักดี ตำบลหน้าเมือง โซนตอนใต้ของเกาะสมุย ใกล้หาดละไมและหินตาหินยาย ที่ดินถ"
+    ],
     "verified": "人工核对 2026-10-14（medium）：ขายบ้านพร้อมที่ดิน 93 ตร.ว. ... ขายพร้อมบ้านเดี่ยวชั้นเดียว 2 คูหา (2 บ้านเลขที่)",
+    "frontage": [
+     "main_road",
+     "road"
+    ],
     "availability": "available"
    },
    "raw": {
     "property_type_code": "L",
     "posted": "2026-09-08 14:37:06",
     "price_list": "4000000",
-    "description": ""
+    "description": "ติดต่อ : คุณเจษ 094-442-6259\n\nOffice : 02-049-5049\n\nที่ตั้ง : ถนนทวีราษฎร์ภักดี ตำบลหน้าเมือง อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84140\n\nพื้นที่ : 93.1 ตารางวา | พื้นที่ใช้สอย 60 ตารางเมตร\n\nจำนวนห้อง : 2 ห้องนอน 2 ห้องน้ำ 2 ห้องรับแขก 2 ห้องครัว\n\nที่จอดรถ : 4 คัน\n\nทรัพย์สินหันหน้าทิศ : ตะวันออก\n\nรีวิว : ใกล้ถนนสายหลักทวีราษฎร์ภักดี ตำบลหน้าเมือง โซนตอนใต้ของเกาะสมุย ใกล้หาดละไมและหินตาหินยาย ที่ดินถมแล้ว ขายพร้อมบ้านเดี่ยวชั้นเดียว 2 คูหา (2 บ้านเลขที่) พร้อมผู้เช่า ปัจจุบันได้รับค่าเช่าคูหาละ 4,000 บาท/เดือน รวมรายได้ค่าเช่า 8,000 บาท/เดือน เหมาะสำหรับผู้ที่มองหาทรัพย์เพื่ออยู่อาศัยหรือลงทุนรับรายได้ค่าเช่าต่อเนื่อง\n\nจุดเด่นของทรัพย์นี้\n\n- ที่ดินถมแล้ว พร้อมบ้านเดี่ยวชั้นเดียว 2 คูหา\n\n- ติดถนนสายหลักทวีราษฎร์ภักดี เดินทางสะดวก\n\n- ขายพร้อมผู้เช่า มีรายได้ค่าเช่าต่อเนื่อง\n\n- ทำเลโซนตอนใต้ของเกาะสมุย ใกล้หาดละไมและแหล่งท่องเที่ยว\n\n- เหมาะทั้งซื้อเพื่ออยู่อาศัย ลงทุนปล่อยเช่า หรือต่อยอดในอนาคต\n\nสถานที่ใกล้เคียง :\n\nสถานที่ช้อปปิ้งและไลฟ์สไตล์\n\n- โลตัส ละไม\n\n- แม็คโคร ละไม\n\n- Lamai Night Plaza\n\nสถานที่ท่องเที่ยว\n\n- หาดละไม\n\n- หินตาหินยาย\n\n- น้ำตกหน้าเมือง\n\nสถานศึกษา\n\n- Greenacre International School, Koh Samui\n\n- โรงเรียนเกาะสมุย\n\nโรงพยาบาล\n\n- โรงพยาบาลเกาะสมุย\n\n- โรงพยาบาลส่งเสริมสุขภาพตำบลมะเร็ต"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-20",
@@ -55440,7 +55450,7 @@
     }
    ],
    "id": "teedin108:4105666",
-   "price_per_sqwa": 43010.75268817204
+   "price_per_sqwa": 42964.554242749735
   },
   {
    "source": "teedin108",
@@ -55454,9 +55464,9 @@
    "tambon": "ตลิ่งงาม",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.429,
-   "lng": 99.956,
-   "geo_precision": "tambon",
+   "lat": 9.433,
+   "lng": 99.99,
+   "geo_precision": "place",
    "images": [
     "https://www.teedin108.com/public/photo/original/20260909133844_6321006aa0fef4a5ee1.jpg"
    ],
@@ -55464,7 +55474,14 @@
    "auction_date": null,
    "details": {
     "note": "私人/中介挂牌（非银行 NPA）",
+    "highlights": [
+     "ที่ดินติดถนนคอนกรีต ถนนพิบูลย์พัฒนา ความกว้างของถนนประมาณ 8 เมตร\n\nที่ดินมีสองแปลง มีถนนผ่านหน้าที่ดิน ที่แปลงเล็กพื้นที่ 1-3-30.4 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลีกประมาณ 39 เมตร อีกแปลงหนึ่งเป็นแปลงใหญ่พื้นที่ 5-1-57.5 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลึกประมาณ 138 เมตร\n\nปัจจุบันที่ดินปลูกต้นมะพร้าว ระดับของที่ดินสูงกว่าระดับของถนนถ้าสร้างสิ่งปลูกสร้างไม่จำเป็นต้องถมดิน\n\nทำเลอยู่ใกล้แ"
+    ],
     "verified": "人工核对 2026-10-14（medium）：พื้นที่ทั้งหมด: 7-0-87.9 ไร่ ขายราคาไร่ละ 3,000,000 บาท (site price_list 21000000)",
+    "place": "แหลมสอ",
+    "frontage": [
+     "road"
+    ],
     "availability": "available",
     "duplicate_of": "teedin108:3772592"
    },
@@ -55472,7 +55489,7 @@
     "property_type_code": "L",
     "posted": "2026-09-09 13:38:54",
     "price_list": "21000000",
-    "description": ""
+    "description": "ที่ดินติดถนนคอนกรีต ถนนพิบูลย์พัฒนา ความกว้างของถนนประมาณ 8 เมตร\n\nที่ดินมีสองแปลง มีถนนผ่านหน้าที่ดิน ที่แปลงเล็กพื้นที่ 1-3-30.4 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลีกประมาณ 39 เมตร อีกแปลงหนึ่งเป็นแปลงใหญ่พื้นที่ 5-1-57.5 ไร่ ด้านติดถนนหน้ากว้างประมาณ 68 เมตร ลึกประมาณ 138 เมตร\n\nปัจจุบันที่ดินปลูกต้นมะพร้าว ระดับของที่ดินสูงกว่าระดับของถนนถ้าสร้างสิ่งปลูกสร้างไม่จำเป็นต้องถมดิน\n\nทำเลอยู่ใกล้แหล่งท่องเที่ยว ใกล้โรงแรม ใกล้ภัตตาคาร ใกล้ชายทะเล ใกล้วัด ฯลฯ เหมาะสำหรับสร้างโรงแรม สร้างรีสอร์ท สร้างร้านอาหาร ฯลฯ\n\n ที่ดินตั้งอยู่ใกล้กับสถานที่สำคัญ เช่น…\n\n· 600 ม. - ภัตตาคาร Oasis de Madame\n\n· 800 ม. - โรงแรม Samui Ridgeway\n\n· 850 ม. - โรงแรม Nirvana Villa\n\n· 2.2 กม. – ฟาร์มงูเกาะสมุย\n\n· 3.5 กม. - ท่าเรือเดอะเทรเชอร์เกาะมัดสุม-สมุย\n\n· 3.2 กม. – ชายทะเลเกาะสมุย\n\n· 4.5 กม. – วัดพระเจดีย์แหลมสอ\n\n พื้นที่ทั้งหมด: 7-0-87.9 ไร่\n\nขายราคาไร่ละ 3,000,000 บาท\n\nค่าโอนเจ้าของที่ดินและผู้ซื้อออกค่าใช้จ่ายฝ่ายละครึ่ง\n\nที่อยู่ทีดิน: ถนนพิบูลย์พัฒนา ต.ตลิ่งงาม อ.เกาะสมุย จ.สุราษฎร์ธานี \n\n\n\nติดต่อ O81-9O9-4239"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-20",
@@ -55492,30 +55509,46 @@
    "title": "ขายที่ดินหาดเฉวง เกาะสมุย",
    "property_type": "land",
    "price_thb": 600000000.0,
-   "area_sqwa": null,
+   "area_sqwa": 1484.0,
    "address": "ต.บ่อผุด อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "บ่อผุด",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.533,
-   "lng": 100.064,
-   "geo_precision": "place",
+   "lat": 9.516205,
+   "lng": 100.056003,
+   "geo_precision": "exact",
    "images": [
     "https://www.teedin108.com/public/photo/original/20260911084701_2912576aa35d9555cf7.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）",
+    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的 Google Maps 链接",
+    "highlights": [
+     "ที่ดินสำหรับขาย 600 ล้าน หาดเฉวง เกาะสมุย จำนวนพื้นที่ 3-2-84 ไร่ ลักษณะที่ดินเป็นที่ราบหน้ากว้างติดหาดเฉวงประมาณ 40 เมตร และกว้างติดถนนเฉวงบีช ประมาณ 40 เมตร ที่ดินเหมาะสมสร้าง โรงแรม รีสอร์ต วิลล่า\n\nตำแหน่งแปงแปลงที่ดิน\n\nhttps://goo.gl/maps/77vj3afiGFJm9g8B8?g_st=alดูตำแหน่งบนแผนที่"
+    ],
     "verified": "人工核对 2026-10-14（high）：ที่ดินสำหรับขาย 600 ล้าน หาดเฉวง ... จำนวนพื้นที่ 3-2-84 ไร่ ลักษณะที่ดินเป็นที่ราบ",
-    "place": "หาดเฉวง",
-    "availability": "available"
+    "zoning": "commercial",
+    "zoning_draft": "commercial",
+    "frontage": [
+     "beach",
+     "road"
+    ],
+    "dist_coast_m": 141,
+    "dist_main_road_m": 1,
+    "availability": "available",
+    "zoning_alt": "open_space"
    },
    "raw": {
     "property_type_code": "L",
     "posted": "2026-09-11 08:47:51",
     "price_list": "600000000",
-    "description": ""
+    "description": "ที่ดินสำหรับขาย 600 ล้าน หาดเฉวง เกาะสมุย จำนวนพื้นที่ 3-2-84 ไร่ ลักษณะที่ดินเป็นที่ราบหน้ากว้างติดหาดเฉวงประมาณ 40 เมตร และกว้างติดถนนเฉวงบีช ประมาณ 40 เมตร ที่ดินเหมาะสมสร้าง โรงแรม รีสอร์ต วิลล่า\n\nตำแหน่งแปงแปลงที่ดิน\n\nhttps://goo.gl/maps/77vj3afiGFJm9g8B8?g_st=alดูตำแหน่งบนแผนที่",
+    "coords_basis": "post",
+    "site_pin": [
+     9.555858,
+     100.032326
+    ]
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-20",
@@ -55526,7 +55559,7 @@
     }
    ],
    "id": "teedin108:4107573",
-   "price_per_sqwa": null
+   "price_per_sqwa": 404312.66846361186
   },
   {
    "source": "teedin108",
@@ -60650,7 +60683,7 @@
      "ติดถนน",
      "หน้ากว้าง11เมตร",
      "ขายรีสอร์ท",
-     "รีสอร์ท"
+     "เซ้งร้านบิงซู"
     ],
     "place": "หาดละไม",
     "frontage": [
@@ -60663,7 +60696,7 @@
     "ptype": "Business",
     "zone": "ขายธุรกิจ",
     "price_card": "฿ 150,000,000 บาท",
-    "tags": "ติดทะเล, ติดถนน, หน้ากว้าง11เมตร, ขายรีสอร์ท, รีสอร์ท",
+    "tags": "ติดทะเล, ติดถนน, หน้ากว้าง11เมตร, ขายรีสอร์ท, เซ้งร้านบิงซู",
     "posted": "2023-11-20",
     "description": "ขายรีสอร์ท ทวีราษฎร์ภักดี, หาดละไม, แหลมเส็ด, \nเกาะสมุย\n, สุราษฏร์ธานี\nเนื้อที่ 1-2-47 ไร่ ติดถนนหน้ากว้าง 11 เมตร ลึก 113 เมตร ถนนกว้าง 16 เมตร \nพื้นที่สีชมพู\nเหมาะสำหรับลงทุน, รีสอร์ท\nติดถนนทวีราษฎร์ภักดี ใกล้หินตาหินยาย, แมคโครละไม, ติดทะเล, ร้านอาหารเสบียงเล, วัดราชธรรมาราม \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾"
    },
@@ -65302,24 +65335,35 @@
    "property_type": "house",
    "price_thb": 15329000.0,
    "area_sqwa": 242.0,
-   "address": "อ.เกาะสมุย จ.สุราษฎร์ธานี",
-   "tambon": "แม่น้ำ",
+   "address": "ต.อ่างทอง อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "tambon": "อ่างทอง",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.569,
-   "lng": 100.01,
-   "geo_precision": "place",
+   "lat": 9.564618,
+   "lng": 100.070884,
+   "geo_precision": "exact",
    "images": [
-    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-1.jpg"
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-1.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-2.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-3.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-4.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-5.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-6.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-7.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324265/4324265-8.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）",
+    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的坐标/Google Maps 链接",
     "highlights": [
+     "รายละเอียดเพิ่มเติม\nCode ID : PKK02-15659\nราคาขาย 15,329,000 บาท\n- ขนาดพื้นที่ : 242 ตร.ว (2 งาน / 42 ตร.ว) \n- พื้นที่ใช้สอย : 414.50 ตร.ม\n- จำนวนห้อง : 3 ห้องนอน 3 ห้องน้ำ\n- ที่จอดรถ : 1-2 คัน\n- บ้านใต้ถุนสูง : 1 ชั้น\n- บ้านใต้ถุนสูงหันทางทิศ : -\n- อายุอาคาร : 17 ปี\nพิกัดทรัพย์ : \nhttps://maps.app.goo.gl/QkdyJEBaGkdcEPG37\nสถานที่ใกล้เคียง\n- ใกล้มินิบิ๊กซี บ้านปลายแหลม สมุย\n- ใกล้เทสโก้โลตัส แยกบ่",
      "ใกล้โลตัส"
     ],
-    "place": "บ้านใต้",
+    "zoning": "rural",
+    "zoning_draft": "residential_low",
+    "dist_coast_m": 990,
+    "dist_main_road_m": 243,
     "availability": "available"
    },
    "raw": {
@@ -65328,7 +65372,8 @@
     "price_card": "฿ 15,329,000 บาท",
     "tags": "ใกล้โลตัส",
     "posted": "2024-01-15",
-    "description": ""
+    "description": "รายละเอียดเพิ่มเติม\nCode ID : PKK02-15659\nราคาขาย 15,329,000 บาท\n- ขนาดพื้นที่ : 242 ตร.ว (2 งาน / 42 ตร.ว) \n- พื้นที่ใช้สอย : 414.50 ตร.ม\n- จำนวนห้อง : 3 ห้องนอน 3 ห้องน้ำ\n- ที่จอดรถ : 1-2 คัน\n- บ้านใต้ถุนสูง : 1 ชั้น\n- บ้านใต้ถุนสูงหันทางทิศ : -\n- อายุอาคาร : 17 ปี\nพิกัดทรัพย์ : \nhttps://maps.app.goo.gl/QkdyJEBaGkdcEPG37\nสถานที่ใกล้เคียง\n- ใกล้มินิบิ๊กซี บ้านปลายแหลม สมุย\n- ใกล้เทสโก้โลตัส แยกบ่อนไก่ \nเกาะสมุย\nสุราษฎร์ธานี\n- ใกล้โลตัส เอ็กเพรส สาขาหน้าทอน\n- ใกล้วัดปลายแหลม\nสอบถามเพิ่มเติม/นัดชม\nโทร. 097-419-5982(พลอย)\nโทร. 096-932-4624(ออมสิน)\nLine : @panaya (มี@ด้านหน้า)\nปรึกษาสินเชื่อฟรี One Stop Service ดูแลตั้งแต่ต้นจนจบบริษัท ปณยาคิดดี จำกัด \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾",
+    "coords_basis": "post"
    },
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-20",
@@ -65349,29 +65394,37 @@
    "property_type": "house",
    "price_thb": 19580000.0,
    "area_sqwa": 47.0,
-   "address": "อ.เกาะสมุย จ.สุราษฎร์ธานี",
-   "tambon": null,
+   "address": "ต.แม่น้ำ อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "tambon": "แม่น้ำ",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
    "lat": 9.571146,
    "lng": 99.997247,
    "geo_precision": "exact",
    "images": [
-    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-1.jpg"
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-1.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-2.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-3.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-4.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-5.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-6.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-7.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324327/4324327-8.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）",
+    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的坐标/Google Maps 链接",
     "highlights": [
+     "รายละเอียดเพิ่มเติม\nCode ID : PKK02-15584\nราคาขาย 19,580,000 บาท\n- ขนาดพื้นที่ : 47 ตร.ว \n- พื้นที่ใช้สอย : 371.25 ตร.ม\n- จำนวนห้อง : 6 ห้องนอน 4 ห้องน้ำ\n- ที่จอดรถ : 1-2 คัน\n- บ้านเดี่ยว : 3 ชั้น\n- บ้านเดี่ยวหันทางทิศ : -\n- อายุอาคาร : 14 ปี\nพิกัดทรัพย์ : \nhttps://maps.app.goo.gl/XarSgyCBwHus6NoG7\nสถานที่ใกล้เคียง\n- ใกล้เทสโก้ โลตัส บ้านแม่น้ำ \nเกาะสมุย\nสุราษฎร์ธานี\n- ใกล้วัดภูเขาทอง\n- ใกล้น้ำตกโ",
      "ใกล้น้ำตก",
      "ใกล้บิ๊กซี"
     ],
-    "availability": "available",
     "zoning": "residential_low",
     "zoning_draft": "commercial",
     "dist_coast_m": 35,
-    "dist_main_road_m": 253
+    "dist_main_road_m": 253,
+    "availability": "available"
    },
    "raw": {
     "ptype": "Home",
@@ -65379,7 +65432,8 @@
     "price_card": "฿ 19,580,000 บาท",
     "tags": "ใกล้น้ำตก, ใกล้บิ๊กซี",
     "posted": "2024-01-15",
-    "description": ""
+    "description": "รายละเอียดเพิ่มเติม\nCode ID : PKK02-15584\nราคาขาย 19,580,000 บาท\n- ขนาดพื้นที่ : 47 ตร.ว \n- พื้นที่ใช้สอย : 371.25 ตร.ม\n- จำนวนห้อง : 6 ห้องนอน 4 ห้องน้ำ\n- ที่จอดรถ : 1-2 คัน\n- บ้านเดี่ยว : 3 ชั้น\n- บ้านเดี่ยวหันทางทิศ : -\n- อายุอาคาร : 14 ปี\nพิกัดทรัพย์ : \nhttps://maps.app.goo.gl/XarSgyCBwHus6NoG7\nสถานที่ใกล้เคียง\n- ใกล้เทสโก้ โลตัส บ้านแม่น้ำ \nเกาะสมุย\nสุราษฎร์ธานี\n- ใกล้วัดภูเขาทอง\n- ใกล้น้ำตกโตนเรือ\n- ใกล้บิ๊กซี \nเกาะสมุย\nสอบถามเพิ่มเติม/นัดชม\nโทร. 097-419-5982(พลอย)\nโทร. 096-932-4624(ออมสิน)\nLine : @panaya (มี@ด้านหน้า)\nปรึกษาสินเชื่อฟรี One Stop Service ดูแลตั้งแต่ต้นจนจบบริษัท ปณยาคิดดี จำกัด \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾",
+    "coords_basis": "post"
    },
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-20",
@@ -65399,31 +65453,39 @@
    "title": "ขายบ้านเดี่ยว  อำเภอเกาะสมุย สุราษฎร์ธานี (PKK02-15199)",
    "property_type": "house",
    "price_thb": 3300000.0,
-   "area_sqwa": 47.0,
-   "address": "อ.เกาะสมุย จ.สุราษฎร์ธานี",
-   "tambon": null,
+   "area_sqwa": 47.8,
+   "address": "ต.อ่างทอง อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "tambon": "อ่างทอง",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
    "lat": 9.477119,
    "lng": 99.953849,
    "geo_precision": "exact",
    "images": [
-    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-1.jpg"
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-1.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-2.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-3.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-4.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-5.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-6.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-7.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4324361/4324361-8.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）",
+    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的坐标/Google Maps 链接",
     "highlights": [
+     "รายละเอียดเพิ่มเติม\nCode ID : PKK02-15199\nราคาขาย 3,300,000 บาท\n- ขนาดพื้นที่ : 47.80 ตร.ว \n- พื้นที่ใช้สอย : 99.20 ตร.ม\n- จำนวนห้อง : 3 ห้องนอน 2 ห้องน้ำ\n- ที่จอดรถ : 1-2 คัน\n- บ้านเดี่ยว : 1 ชั้น\n- บ้านเดี่ยวหันทางทิศ : -\n- อายุอาคาร : 7 ปี\nพิกัดทรัพย์ : \nhttps://maps.app.goo.gl/AEUPkwGxyw7EeQAGA\nสถานที่ใกล้เคียง\n- ใกล้โลตัส โกเฟรช สาขาตลาดศรีฟ้า สมุย \n- ใกล้โลตัส โกเฟรช ซูเปอร์มาร์เก็ต หน้าทอน\n",
      "ใกล้โลตัส",
      "ใกล้ตลาดศรีฟ้า",
      "โรงพยาบาลเกาะสมุย"
     ],
-    "availability": "available",
     "zoning": "residential_low",
     "zoning_draft": "residential_low",
     "dist_coast_m": 2523,
     "dist_main_road_m": 106,
+    "availability": "available",
     "zoning_draft_alt": "open_space"
    },
    "raw": {
@@ -65432,7 +65494,8 @@
     "price_card": "฿ 3,300,000 บาท",
     "tags": "ใกล้โลตัส, ใกล้ตลาดศรีฟ้า, โรงพยาบาลเกาะสมุย",
     "posted": "2024-01-15",
-    "description": ""
+    "description": "รายละเอียดเพิ่มเติม\nCode ID : PKK02-15199\nราคาขาย 3,300,000 บาท\n- ขนาดพื้นที่ : 47.80 ตร.ว \n- พื้นที่ใช้สอย : 99.20 ตร.ม\n- จำนวนห้อง : 3 ห้องนอน 2 ห้องน้ำ\n- ที่จอดรถ : 1-2 คัน\n- บ้านเดี่ยว : 1 ชั้น\n- บ้านเดี่ยวหันทางทิศ : -\n- อายุอาคาร : 7 ปี\nพิกัดทรัพย์ : \nhttps://maps.app.goo.gl/AEUPkwGxyw7EeQAGA\nสถานที่ใกล้เคียง\n- ใกล้โลตัส โกเฟรช สาขาตลาดศรีฟ้า สมุย \n- ใกล้โลตัส โกเฟรช ซูเปอร์มาร์เก็ต หน้าทอน\n- ใกล้โรงพยาบาล\nเกาะสมุย\n- ใกล้ตลาดสดศรีฟ้า \nสอบถามเพิ่มเติม/นัดชม\nโทร. 097-419-5982(พลอย)\nโทร. 096-932-4624(ออมสิน)\nLine : @panaya (มี@ด้านหน้า)\nปรึกษาสินเชื่อฟรี One Stop Service ดูแลตั้งแต่ต้นจนจบบริษัท ปณยาคิดดี จำกัด \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾",
+    "coords_basis": "post"
    },
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-20",
@@ -65443,7 +65506,7 @@
     }
    ],
    "id": "thaihometown:4324361",
-   "price_per_sqwa": 70212.76595744681
+   "price_per_sqwa": 69037.65690376569
   },
   {
    "source": "thaihometown",
@@ -65453,28 +65516,40 @@
    "property_type": "house",
    "price_thb": 2990000.0,
    "area_sqwa": 48.0,
-   "address": "อ.เกาะสมุย จ.สุราษฎร์ธานี",
-   "tambon": null,
+   "address": "ต.หน้าเมือง อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "tambon": "หน้าเมือง",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.512,
-   "lng": 100.013,
-   "geo_precision": "amphoe",
+   "lat": 9.452,
+   "lng": 100.008,
+   "geo_precision": "tambon",
    "images": [
-    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-1.jpg"
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-1.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-2.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-3.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-4.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-5.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-6.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-7.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4326717/4326717-8.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
     "note": "私人/中介挂牌（非银行 NPA）",
     "highlights": [
+     "ประกาศขายบ้านเดี่ยว 2 ห้องนอน 2 ห้องน้ำ 1 ห้องครัว\nพิกัด : หน้าเมือง-หัวถนน ,อ.\nเกาะสมุย\n สุราษฎร์ฯ\n.--------------------------------\nVDO >> \nhttps://shorturl.at/iyGTZ\n---------------------------------\nรายละเอียดบ้าน\n- บ้านมือ2 และสภาพใหม่มากๆ \n- ทำเลดี ถนนคอนกรีตเข้าถึงง่าย ไม่ลึก ไม่เปลี่ยว\n- หลังใหญ่ พื้นที่ 48 ตร.ว.\n- โรงจอดรถขนาดใหญ่ จอดได้ถึง 2 คัน \n.\nสิ่งอำนวยความสะดวกทั้งในและรอบบ้าน\n- รั้",
      "ใกล้โรงเรียนนานาชาติ",
      "เป็นส่วนตัว",
      "สภาพใหม่",
      "ต่ำกว่าราคาตลาด",
      "ใกล้โรงเรียน"
     ],
-    "availability": "available"
+    "frontage": [
+     "road"
+    ],
+    "availability": "available",
+    "duplicate_of": "thaihometown:4311346"
    },
    "raw": {
     "ptype": "Home",
@@ -65482,7 +65557,7 @@
     "price_card": "฿ 2,990,000 บาท",
     "tags": "ใกล้โรงเรียนนานาชาติ, เป็นส่วนตัว, สภาพใหม่, ต่ำกว่าราคาตลาด, ใกล้โรงเรียน",
     "posted": "2024-01-16",
-    "description": ""
+    "description": "ประกาศขายบ้านเดี่ยว 2 ห้องนอน 2 ห้องน้ำ 1 ห้องครัว\nพิกัด : หน้าเมือง-หัวถนน ,อ.\nเกาะสมุย\n สุราษฎร์ฯ\n.--------------------------------\nVDO >> \nhttps://shorturl.at/iyGTZ\n---------------------------------\nรายละเอียดบ้าน\n- บ้านมือ2 และสภาพใหม่มากๆ \n- ทำเลดี ถนนคอนกรีตเข้าถึงง่าย ไม่ลึก ไม่เปลี่ยว\n- หลังใหญ่ พื้นที่ 48 ตร.ว.\n- โรงจอดรถขนาดใหญ่ จอดได้ถึง 2 คัน \n.\nสิ่งอำนวยความสะดวกทั้งในและรอบบ้าน\n- รั้วส่วนตัว เพียง 10-15 นาทีถึงหาดละไม\n- ใกล้ตลาดหัวถนน และน้ำตกหน้าเมือง\n- ใกล้โรงเรียนนานาชาติ และแหล่งท่องเที่ยว\n- รวมทั้ง ศาลจังหวัดสมุย\n.\nความน่าสนใจและเหมาะสำหรับลงทุน\n.\nราคาพิเศษ เพียง 2.99 ล้านบาท!! ลงทุนที่ดีที่สุดในท้องตลาด\nพื้นที่ให้บริการและทำเลที่ตั้งเหมาะสำหรับทั้งการอยู่อาศัยและการทำธุรกิจ\n.\nบ้านตั้งอยู่ใกล้สิ่งอำนวยความสะดวกต่าง ๆ \nที่ทำให้เหมาะสำหรับการพักผ่อนหรือท่องเที่ยว\n.\nราคาดี เสนอขายต่ำกว่าราคาตลาด ทำให้มีโอกาสได้กำไรจากการขึ้นมูลค่าในอนาคต\n.\nสนใจติดต่อ - สอบถามเพิ่มเติม - นัดชมบ้าน - ปรึกษาด้านสินเชื่อ\n089-633-1978 \n.\n#บ้านขาย\nเกาะสมุย\n #ซื้อขายบ้าน\nเกาะสมุย\n#บ้านเดี่ยว #ทำเลดี #ราคาพิเศษ #นานาสิ่งอำนวยความสะดวก #ขายบ้าน #สมุย #ลงทุนทรัพย์ #โอกาสลงทุน \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾"
    },
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-20",
@@ -65818,21 +65893,29 @@
    "tambon": "ตลิ่งงาม",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.429,
-   "lng": 99.956,
-   "geo_precision": "tambon",
+   "lat": 9.468,
+   "lng": 99.936,
+   "geo_precision": "place",
    "images": [
-    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-1.jpg"
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-1.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-2.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-3.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-4.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-5.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-6.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-7.jpg",
+    "https://www.thaihometown.com/photo/image_file149/4330000/4330000-8.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
     "note": "私人/中介挂牌（非银行 NPA）",
     "highlights": [
+     "Project house #single-storey detached house for sale\nLocation: Taling Ngam Subdistrict, Koh Samui District, Surat Thani Province.\n.\ndetails:\n- Good location\n- Convenient transportation\n- Near the community area\n- with furniture\n- Beautiful house, guaranteed you won't be disappointed.\n- Total area 300 Square Meters\n----------------------------------------\nSpecial price only 3,900,000 baht\n---------",
      "เฟอร์นิเจอร์ครบ"
     ],
-    "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "place": "หาดตลิ่งงาม",
+    "availability": "available"
    },
    "raw": {
     "ptype": "Home",
@@ -65840,7 +65923,7 @@
     "price_card": "฿ 3,900,000 บาท",
     "tags": "เฟอร์นิเจอร์ครบ",
     "posted": "2024-01-18",
-    "description": ""
+    "description": "Project house #single-storey detached house for sale\nLocation: Taling Ngam Subdistrict, Koh Samui District, Surat Thani Province.\n.\ndetails:\n- Good location\n- Convenient transportation\n- Near the community area\n- with furniture\n- Beautiful house, guaranteed you won't be disappointed.\n- Total area 300 Square Meters\n----------------------------------------\nSpecial price only 3,900,000 baht\n----------------------------------------\nInternal characteristics\n- 3 bedrooms, 2 bathrooms\n- Kitchen with equipment\n- Spacious living room with furniture\n- 3 air conditioners\n- Beautifully decorated\n----------------------------------------\nAppearance\n- There is a garage for 2-3 cars (both cars and motorcycles can be accommodated)\n- There is a wide area around the house. (Can expand the house to make a pool/garden)\n- Leakproof steel safety barrier gate\n- Good atmosphere, quiet\n----------------------------------------\nNearby places\n- Koh Samui School\n- Taling Ngam Beach\n- Bang Por Beach\n- Blue Market\n- 7-11\n- Raja Pier\n- Seatran Pier\n----------------------------------------\nContact to inquire and view the house at\nTel. 089-633-1978\n.\n#House for sale on Koh Samui #Taling Ngam #House for sale on Koh Samui\n#Apartment Koh Samui #Rooms for rent in Samui #Shophouses for sale\n#Commercial building for sale #Apartment #ApartmentSamui\n#Room for rent Samui #Bophut #Chaweng #Condo for rent Koh Samui\n#House for rent #House for rent Samui #Beautiful house for sale #House in Taling Ngam zone\n- \nคลิกเปิด\n อ่า"
    },
    "first_seen": "2026-11-03",
    "last_seen": "2026-11-20",
@@ -65891,7 +65974,8 @@
      "เฟอร์นิเจอร์ครบ"
     ],
     "place": "หาดตลิ่งงาม",
-    "availability": "available"
+    "availability": "available",
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -66307,7 +66391,7 @@
      "ถนนทางหลวง"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -66366,7 +66450,7 @@
      "ห้องรับแขกขนาดใหญ่"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -67309,7 +67393,7 @@
      "บรรยากาศร่มรื่น"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -67485,7 +67569,7 @@
      "ถนนทางหลวง"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -67540,7 +67624,7 @@
      "บ้านใหม่"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -68298,7 +68382,7 @@
      "มีระเบียง"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -68356,7 +68440,7 @@
      "ใกล้ตลาดสีฟ้"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -68583,7 +68667,7 @@
      "ใกล้ตลาดสีฟ้า"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -68698,7 +68782,7 @@
      "มีระเบียง"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -68757,7 +68841,7 @@
      "ตกแต่งสวย"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -70119,7 +70203,7 @@
      "มีระเบียง"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -70475,7 +70559,7 @@
      "แถมเฟอร์ฯ"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -72673,7 +72757,7 @@
     ],
     "place": "หาดตลิ่งงาม",
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -74840,7 +74924,7 @@
      "ใกล้ตลาดสดสีฟ้า"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -75069,7 +75153,7 @@
      "Built-in"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -75676,7 +75760,7 @@
     ],
     "place": "หาดตลิ่งงาม",
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -77896,7 +77980,7 @@
      "Built-in"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -77955,7 +78039,7 @@
      "ตากอากาศ"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -78359,7 +78443,7 @@
      "เฟอร์นิเจอร์ครบ"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -78418,7 +78502,7 @@
      "โซนสีเขียว"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
@@ -82883,8 +82967,8 @@
      "พร้อมอยู่",
      "ต่อเติมแล้ว",
      "ใกล้หาด",
-     "เอื้ออาทร",
-     "2ห้องนอน"
+     "2ห้องนอน",
+     "พร้อมเข้าอยู่"
     ],
     "availability": "available",
     "duplicate_of": "thaihometown:4497557"
@@ -82893,7 +82977,7 @@
     "ptype": "Home",
     "zone": "ขายบ้าน",
     "price_card": "฿ 2,700,000 บาท",
-    "tags": "พร้อมอยู่, ต่อเติมแล้ว, ใกล้หาด, เอื้ออาทร, 2ห้องนอน",
+    "tags": "พร้อมอยู่, ต่อเติมแล้ว, ใกล้หาด, 2ห้องนอน, พร้อมเข้าอยู่",
     "posted": "2024-09-13",
     "description": "*For Sale-บ้านเดี่ยวชั้นเดียว** พื้นที่ใช้สอยกว้างขวาง 48 ตารางวา \nพร้อมรั้วล้อมรอบเพื่อความเป็นส่วนตัว \n.\n **จอดรถได้ถึง 2 คัน** เหมาะสำหรับครอบครัวที่ต้องการความสะดวกสบาย \n.\n **ห้องครัวต่อเติม** พร้อมพื้นที่ซักล้างและครัวเสริมด้านหลัง \n.\n **2 ห้องนอน 2 ห้องน้ำ** และห้องโถงรับแขกพร้อมเฉลียงหน้าบ้าน ให้คุณสัมผัสวิวและลมธรรมชาติอย่างเต็มที่ \n.\n อยู่ใกล้สถานที่สำคัญมากมาย!\n.\n- **น้ำตกหน้าเมือง** แหล่งท่องเที่ยวที่ขึ้นชื่อ\n- **พลุกีฬาหน้าเมือง** สำหรับผู้ที่รักการออกกำลังกาย \n- **ศาลจังหวัดสมุย** สะดวกต่อการติดต่อราชการ \n- **หาดละไม** ชายหาดสวยๆ สำหรับการพักผ่อน \n- **โรงแรมคอนราด สมุย** หนึ่งในโรงแรมระดับ 5 ดาวของ\nเกาะสมุย\n- ใกล้แหล่งชุมชนอย่าง **ตลาดหัวถนน** และ **หินตาหินยาย**\n.\n **ราคาสุดคุ้มเพียง 2.7 ล้าน** (ลดพิเศษ!)\n.\n สนใจติดต่อ: 089-633-1978 \n นัดชมบ้าน: [m.me/Winner.Estate.South.Thailand](m.me/Winner.Estate.South.Thailand)\n.\n#บ้านหน้าเมือง #\nเกาะสมุย\n #บ้านทำเลดี #บ้านพร้อมอยู่ #ขายบ้านสมุย #น้ำตกหน้าเมือง #บ้านราคาโดน #บ้านใกล้หาด #ลงทุนสมุย #บ้านใกล้แหล่งชุมชน \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾"
    },
@@ -82946,7 +83030,7 @@
      "บ้านใหม่"
     ],
     "availability": "available",
-    "duplicate_of": "thaihometown:4330024"
+    "duplicate_of": "thaihometown:4330000"
    },
    "raw": {
     "ptype": "Home",
