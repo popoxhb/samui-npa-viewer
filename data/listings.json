@@ -8,63 +8,63 @@
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 783.7,
+    "seconds": 6.8,
     "verified": true
    },
    "gsb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.6,
+    "seconds": 1.8,
     "verified": true
    },
    "dcash": {
     "status": "ok",
     "fetched": 2,
     "samui": 2,
-    "seconds": 3.1,
+    "seconds": 2.5,
     "verified": true
    },
    "kbank": {
     "status": "ok",
     "fetched": 27,
     "samui": 27,
-    "seconds": 12.2,
+    "seconds": 13.0,
     "verified": true
    },
    "pamco": {
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 2.0,
+    "seconds": 1.8,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 929.6,
+    "seconds": 18.4,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 4.8,
+    "seconds": 3.3,
     "verified": true
    },
    "bbl": {
     "status": "ok",
     "fetched": 9,
     "samui": 9,
-    "seconds": 929.3,
+    "seconds": 3.6,
     "verified": true
    },
    "ktb": {
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 8.1,
+    "seconds": 8.8,
     "verified": true
    },
    "smebank": {
@@ -75,42 +75,42 @@
     "status": "ok",
     "fetched": 18,
     "samui": 18,
-    "seconds": 944.7,
+    "seconds": 40.2,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 11.1,
+    "seconds": 9.7,
     "verified": true
    },
    "led": {
     "status": "ok",
     "fetched": 114,
     "samui": 114,
-    "seconds": 11.3,
+    "seconds": 10.8,
     "verified": true
    },
    "ghb": {
     "status": "ok",
     "fetched": 8,
     "samui": 8,
-    "seconds": 928.8,
+    "seconds": 20.6,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 17.1,
+    "seconds": 15.0,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 2.7,
+    "seconds": 1.8,
     "verified": true
    },
    "cimb": {
@@ -121,28 +121,28 @@
     "status": "ok",
     "fetched": 46,
     "samui": 44,
-    "seconds": 1884.8,
+    "seconds": 60.1,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 2.6,
+    "seconds": 1.9,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
     "fetched": 548,
     "samui": 521,
-    "seconds": 13280.6,
+    "seconds": 801.1,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 821,
     "samui": 802,
-    "seconds": 8451.4,
+    "seconds": 1160.3,
     "verified": true
    }
   },
@@ -2273,7 +2273,7 @@
    "url": "https://www.bam.co.th/th/npa/property/137068",
    "title": "อาคารพาณิชย์ หน้าเมือง (DESRTCB0179001)",
    "property_type": "commercial",
-   "price_thb": null,
+   "price_thb": 2625000.0,
    "area_sqwa": 20.4,
    "address": "ต.หน้าเมือง อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "หน้าเมือง",
@@ -2313,9 +2313,9 @@
     "bathrooms": 3,
     "parking": 1,
     "propertyCode": "DESRTCB0179001",
-    "price": 0,
+    "price": 2625000,
     "originalPrice": "$undefined",
-    "priceType": "contact",
+    "priceType": "default",
     "validToDate": null,
     "imageUrl": "https://bam-bo-fs-prd.bam.co.th/bam/5a44ba91-137068-0.jpg",
     "propertySource": "NPA",
@@ -2329,10 +2329,14 @@
     {
      "date": "2026-10-13",
      "price_thb": 2940000.0
+    },
+    {
+     "date": "2026-11-25",
+     "price_thb": 2625000.0
     }
    ],
    "id": "bam:137068",
-   "price_per_sqwa": null
+   "price_per_sqwa": 128676.4705882353
   },
   {
    "source": "bam",
@@ -3142,7 +3146,7 @@
    "url": "https://www.bam.co.th/th/npa/property/65252",
    "title": "อาคารพาณิชย์ เกาะสมุย (DESRTCB0127001)",
    "property_type": "commercial",
-   "price_thb": null,
+   "price_thb": 3536000.0,
    "area_sqwa": 20.2,
    "address": "ต.หน้าเมือง อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "หน้าเมือง",
@@ -3180,9 +3184,9 @@
     "bathrooms": 3,
     "parking": "$undefined",
     "propertyCode": "DESRTCB0127001",
-    "price": 0,
+    "price": 3536000,
     "originalPrice": "$undefined",
-    "priceType": "contact",
+    "priceType": "default",
     "validToDate": null,
     "imageUrl": "https://bam-bo-fs-prd.bam.co.th/bam/dbab0f2d-65252-5.jpg",
     "propertySource": "NPA",
@@ -3199,7 +3203,7 @@
     }
    ],
    "id": "bam:65252",
-   "price_per_sqwa": null
+   "price_per_sqwa": 175049.50495049506
   },
   {
    "source": "bam",
@@ -8023,7 +8027,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 4009,
+    "productCountView": 4023,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8152,7 +8156,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3835,
+    "productCountView": 3851,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8279,7 +8283,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2783,
+    "productCountView": 2801,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -27379,7 +27383,7 @@
     "per_rai": "",
     "size": "พื้นที่ 55 ตร.วา",
     "opts": "",
-    "posted": "3 วัน",
+    "posted": "4 วัน",
     "category": "บ้าน",
     "coords_basis": "site_pin",
     "description": "ชื่อโครงการ : บ้านตะเกียน\nที่ตั้ง : ซอยอ่างทอง 11 ตำบลอ่างทอง อำเภอเกาะสมุย สุราษฎร์ธานี 84140\nพื้นที่ : 55 ตารางวา | พื้นที่ใช้สอย 90 ตารางเมตร\nจำนวนห้อง : 3 ห้องนอน 3 ห้องน้ำ ห้องรับแขก ห้องครัว\nที่จอดรถ : 1 คัน\nส่วนกลาง : สวน\nทรัพย์สินหันหน้าทิศ : ตะวันออก\nรีวิว : บ้านเดี่ยวชั้นเดียว มีห้องพักชั้น 2 ปลูกสร้างเอง บนทำเลเกาะสมุย เหมาะสำหรับอยู่อาศัย บ้านพักตากอากาศ หรือปล่อยเช่า Airbnb สภาพสวย และอยู่ห่างจากหาดบางมะขามเพียง 1 กิโลเมตรเท่านั้น\nจุดเด่นของบ้านนี้\n- ทำเลดีมาก ใกล้หาดบางมะขามเพียง 1 กม. เดินทางสะดวก\n- บ้านปลูกสร้างเอง แข็งแรง ใช้วัสดุดี\n- มีห้องพักชั้น 2 เพิ่มพื้นที่ใช้สอยหลากหลาย\n- เหมาะอยู่อาศัย / บ้านพักตากอากาศ / ปล่อยเช่า Airbnb\n- ใกล้ตลาด–ร้านอาหาร–จุดท่องเที่ยวสำคัญของสมุย\nสถานที่ใกล้เคียง :\nสถานที่ช้อปปิ้งและไลฟ์สไตล์\n- หาดบางมะขาม\n- หาดหน้าทอน\n- หาดแหลมใหญ่\n- น้ำตกหินลาด เกาะสมุย\n- Nathon Fresh Market\n- ครัวเสวยสมุย\nสถานศึกษา\n- โรงเรียนเซนต์โยเซฟเกาะสมุย\n- โรงเรียนเกาะสมุย\nโรงพยาบาล\n- โรงพยาบาลเกาะสมุย"
@@ -28170,7 +28174,7 @@
     "per_rai": "ตรม.ละ 100,548 บาท",
     "size": "",
     "opts": "",
-    "posted": "4 สัปดาห์",
+    "posted": "1 เดือน",
     "category": "คอนโด",
     "coords_basis": "post",
     "description": "รหัสลูกค้า: PA1204\nขายวิง สมุย คอนโด ชั้น 1 ทำเลดี เดินทางสะดวก อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\nที่ตั้ง: ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี 84320\nแผนที่: \nhttps://maps.app.goo.gl/929CNrEwmRgoB43i6\nขนาดพื้นที่: 32.82 ตร.ม.\nรายละเอียด:\n- ชั้น 1\n- 1 ห้องนอน\n- 1 ห้องน้ำ\n- ทำเลดี เดินทางสะดวก\nสิ่งอำนวยความสะดวก:\n- กล้องวงจรปิด\n- ลานจอดรถในร่ม\n- สวน\n- ฟิตเนส\n- ระบบรักษาความปลอดภัย 24 ชม.\n- สระว่ายน้ำ\n- สนามเทนนิส\nสถานที่ใกล้เคียง:\n- Fisherman’s Village – 5 นาที\n- หาดบ่อผุด – 5 นาที\n- สนามบินสมุย – 10 นาที\nราคาขาย: 3.3 ล้านบาท\nสนใจติดต่อ:\nMatan: 093-004-5508\nCustomer Code: PA1204\nFor Sale: Wings Samui Condominium, 1st Floor\nPrime location, convenient access, Koh Samui, Surat Thani\nLocation: Bo Phut Subdistrict, Koh Samui District, Surat Thani 84320\nMap: \nhttps://maps.app.goo.gl/929CNrEwmRgoB43i6\nUnit Size: 32.82 sq.m.\nDetails:\n- 1st floor\n- 1 bedroom\n- 1 bathroom\n- Prime location with convenient access\nFacilities:\n- CCTV\n- Covered parking\n- Garden\n- Fitness center\n- 24-hour security\n- Swimming pool\n- Tennis court\nNearby Places:\n- Fisherman’s Village – 5 minutes\n- Bo Phut Beach – 5 minutes\n- Samui Airport – 10 minutes\nSelling Price: THB 3.3 million\nContact:\nMatan: 093-004-5508"
@@ -32129,21 +32133,27 @@
    "tambon": "บ่อผุด",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.542,
-   "lng": 100.053,
-   "geo_precision": "tambon",
+   "lat": 9.558,
+   "lng": 100.038,
+   "geo_precision": "place",
    "images": [],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
+    "bedrooms": 1.0,
+    "bathrooms": 1.0,
     "note": "私人/中介挂牌（非银行 NPA）",
+    "highlights": [
+     "ขายบ้านพร้อมที่ดิน 7 หลัง บนเกาะสมุย – โอกาสการลงทุนที่คุณไม่ควรพลาด\n\nรายละเอียดทรัพย์สิน:\n\nบ้าน 7 หลัง ราคาเพียง 23,000,000 บาท\n\nแต่ละหลังประกอบด้วย:\n\n- 1 ห้องนอน\n\n- 1 ห้องน้ำ\n\nทำเลทอง: ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\n\n\n\nจุดเด่น:\n\n- สร้างรายได้ต่อเนื่อง มีผู้เช่าอยู่แล้ว\n\n- เหมาะสำหรับนักลงทุนที่ต้องการทำธุรกิจบ้านเช่าหรือโฮมสเตย์\n\n- ใกล้แหล่งท่องเที่ยวสำคัญของเกาะสมุย เช่น:\n\n- หาดบ่"
+    ],
+    "place": "หาดบ่อผุด",
     "availability": "available"
    },
    "raw": {
     "property_type_code": "H",
     "posted": "2024-11-28 19:25:19",
     "price_list": "23000000",
-    "description": ""
+    "description": "ขายบ้านพร้อมที่ดิน 7 หลัง บนเกาะสมุย – โอกาสการลงทุนที่คุณไม่ควรพลาด\n\nรายละเอียดทรัพย์สิน:\n\nบ้าน 7 หลัง ราคาเพียง 23,000,000 บาท\n\nแต่ละหลังประกอบด้วย:\n\n- 1 ห้องนอน\n\n- 1 ห้องน้ำ\n\nทำเลทอง: ตำบลบ่อผุด อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี\n\n\n\nจุดเด่น:\n\n- สร้างรายได้ต่อเนื่อง มีผู้เช่าอยู่แล้ว\n\n- เหมาะสำหรับนักลงทุนที่ต้องการทำธุรกิจบ้านเช่าหรือโฮมสเตย์\n\n- ใกล้แหล่งท่องเที่ยวสำคัญของเกาะสมุย เช่น:\n\n- หาดบ่อผุด\n\n- ฟิชเชอร์แมนวิลเลจ\n\n- วัดพระใหญ่\n\n- ศูนย์การค้าเซ็นทรัลเฟสติวัลสมุย\n\n- ท่าเรือเกาะสมุย : เชื่อมต่อกับเกาะอื่นๆ\n\n\n\nสิ่งอำนวยความสะดวก:\n\nบรรยากาศเงียบสงบ รายล้อมด้วยธรรมชาติ\n\nเดินทางสะดวก ใกล้ตลาด ร้านอาหาร และชายหาด\n\n\n\nโอกาสการลงทุน:\n\nทำกำไรได้ทันที จากค่าเช่าที่มีอยู่\n\nรองรับการขยายตัวของธุรกิจท่องเที่ยวในพื้นที่\n\n\n\nสนใจสอบถามข้อมูลเพิ่มเติมหรือนัดชมทรัพย์ ติดต่อได้ทันที!\n\nข้อความด่วน: https://wa.me/66896331978\n\nโทร: 089-633-1978 คุณพัน\n\n\n\n#บ้านพร้อมที่ดินสมุย #บ้านสวยสมุย #ที่ดินพร้อมสิ่งปลูกสร้างสมุย \n\n#ขายบ้านสมุย #ทำเลทองสมุย\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nดูรูปเพิ่มเติม\n\n\n\nhttps://pic.in.th/image/280878pic1.maMyt4\n\nhttps://pic.in.th/image/280878pic2.maMskh\n\nhttps://pic.in.th/image/280878pic3.maM6Vc\n\nhttps://pic.in.th/image/280878pic4.maMkWM\n\nhttps://pic.in.th/image/280878pic5.maMSro\n\nhttps://pic.in.th/image/280878pic7.maMNM9\n\nhttps://pic.in.th/image/280878pic8.maMiAa"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-25",
@@ -32168,23 +32178,26 @@
    "tambon": "แม่น้ำ",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.562,
-   "lng": 99.993,
-   "geo_precision": "tambon",
+   "lat": 9.575,
+   "lng": 99.97,
+   "geo_precision": "place",
    "images": [],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
     "note": "私人/中介挂牌（非银行 NPA）",
+    "highlights": [
+     "Exceptional Townhome for Sale with Tenant! Monthly Rental Income Guaranteed\n\n\n\nGolden Opportunity for Investors!\n\n\n\nDon’t miss this chance to secure sustainable income and long-term asset value in Koh Samui!\n\n\n\nProperty Details\n\n\n\n2-bedroom, 1-bathroom townhome\n\nFully furnished, including multiple air conditioning units\n\nConveniently extended carport\n\nLand area: 23 sq. wah (92 sq.m.)\n\nComes with a"
+    ],
     "verified": "人工核对 2026-10-14（high）：Land area: 23 sq. wah (92 sq.m.)",
-    "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "place": "บางปอ",
+    "availability": "available"
    },
    "raw": {
     "property_type_code": "H",
     "posted": "2024-11-29 20:33:56",
     "price_list": "2100000",
-    "description": ""
+    "description": "Exceptional Townhome for Sale with Tenant! Monthly Rental Income Guaranteed\n\n\n\nGolden Opportunity for Investors!\n\n\n\nDon’t miss this chance to secure sustainable income and long-term asset value in Koh Samui!\n\n\n\nProperty Details\n\n\n\n2-bedroom, 1-bathroom townhome\n\nFully furnished, including multiple air conditioning units\n\nConveniently extended carport\n\nLand area: 23 sq. wah (92 sq.m.)\n\nComes with a tenant—start earning immediately!\n\nMonthly rental income: 1x,xxx THB\n\nPrime Location\n\n\n\nNear Oonrak International School\n\nClose to Maenam Market and Beach\n\nNearby Maenam Post Office\n\nJust 5-10 minutes to Bang Po Beach and Bophut Beach\n\n\"Invest in Koh Samui Real Estate: Income from Day One\"\n\nSpecial Price: Only 2.1 Million Baht\n\n(Includes tenant and full furnishings!)\n\n\n\nLocation: Maenam, Koh Samui, Surat Thani\n\n\n\nFor inquiries or to schedule a viewing\n\nCall: 089-633-1978\n\nWhatsApp: Click Here\n\nMessage us: m.me/Winner.Estate.South.Thailand\n\n\n\nBuy now! The best deal in this area—don’t miss out!\n\n\n\n\n\n\n\nดูรูปเพิ่มเติม\n\n\n\nhttps://pic.in.th/image/280952pic1.m290iH\n\nhttps://pic.in.th/image/280952pic2.m298HM\n\nhttps://pic.in.th/image/280952pic3.m296jf\n\nhttps://pic.in.th/image/280952pic4.m29nTa\n\nhttps://pic.in.th/image/280952pic5.m29EU3\n\nhttps://pic.in.th/image/280952pic6.m29oXt\n\nhttps://pic.in.th/image/280952pic7.m29UCn\n\nhttps://pic.in.th/image/280952pic8.m29V9y"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-25",
@@ -32204,26 +32217,32 @@
    "title": "โอกาสพิเศษ บ้านพร้อมผู้เช่า ไม่ต้องเสียเวลาหาผู้เช่าเอง สมุย",
    "property_type": "house",
    "price_thb": 2100000.0,
-   "area_sqwa": null,
+   "area_sqwa": 23.0,
    "address": "ต.แม่น้ำ อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "แม่น้ำ",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.562,
-   "lng": 99.993,
-   "geo_precision": "tambon",
+   "lat": 9.572,
+   "lng": 100.018,
+   "geo_precision": "place",
    "images": [],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
+    "bedrooms": 2.0,
+    "bathrooms": 1.0,
     "note": "私人/中介挂牌（非银行 NPA）",
+    "highlights": [
+     "ขายทาวน์โฮมสุดคุ้ม มีผู้เช่า พร้อมรับค่าเช่าทุกเดือน\n\n\n\nโอกาสทองสำหรับนักลงทุน!\n\nอย่าพลาดโอกาสสร้างรายได้และมูลค่าทรัพย์สินที่ยั่งยืนในสมุย!\n\n\n\nรายละเอียดทรัพย์\n\n\n\nทาวน์โฮม 2 ห้องนอน 1 ห้องน้ำ\n\nตกแต่งพร้อมอยู่ แถมเฟอร์นิเจอร์ครบ + แอร์หลายเครื่อง\n\nมีโรงจอดรถต่อเติมเพิ่ม ใช้งานสะดวก\n\nเนื้อที่ 23 ตร.ว. พร้อมผู้เช่า ไม่ต้องหาเพิ่ม\n\nรายได้ดีทุกเดือน 1x,xxx บาท/ด\n\n ทำเลทอง\n\n\n\nใกล้โรงเรียนนานาชาติอุ่นรั"
+    ],
+    "place": "หาดแม่น้ำ",
     "availability": "available"
    },
    "raw": {
     "property_type_code": "H",
     "posted": "2024-11-29 20:40:32",
     "price_list": "2100000",
-    "description": ""
+    "description": "ขายทาวน์โฮมสุดคุ้ม มีผู้เช่า พร้อมรับค่าเช่าทุกเดือน\n\n\n\nโอกาสทองสำหรับนักลงทุน!\n\nอย่าพลาดโอกาสสร้างรายได้และมูลค่าทรัพย์สินที่ยั่งยืนในสมุย!\n\n\n\nรายละเอียดทรัพย์\n\n\n\nทาวน์โฮม 2 ห้องนอน 1 ห้องน้ำ\n\nตกแต่งพร้อมอยู่ แถมเฟอร์นิเจอร์ครบ + แอร์หลายเครื่อง\n\nมีโรงจอดรถต่อเติมเพิ่ม ใช้งานสะดวก\n\nเนื้อที่ 23 ตร.ว. พร้อมผู้เช่า ไม่ต้องหาเพิ่ม\n\nรายได้ดีทุกเดือน 1x,xxx บาท/ด\n\n ทำเลทอง\n\n\n\nใกล้โรงเรียนนานาชาติอุ่นรัก\n\nใกล้ตลาดและหาดแม่น้ำ\n\nใกล้ไปรษณีย์ ต.แม่น้ำ\n\nเพียง 5-10 นาที ถึงหาดบางปอ หาดบ่อผุด\n\n“ลงทุนอสังหาฯ สมุย ความคุ้มค่าที่สร้างรายได้ตั้งแต่วันแรก”\n\n\n\n ราคาสุดพิเศษเพียง 2.1 ล้านบาท\n\n(พร้อมผู้เช่าและของตกแต่งครบ!)\n\n\n\nพิกัด: ต.แม่น้ำ อ.เกาะสมุย จ.สุราษฎร์ธานี\n\n\n\nสนใจสอบถามเพิ่มเติม / นัดชมบ้าน\n\nโทร: 089-633-1978\n\nWhatsApp: คลิกที่นี่\n\nMessage us: [m.me/Winner.Estate.South.Thailand]\n\n\n\nซื้อวันนี้ คุ้มที่สุดในย่านนี้ ห้ามพลาด!\n\n\n\n#ขายบ้านแม่น้ำ #บ้านสวยเกาะสมุย #บ้านพร้อมอยู่ #บ้านใกล้ทะเล #ลงทุนอสังหาฯ #บ้านแม่น้ำสมุย #บ้านวิวสวย #อสังหาริมทรัพย์สมุย #บ้านเดี่ยวสมุย #บ้านขายด่วน #เกาะสมุย\n\n\n\n\n\n\n\nดูรูปเพิ่มเติม\n\n\n\nhttps://pic.in.th/image/280951pic1.m2gegL\n\nhttps://pic.in.th/image/280951pic2.m2g4If\n\nhttps://pic.in.th/image/280951pic3.m2gmcn\n\nhttps://pic.in.th/image/280951pic4.m2ghcP\n\nhttps://pic.in.th/image/280951pic5.m2ggGc\n\nhttps://pic.in.th/image/280951pic6.m2gGoN\n\nhttps://pic.in.th/image/280951pic7.m2gqYt\n\nhttps://pic.in.th/image/280951pic8.m2gtfa"
    },
    "first_seen": "2026-10-13",
    "last_seen": "2026-11-25",
@@ -32234,7 +32253,7 @@
     }
    ],
    "id": "teedin108:3720471",
-   "price_per_sqwa": null
+   "price_per_sqwa": 91304.34782608696
   },
   {
    "source": "teedin108",
@@ -33853,7 +33872,8 @@
     ],
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
-    "availability": "available"
+    "availability": "available",
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -33900,7 +33920,8 @@
     ],
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
-    "availability": "available"
+    "availability": "available",
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -34099,7 +34120,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -34147,7 +34168,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -34676,7 +34697,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -34724,7 +34745,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -34820,7 +34841,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -35357,7 +35378,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -35405,7 +35426,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -35453,7 +35474,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -35773,7 +35794,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -36002,7 +36023,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -36140,7 +36161,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -36460,7 +36481,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -36948,7 +36969,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -37572,7 +37593,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -37928,7 +37949,7 @@
     "verified": "人工核对 2026-10-14（high）：ตำบลแม่น้ำ อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี ... ใกล้หาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "property_type_code": "H",
@@ -38312,7 +38333,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "property_type_code": "H",
@@ -68105,7 +68126,7 @@
      "เฟอร์นิเจอร์ครบ"
     ],
     "availability": "withdrawn",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -68164,7 +68185,7 @@
      "เฟอร์นิเจอร์ครบ"
     ],
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -70793,7 +70814,7 @@
     ],
     "place": "บางปอ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -72638,7 +72659,7 @@
      "road"
     ],
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -82614,7 +82635,7 @@
      "road"
     ],
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -82678,7 +82699,7 @@
      "road"
     ],
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Townhome",
@@ -85826,7 +85847,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -86484,7 +86505,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -87017,7 +87038,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -87309,7 +87330,7 @@
     "verified": "人工核对 2026-10-14（high）：Location: Maenam, Koh Samui, Surat Thani / Close to Maenam Market and Beach / Nearby Maenam Post Office",
     "place": "บางปอ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -87363,7 +87384,7 @@
     "verified": "人工核对 2026-10-14（high）：พิกัด: ต.แม่น้ำ อ.เกาะสมุย จ.สุราษฎร์ธานี / ใกล้ไปรษณีย์ ต.แม่น้ำ / ใกล้ตลาดและหาดแม่น้ำ",
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -88232,7 +88253,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -88292,7 +88313,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -88415,7 +88436,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -88475,7 +88496,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -88848,7 +88869,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -88908,7 +88929,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -88963,7 +88984,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -89337,7 +89358,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Townhome",
@@ -89397,7 +89418,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -89457,7 +89478,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -89824,7 +89845,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -90009,7 +90030,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -90193,7 +90214,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Home",
@@ -90372,7 +90393,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728597"
+    "duplicate_of": "teedin108:3720471"
    },
    "raw": {
     "ptype": "Home",
@@ -90557,7 +90578,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Home",
@@ -90988,7 +91009,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Home",
@@ -91475,7 +91496,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Home",
@@ -91905,7 +91926,7 @@
     ],
     "place": "หาดแม่น้ำ",
     "availability": "available",
-    "duplicate_of": "teedin108:3728592"
+    "duplicate_of": "teedin108:3720464"
    },
    "raw": {
     "ptype": "Home",
