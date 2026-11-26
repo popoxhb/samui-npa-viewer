@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-26",
- "count": 1685,
+ "count": 1686,
  "meta": {
   "last_crawl": "2026-11-26",
   "sources": {
@@ -8,63 +8,63 @@
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 7.1,
+    "seconds": 11.3,
     "verified": true
    },
    "gsb": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.6,
+    "seconds": 1.7,
     "verified": true
    },
    "dcash": {
     "status": "ok",
     "fetched": 2,
     "samui": 2,
-    "seconds": 2.5,
+    "seconds": 2.7,
     "verified": true
    },
    "kbank": {
     "status": "ok",
     "fetched": 27,
     "samui": 27,
-    "seconds": 9.1,
+    "seconds": 9.4,
     "verified": true
    },
    "pamco": {
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 1.7,
+    "seconds": 1.8,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 17.0,
+    "seconds": 13.1,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 3.1,
+    "seconds": 2.7,
     "verified": true
    },
    "bbl": {
     "status": "ok",
     "fetched": 9,
     "samui": 9,
-    "seconds": 2.6,
+    "seconds": 1.4,
     "verified": true
    },
    "ktb": {
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 8.9,
+    "seconds": 10.5,
     "verified": true
    },
    "smebank": {
@@ -75,42 +75,42 @@
     "status": "ok",
     "fetched": 18,
     "samui": 18,
-    "seconds": 39.3,
+    "seconds": 41.7,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 9.6,
+    "seconds": 10.2,
     "verified": true
    },
    "led": {
     "status": "ok",
-    "fetched": 114,
-    "samui": 114,
-    "seconds": 10.9,
+    "fetched": 98,
+    "samui": 98,
+    "seconds": 12.4,
     "verified": true
    },
    "ghb": {
     "status": "ok",
-    "fetched": 8,
-    "samui": 8,
-    "seconds": 45.1,
+    "fetched": 7,
+    "samui": 7,
+    "seconds": 18.9,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 13.7,
+    "seconds": 15.1,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.8,
+    "seconds": 1.9,
     "verified": true
    },
    "cimb": {
@@ -121,28 +121,28 @@
     "status": "ok",
     "fetched": 46,
     "samui": 44,
-    "seconds": 59.6,
+    "seconds": 64.1,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 1.6,
+    "seconds": 1.9,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
     "fetched": 548,
     "samui": 521,
-    "seconds": 710.4,
+    "seconds": 855.1,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 821,
     "samui": 802,
-    "seconds": 1155.1,
+    "seconds": 1275.1,
     "verified": true
    }
   },
@@ -6032,7 +6032,7 @@
     "AreaValue": 180.0,
     "UseableArea": 215.0,
     "BuildingAge": 8,
-    "GAScore": 180,
+    "GAScore": 179,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -6122,7 +6122,7 @@
     "AreaValue": 194.1,
     "UseableArea": 756.57,
     "BuildingAge": 11,
-    "GAScore": 537,
+    "GAScore": 530,
     "IsNew": false,
     "IsHot": true,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -6219,7 +6219,7 @@
     "AreaValue": 35.0,
     "UseableArea": 116.0,
     "BuildingAge": 13,
-    "GAScore": 142,
+    "GAScore": 144,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "มีผู้บุกรุก",
@@ -6316,7 +6316,7 @@
     "AreaValue": 31.5,
     "UseableArea": 70.0,
     "BuildingAge": 17,
-    "GAScore": 132,
+    "GAScore": 135,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -8027,7 +8027,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 4025,
+    "productCountView": 4028,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8156,7 +8156,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3854,
+    "productCountView": 3857,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8283,7 +8283,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2802,
+    "productCountView": 2805,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -22544,7 +22544,7 @@
    "title": "ที่ดินว่างเปล่า ตลิ่งงาม (คดี พ.271/2562 ลำดับ 5 - 1)",
    "property_type": "land",
    "price_thb": 197071336.0,
-   "area_sqwa": 14363.8,
+   "area_sqwa": 4208.8,
    "address": "ต.ตลิ่งงาม อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "ตลิ่งงาม",
    "amphoe": "เกาะสมุย",
@@ -22561,7 +22561,7 @@
    "details": {
     "status": "รอขาย",
     "price_basis": "ราคาที่กำหนดโดยคณะกรรมการกำหนดราคาทรัพย์",
-    "lot_deeds": "13 แปลง: โฉนด 47847, 47848, 47849, 47850, 47851, 47852, 47853, 47854, 48422, 48423, 47846, 48424, 2524",
+    "lot_deeds": "12 แปลง: โฉนด 47847, 47848, 47849, 47850, 47851, 47852, 47853, 47854, 48422, 48423, 47846, 48424",
     "prices": [
      "ราคาที่กำหนดโดยคณะกรรมการกำหนดราคาทรัพย์ 197,071,336 บาท",
      "ราคาประเมินของเจ้าพนักงานประเมินราคาทรัพย์กรมบังคับคดี 197,071,336 บาท",
@@ -22673,7 +22673,7 @@
     }
    ],
    "id": "led:2178390-47847",
-   "price_per_sqwa": 13720.0
+   "price_per_sqwa": 46823.63999239688
   },
   {
    "source": "led",
@@ -22948,6 +22948,130 @@
    ],
    "id": "led:2179075-11605",
    "price_per_sqwa": 4500.000000000001
+  },
+  {
+   "source": "led",
+   "source_id": "2179075-1526",
+   "url": "https://asset.led.go.th/newbidreg/default.asp",
+   "title": "ที่ดินว่างเปล่า ตลิ่งงาม (คดี พณ.515/2562 ลำดับ 25 - 1)",
+   "property_type": "land",
+   "price_thb": 75673800.0,
+   "area_sqwa": 5160.0,
+   "address": "ต.ตลิ่งงาม อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "tambon": "ตลิ่งงาม",
+   "amphoe": "เกาะสมุย",
+   "province": "สุราษฎร์ธานี",
+   "lat": 9.429,
+   "lng": 99.956,
+   "geo_precision": "tambon",
+   "images": [
+    "https://asset.led.go.th/PPKPicture/2569/09-2569/30/11605p.jpg",
+    "https://asset.led.go.th/PPKPicture/2569/09-2569/30/11605j.jpg"
+   ],
+   "sale_method": "auction",
+   "auction_date": "2026-12-24",
+   "details": {
+    "status": "รอขาย",
+    "price_basis": "ราคาที่กำหนดโดยคณะกรรมการกำหนดราคาทรัพย์",
+    "prices": [
+     "ราคาที่กำหนดโดยคณะกรรมการกำหนดราคาทรัพย์ 75,673,800 บาท",
+     "ราคาประเมินของเจ้าพนักงานบังคับคดี 75,673,800 บาท"
+    ],
+    "deed": "น.ส.3ก.เลขที่ 1526",
+    "occupancy": "ผู้ถือสิทธิครอบครอง",
+    "note": "ปลอดการจำนอง · มัดจำ 5000000 บาท · โจทก์ ธนาคารซีไอเอ็มบี ไทย จำกัด (มหาชน)",
+    "highlights": [
+     "นัดที่ 1 2026-12-24 รอขาย",
+     "นัดที่ 2 2027-01-14 รอขาย",
+     "นัดที่ 3 2027-02-04 รอขาย",
+     "นัดที่ 4 2027-02-25 รอขาย",
+     "นัดที่ 5 2027-03-18 รอขาย",
+     "นัดที่ 6 2027-04-08 รอขาย"
+    ],
+    "availability": "available"
+   },
+   "raw": {
+    "str_bid_num": "25 - 1",
+    "rai": "12",
+    "quaterrai": "3",
+    "wa": "60",
+    "biddate1": "25691224",
+    "biddate2": "25700114",
+    "biddate3": "25700204",
+    "biddate4": "25700225",
+    "biddate5": "25700318",
+    "biddate6": "25700408",
+    "biddate7": "",
+    "biddate8": "",
+    "is_extra_pledgb": "F",
+    "occupant": "ผู้ถือสิทธิครอบครอง",
+    "assettypedesc": "ที่ดินว่างเปล่า",
+    "AssetTypeID": "001",
+    "addrno": "-",
+    "tumbol": "-",
+    "ampur": "-",
+    "city": "-",
+    "fbidnum": "25",
+    "fbidnuml": "",
+    "fsubbidnum": "1",
+    "issale": "0",
+    "law_court_name": "แพ่งพระโขนง",
+    "law_court_id": "050",
+    "law_suit_no": "พณ.515",
+    "law_suit_year": "2562",
+    "person1": "ธนาคารซีไอเอ็มบี ไทย จำกัด (มหาชน)",
+    "province_name": "สุราษฎร์ธานี  สาขาเกาะสมุย",
+    "province_id": "813",
+    "auc_asset_gen": "2179075",
+    "tel": "(077)418035,418036",
+    "debtdetail": "",
+    "eauc": "0",
+    "remark1": "",
+    "ReserveFund": "5000000",
+    "ReserveFund1": "3784000",
+    "assetprice1": "0",
+    "assetprice2": "0",
+    "assetprice3": "75673800",
+    "assetprice4": "75673800",
+    "assetprice5": "0",
+    "assetprice6": "0",
+    "assetprice7": "0",
+    "assetprice8": "0",
+    "assetprice9": "0",
+    "ischeck_date": "25691029",
+    "remark": "ขายรวม (แปลงที่ 1 - 7) รวม 7 แปลง, ราคาประเมินรวม 75,673,800.-บาท",
+    "deedno": "1526",
+    "deedtumbol": "ตลิ่งงาม",
+    "deedampur": "เกาะสมุย",
+    "deedcity": "สุราษฎร์ธานี",
+    "landtype": "น.ส.3ก.เลขที่",
+    "landdesc": "",
+    "issale1": "0",
+    "issale2": "0",
+    "issale3": "0",
+    "issale4": "0",
+    "issale5": "0",
+    "issale6": "0",
+    "issale7": "0",
+    "issale8": "0",
+    "saletypename": "ปลอดการจำนอง",
+    "sale_location1": "จำหน่ายนัดที่ 1-6 ณ สำนักงานบังคับคดีจังหวัดสุราษฎร์ธานี  สาขาเกาะสมุย อาคารบูรณาการกระทรวงยุติธรรม เลขที่ 95/30 หมู่ที่ 5 ตำบลมะเร็ต อำเภอเกาะสมุย จังหวัดสุราษฎร์ธานี",
+    "sale_location2": "",
+    "sale_time1": "10.30",
+    "sale_time2": "",
+    "debtname": "ธนาคารซีไอเอ็มบี ไทย จำกัด (มหาชน)",
+    "debtprice": "80000000"
+   },
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "price_history": [
+    {
+     "date": "2026-11-26",
+     "price_thb": 75673800.0
+    }
+   ],
+   "id": "led:2179075-1526",
+   "price_per_sqwa": 14665.46511627907
   },
   {
    "source": "led",
@@ -26434,7 +26558,7 @@
     "per_rai": "ไร่ละ 2,505,620 บาท",
     "size": "พื้นที่ 11 ไร่ 1 งาน 81.7 ตร.วา",
     "opts": "เจ้าของขายเอง, ที่ดินเปล่า, ติดถนน",
-    "posted": "1 เดือน",
+    "posted": "2 เดือน",
     "category": "ที่ดิน",
     "description": "Listing : 86271\nคำประกาศ:\nที่ดินแปลงสวย 11 ไร่ 1ง. 81.7 ตร.ว.บนเกาะสมุยเพื่อการพาณิชย์\nทำเลดี ติดถนน หน้ากว้าง 70 เมตร ลึก 260 เมตร\nน้ำและไฟฟ้าพร้อม\nเหมาะสำหรับการพัฒนาโครงการ หรือธุรกิจหลายประเภท เช่น โรงแรม, รีสอร์ท, หรือร้านค้า\nบรรยากาศดี ล้อมรอบด้วยธรรมชาติและการเข้าถึงสถานที่ท่องเที่ยวต่างๆ\nอยู่ใกล้ชุมชน สถานศึกษา หน่วยงานราชการ ธนาคาร แหล่งท่องเที่ยวธรรมชาติ สวนสัตว์ ฯลฯ\n- ธนาคารกรุงศรีอยุธยาสาขาเกาะสมุย 2.3 กม.\n- สำนักงานที่ดินจังหวัดเกาะสมุย 1.7 กม.\n- วิทยาลัยการอาชีพเกาะสมุย 2.8 กม\n- โรงเรียนเทศบาลวัดสระเกศ 884 ม.\n- โรงเรียนเกาะสมุย 2.4 กม.\n- Samui Elephant Spa 1.4 กม.\n- ท่าเรือราชาเฟอร์รี่เกาะสมุย (ลิปะน้อย) 4 กม.\nYoutube >>> \nhttps://youtube.com/shorts/qHnc6ecVdk4?si=P3LLVt4RIFY5mNN4\nราคา: 28,700,000 บาท\nสนใจสอบถามเพิ่มเติม:\nนฤมล ครั่งฝา (เกียว)\nIns. 097-918-4244\nLine kyonarumon\nE-mail \n[email protected]\nEstate corner Agency รับฝาก ซือ-ขาย อสังหาริมทรัพย์ทุกประเภท ฟรีค่า โฆษณา\nEstateCornerAgency.com"
    },
