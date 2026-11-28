@@ -8,7 +8,7 @@
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 8.4,
+    "seconds": 11.4,
     "verified": true
    },
    "gsb": {
@@ -22,35 +22,35 @@
     "status": "ok",
     "fetched": 2,
     "samui": 2,
-    "seconds": 2.7,
+    "seconds": 2.6,
     "verified": true
    },
    "kbank": {
     "status": "ok",
     "fetched": 27,
     "samui": 27,
-    "seconds": 10.8,
+    "seconds": 9.1,
     "verified": true
    },
    "pamco": {
     "status": "ok",
     "fetched": 4,
     "samui": 4,
-    "seconds": 1.7,
+    "seconds": 1.8,
     "verified": true
    },
    "fin4luck": {
     "status": "ok",
     "fetched": 1,
     "samui": 1,
-    "seconds": 19.2,
+    "seconds": 20.0,
     "verified": true
    },
    "smartfinn": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 3.4,
+    "seconds": 2.5,
     "verified": true
    },
    "bbl": {
@@ -64,7 +64,7 @@
     "status": "ok",
     "fetched": 3,
     "samui": 3,
-    "seconds": 9.0,
+    "seconds": 8.3,
     "verified": true
    },
    "smebank": {
@@ -75,14 +75,14 @@
     "status": "ok",
     "fetched": 18,
     "samui": 18,
-    "seconds": 41.3,
+    "seconds": 42.2,
     "verified": true
    },
    "scb": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 10.2,
+    "seconds": 10.0,
     "verified": true
    },
    "led": {
@@ -96,21 +96,21 @@
     "status": "ok",
     "fetched": 7,
     "samui": 7,
-    "seconds": 22.7,
+    "seconds": 18.6,
     "verified": true
    },
    "sam": {
     "status": "ok",
     "fetched": 6,
     "samui": 6,
-    "seconds": 16.4,
+    "seconds": 14.8,
     "verified": true
    },
    "lhbank": {
     "status": "ok",
     "fetched": 0,
     "samui": 0,
-    "seconds": 1.7,
+    "seconds": 1.8,
     "verified": true
    },
    "cimb": {
@@ -121,28 +121,28 @@
     "status": "ok",
     "fetched": 46,
     "samui": 44,
-    "seconds": 64.8,
+    "seconds": 64.5,
     "verified": true
    },
    "baania": {
     "status": "ok",
     "fetched": 39,
     "samui": 39,
-    "seconds": 2.0,
+    "seconds": 1.7,
     "verified": true
    },
    "teedin108": {
     "status": "ok",
     "fetched": 546,
     "samui": 519,
-    "seconds": 766.4,
+    "seconds": 840.3,
     "verified": true
    },
    "thaihometown": {
     "status": "ok",
     "fetched": 821,
     "samui": 802,
-    "seconds": 1223.1,
+    "seconds": 1200.9,
     "verified": true
    }
   },
@@ -4294,7 +4294,7 @@
    "lng": 99.9386,
    "geo_precision": "exact",
    "images": [
-    "https://www.ghbhomecenter.com/v3/property/api/Media/261127461815921996"
+    "https://www.ghbhomecenter.com/v3/property/api/Media/261128108408944714"
    ],
    "sale_method": "sale",
    "auction_date": null,
@@ -4539,7 +4539,7 @@
    "lng": 99.944,
    "geo_precision": "exact",
    "images": [
-    "https://www.ghbhomecenter.com/v3/property/api/Media/261127494656023497"
+    "https://www.ghbhomecenter.com/v3/property/api/Media/261128139485916843"
    ],
    "sale_method": "sale",
    "auction_date": null,
@@ -4600,7 +4600,7 @@
    "lng": 100.007,
    "geo_precision": "exact",
    "images": [
-    "https://www.ghbhomecenter.com/v3/property/api/Media/261127464928043491"
+    "https://www.ghbhomecenter.com/v3/property/api/Media/261128113939513864"
    ],
    "sale_method": "sale",
    "auction_date": null,
@@ -6032,7 +6032,7 @@
     "AreaValue": 180.0,
     "UseableArea": 215.0,
     "BuildingAge": 8,
-    "GAScore": 166,
+    "GAScore": 158,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -6122,7 +6122,7 @@
     "AreaValue": 194.1,
     "UseableArea": 756.57,
     "BuildingAge": 11,
-    "GAScore": 528,
+    "GAScore": 515,
     "IsNew": false,
     "IsHot": true,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -6219,7 +6219,7 @@
     "AreaValue": 35.0,
     "UseableArea": 116.0,
     "BuildingAge": 13,
-    "GAScore": 156,
+    "GAScore": 153,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "มีผู้บุกรุก",
@@ -6316,7 +6316,7 @@
     "AreaValue": 31.5,
     "UseableArea": 70.0,
     "BuildingAge": 17,
-    "GAScore": 141,
+    "GAScore": 138,
     "IsNew": false,
     "IsHot": false,
     "PMMaintenanceStatus": "พร้อมขาย",
@@ -8035,7 +8035,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 4048,
+    "productCountView": 4054,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8164,7 +8164,7 @@
     "percentYearFlag": "DOWN",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 3877,
+    "productCountView": 3885,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -8291,7 +8291,7 @@
     "percentYearFlag": "UP",
     "percentMinMax": 0.0,
     "percentMinMaxFlag": null,
-    "productCountView": 2822,
+    "productCountView": 2831,
     "assetCount": 0,
     "linkVdo": null,
     "openBiddingPrice": null,
@@ -101986,26 +101986,37 @@
    "property_type": "commercial",
    "price_thb": 4933000.0,
    "area_sqwa": 41.0,
-   "address": "อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "address": "ต.บ่อผุด อ.เกาะสมุย จ.สุราษฎร์ธานี",
    "tambon": "บ่อผุด",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.533,
-   "lng": 100.058,
-   "geo_precision": "place",
+   "lat": 9.5433333,
+   "lng": 100.0452778,
+   "geo_precision": "exact",
    "images": [
-    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-1.jpg"
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-1.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-2.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-3.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-4.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-5.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-6.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-7.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5171787/5171787-8.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）",
+    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的坐标/Google Maps 链接",
     "highlights": [
+     "ขาย อาคารพาณิชย์ อำเภอ\nเกาะสมุย\n จังหวัด\nสุราษฎร์ธานี\n ห่างจาก เซ็นทรัลสมุย 0.60 กม.\n ถนน ทวีราษฎร์ภักดี ตำบล บ่อผุด อำเภอ \nเกาะสมุย\n จังหวัด \nสุราษฎร์ธานี\n ราคาโปรโมชั่น 4,933,000 บาท \n ลดจาก 5,544,000 บาท\n ราคาโปรโมชั่นตั้งแต่วันที่ 2 มีนาคม - 31 พฤษภาคม 2569\n รายละเอียดทรัพย์\n - เนื้อที่ 41.00 ตร.ว. พื้นที่ใช้สอย 256.10 ตร.ม. \n - 1 ห้องนอน 2 ห้องน้ำ\n พิกัดทรัพย์ : \nhttps://maps.app.goo.gl/tAiCR",
      "โอนกรรมสิทธิ์",
      "เซ็นทรัลสมุย",
      "โรงพยาบาลกรุงเทพ"
     ],
-    "place": "เซ็นทรัลสมุย",
+    "zoning": "rural",
+    "zoning_draft": "residential_medium",
+    "dist_coast_m": 1649,
+    "dist_main_road_m": 558,
     "availability": "available",
     "duplicate_of": "pamco:B13277"
    },
@@ -102015,7 +102026,8 @@
     "price_card": "฿ 4,933,000 บาท",
     "tags": "โอนกรรมสิทธิ์, เซ็นทรัลสมุย, โรงพยาบาลกรุงเทพ",
     "posted": "2026-04-01",
-    "description": ""
+    "description": "ขาย อาคารพาณิชย์ อำเภอ\nเกาะสมุย\n จังหวัด\nสุราษฎร์ธานี\n ห่างจาก เซ็นทรัลสมุย 0.60 กม.\n ถนน ทวีราษฎร์ภักดี ตำบล บ่อผุด อำเภอ \nเกาะสมุย\n จังหวัด \nสุราษฎร์ธานี\n ราคาโปรโมชั่น 4,933,000 บาท \n ลดจาก 5,544,000 บาท\n ราคาโปรโมชั่นตั้งแต่วันที่ 2 มีนาคม - 31 พฤษภาคม 2569\n รายละเอียดทรัพย์\n - เนื้อที่ 41.00 ตร.ว. พื้นที่ใช้สอย 256.10 ตร.ม. \n - 1 ห้องนอน 2 ห้องน้ำ\n พิกัดทรัพย์ : \nhttps://maps.app.goo.gl/tAiCR1f9UoZxzjWt8\n สถานที่ใกล้เคียง\n - เซ็นทรัลสมุย 0.60 กม.\n - โรงพยาบาลกรุงเทพ สมุย 3.20 กม.\n - โลตัส \nเกาะสมุย\n 3.90 กม.\n - บิ๊กซี \nเกาะสมุย\n 5.40 กม.\n รหัสทรัพย์ (Code ID) : PROT-26-B13277\n สอบถามเพิ่มเติม / นัดชม\n โทร. 096-932-4624 (ออมสิน)\n โทร. 097-419-5982 (อุ๊)\n Line : @panaya (มี@ด้านหน้า)\n ปรึกษาสอบถามฟรี นัดชมบ้านฟรี One Stop Service ดูแลตั้งแต่ต้น จนถึงวันโอนกรรมสิทธิ์ มีทรัพย์ธนาคารทั่วประเทศ ทุกจังหวัด ต้องที่บริษัท ปณยา คิดดี จำกัด \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾",
+    "coords_basis": "post"
    },
    "first_seen": "2026-10-14",
    "last_seen": "2026-11-28",
@@ -102035,27 +102047,39 @@
    "title": "ขาย อาคารพาณิชย์ โครงการ เดอะการ์เด้นท์ เกาะสมุย จังหวัดสุราษฎร์ธานี ราคาโปรโมชั่น ลดพิเศษ",
    "property_type": "commercial",
    "price_thb": 4440000.0,
-   "area_sqwa": 40.0,
-   "address": "อ.เกาะสมุย จ.สุราษฎร์ธานี",
-   "tambon": "มะเร็ต",
+   "area_sqwa": 40.1,
+   "address": "ต.หน้าเมือง อ.เกาะสมุย จ.สุราษฎร์ธานี",
+   "tambon": "หน้าเมือง",
    "amphoe": "เกาะสมุย",
    "province": "สุราษฎร์ธานี",
-   "lat": 9.453,
-   "lng": 100.03,
-   "geo_precision": "place",
+   "lat": 9.4601403,
+   "lng": 99.9824003,
+   "geo_precision": "exact",
    "images": [
-    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-1.jpg"
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-1.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-2.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-3.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-4.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-5.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-6.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-7.jpg",
+    "https://www.thaihometown.com/photo/image_file178/5173591/5173591-8.jpg"
    ],
    "sale_method": "sale",
    "auction_date": null,
    "details": {
-    "note": "私人/中介挂牌（非银行 NPA）",
+    "note": "私人/中介挂牌（非银行 NPA） · 坐标取自帖子中的坐标/Google Maps 链接",
     "highlights": [
+     "ขาย อาคารพาณิชย์ โครงการ เดอะการ์เด้นท์ \nเกาะสมุย\n ราคาโปรโมชั่น ลดพิเศษ\n ถนน สายรอบ\nเกาะสมุย\n ตำบล หน้าเมือง อำเภอ \nเกาะสมุย\n จังหวัด \nสุราษฎร์ธานี\n ราคาโปรโมชั่น 4,440,000 บาท \n ลดจาก 5,040,000 บาท\n ราคาโปรโมชั่นตั้งแต่วันที่ 2 มีนาคม - 31 พฤษภาคม 2569\n รายละเอียดทรัพย์\n - เนื้อที่ 40.10 ตร.ว. พื้นที่ใช้สอย 451.50 ตร.ม.\n - บ้านหันไปทางทิศ เหนือ\n พิกัดทรัพย์ : \nhttps://maps.app.goo.gl/8P785Zz2zdo",
      "โอนกรรมสิทธิ์",
      "ใกล้ตลาดสดหัวถนน"
     ],
-    "place": "หัวถนน",
-    "availability": "available"
+    "zoning": "residential_low",
+    "zoning_draft": "rural",
+    "dist_coast_m": 4255,
+    "dist_main_road_m": 20,
+    "availability": "available",
+    "duplicate_of": "pamco:P00511"
    },
    "raw": {
     "ptype": "Buildings",
@@ -102063,7 +102087,8 @@
     "price_card": "฿ 4,440,000 บาท",
     "tags": "โอนกรรมสิทธิ์, ใกล้ตลาดสดหัวถนน",
     "posted": "2026-04-04",
-    "description": ""
+    "description": "ขาย อาคารพาณิชย์ โครงการ เดอะการ์เด้นท์ \nเกาะสมุย\n ราคาโปรโมชั่น ลดพิเศษ\n ถนน สายรอบ\nเกาะสมุย\n ตำบล หน้าเมือง อำเภอ \nเกาะสมุย\n จังหวัด \nสุราษฎร์ธานี\n ราคาโปรโมชั่น 4,440,000 บาท \n ลดจาก 5,040,000 บาท\n ราคาโปรโมชั่นตั้งแต่วันที่ 2 มีนาคม - 31 พฤษภาคม 2569\n รายละเอียดทรัพย์\n - เนื้อที่ 40.10 ตร.ว. พื้นที่ใช้สอย 451.50 ตร.ม.\n - บ้านหันไปทางทิศ เหนือ\n พิกัดทรัพย์ : \nhttps://maps.app.goo.gl/8P785Zz2zdoiCyAk6\n สถานที่ใกล้เคียง\n - น้ำตกหน้าเมือง 1.80 กม.\n - วัดคุณาราม (พระวิหารหลวงพ่อแเดง) 2.50 กม.\n - ตลาดสดหัวถนน\n รหัสทรัพย์ (Code ID) : PROT-26-P00511\n สอบถามเพิ่มเติม / นัดชม\n โทร. 096-932-4624 (ออมสิน)\n โทร. 097-419-5982 (อุ๊)\n Line : @panaya (มี@ด้านหน้า)\n ปรึกษาสอบถามฟรี นัดชมบ้านฟรี One Stop Service ดูแลตั้งแต่ต้น จนถึงวันโอนกรรมสิทธิ์ มีทรัพย์ธนาคารทั่วประเทศ ทุกจังหวัด ต้องที่บริษัท ปณยา คิดดี จำกัด \nคลิกเปิด\n อ่านรายละเอียดทั้งหมด\n︾",
+    "coords_basis": "post"
    },
    "first_seen": "2026-10-14",
    "last_seen": "2026-11-28",
@@ -102074,7 +102099,7 @@
     }
    ],
    "id": "thaihometown:5173591",
-   "price_per_sqwa": 111000.0
+   "price_per_sqwa": 110723.19201995012
   },
   {
    "source": "thaihometown",
